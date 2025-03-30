@@ -118,3 +118,62 @@ def train_and_save_model(transactions):
     save_model(vectorizer, model)
     
     return vectorizer, model
+
+def train_from_labeled_csv(csv_path, column_mapping=None):
+    """
+    Train a model using a pre-labeled CSV file containing transaction data.
+    
+    Args:
+        csv_path: Path to the CSV file with labeled transactions
+        column_mapping: A dictionary mapping required columns to their names in the CSV
+        
+    Returns:
+        tuple: (vectorizer, model) or (None, None) if training failed
+    """
+    from utils.csv_handler import validate_csv
+    from config import DEFAULT_CSV_MAPPING
+    
+    if column_mapping is None:
+        column_mapping = DEFAULT_CSV_MAPPING.copy()
+    
+    # Ensure the CSV has a category column
+    if "category" not in column_mapping:
+        print("Error: Column mapping must include a 'category' field")
+        return None, None
+    
+    try:
+        # Read the CSV file
+        with open(csv_path, 'r', encoding='utf-8') as f:
+            file_content = f.read()
+        
+        # Validate CSV
+        valid, error_message, df = validate_csv(file_content, column_mapping)
+        
+        if not valid:
+            print(f"Error validating CSV: {error_message}")
+            return None, None
+        
+        # Check if category column exists
+        if column_mapping["category"] not in df.columns:
+            print(f"Error: Category column '{column_mapping['category']}' not found in CSV")
+            return None, None
+        
+        # Extract descriptions and categories
+        descriptions = df[column_mapping["description"]].fillna("").astype(str).tolist()
+        categories = df[column_mapping["category"]].fillna("Miscellaneous").astype(str).tolist()
+        
+        # Check if we have enough data
+        if len(descriptions) < 10:
+            print("Not enough labeled data to train model. Need at least 10 labeled transactions.")
+            return None, None
+        
+        # Train the model
+        vectorizer, model = train_model(descriptions, categories)
+        save_model(vectorizer, model)
+        
+        print(f"Model trained successfully using {len(descriptions)} labeled transactions")
+        return vectorizer, model
+        
+    except Exception as e:
+        print(f"Error training model from CSV: {str(e)}")
+        return None, None
