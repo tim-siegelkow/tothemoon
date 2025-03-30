@@ -325,10 +325,21 @@ def import_data_page():
                 
                 # Save to database
                 session = get_session()
-                for transaction in transactions:
-                    add_transaction(session, transaction)
+                added_count = 0
+                skipped_count = 0
                 
-                st.success(f"Successfully processed {len(transactions)} transactions!")
+                for transaction in transactions:
+                    result = add_transaction(session, transaction)
+                    if result:
+                        added_count += 1
+                    else:
+                        skipped_count += 1
+                
+                if skipped_count > 0:
+                    st.success(f"Successfully processed {added_count} new transactions! ({skipped_count} skipped as duplicates)")
+                else:
+                    st.success(f"Successfully processed {added_count} transactions!")
+                
                 st.info("Please navigate to 'Verify Transactions' to review and categorize them.")
 
 # Verify transactions page

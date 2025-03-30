@@ -2,6 +2,8 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, scoped_session
 import sys
 import os
+import hashlib
+from datetime import datetime
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from config import DATABASE_URL
@@ -24,8 +26,37 @@ def close_session(session):
     """Close a database session."""
     session.close()
     
+def generate_transaction_hash(date, partner_name, amount):
+    """Generate a unique hash for a transaction based on date, partner name, and amount."""
+    # Convert date to string format
+    if isinstance(date, datetime):
+        date_str = date.strftime("%Y-%m-%d")
+    else:
+        date_str = str(date)
+    
+    # Create a string combining all values
+    combined = f"{date_str}|{partner_name}|{str(amount)}"
+    
+    # Generate a hash
+    return hashlib.md5(combined.encode()).hexdigest()
+
+def transaction_exists(session, transaction_hash):
+    """Check if a transaction with the given hash already exists."""
+    from database.models import Transaction
+    return session.query(Transaction).filter(Transaction.transaction_hash == transaction_hash).first() is not None
+
 def add_transaction(session, transaction):
-    """Add a new transaction to the database."""
+    """Add a new transaction to the database if it doesn't already exist."""
+    # Check if the transaction has a hash, if not generate one
+    if not hasattr(transaction, 'transaction_hash') or not transaction.transaction_hash:
+        partner_name = transaction.description.split('[')[0].strip() if '[' in transaction.description else transaction.description
+        transaction.transaction_hash = generate_transaction_hash(transaction.date, partner_name, transaction.amount)
+    
+    # Check if transaction already exists
+    if transaction_exists(session, transaction.transaction_hash):
+        return None  # Transaction already exists
+    
+    # Add transaction to database
     session.add(transaction)
     session.commit()
     return transaction

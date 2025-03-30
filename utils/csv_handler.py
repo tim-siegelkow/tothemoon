@@ -8,6 +8,7 @@ from io import StringIO
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from config import DEFAULT_CSV_MAPPING
 from database.models import Transaction
+from database.db import generate_transaction_hash
 
 def validate_csv(file_content, column_mapping=None):
     """
@@ -139,6 +140,9 @@ def process_csv(df, column_mapping=None):
         # Original category can be derived from transaction type
         original_category = transaction_type
         
+        # Generate a partner name from the description
+        partner_name = description.split('[')[0].strip() if '[' in description else description
+        
         # Create Transaction object
         transaction = Transaction(
             date=date,
@@ -146,6 +150,9 @@ def process_csv(df, column_mapping=None):
             amount=amount,
             original_category=original_category
         )
+        
+        # Generate and set the transaction hash
+        transaction.transaction_hash = generate_transaction_hash(date, partner_name, amount)
         
         # Store additional data as a string in the description field
         # Format: "Description [Type: X, Account: Y, Reference: Z]"
