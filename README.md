@@ -1,6 +1,6 @@
 # ToTheMoon - Personal Finance Tracker
 
-A locally deployed application to upload bank transaction data, automatically categorize transactions using ML, and visualize spending trends.
+Little private finance tracker to upload bank transaction data, automatically categorize transactions using ML, and visualize spending trends.
 
 ## Features
 
