@@ -54,5 +54,6 @@ DEFAULT_CSV_MAPPING = {
     "amount": "Amount (EUR)",
     "original_amount": "Original Amount",
     "original_currency": "Original Currency",
-    "exchange_rate": "Exchange Rate"
+    "exchange_rate": "Exchange Rate",
+    "category": "Category"
 }

@@ -16,7 +16,7 @@ from utils.visualization import (
     prepare_data_for_viz, generate_monthly_summary, 
     create_category_pie_chart, create_monthly_trend_chart, create_category_bar_chart
 )
-from ml.training import train_and_save_model
+from ml.training import train_and_save_model, train_from_labeled_csv
 from ml.inference import categorize_transactions, load_model
 from config import DEFAULT_CATEGORIES, DEFAULT_CSV_MAPPING, DATA_DIR
 
@@ -586,6 +586,50 @@ def settings_page():
     if st.button("Save Date Format"):
         st.session_state.date_format = date_format
         st.success("Date format saved!")
+    
+    # Pre-labeled data upload section
+    st.subheader("Initial Model Training")
+    st.write("Upload pre-labeled transaction data to train the initial model. The CSV must include a 'Category' column.")
+    
+    training_csv = st.file_uploader("Upload pre-labeled CSV", type="csv", key="training_csv")
+    
+    if training_csv is not None:
+        # Save the uploaded file temporarily
+        temp_path = os.path.join(DATA_DIR, "temp_training_data.csv")
+        with open(temp_path, "wb") as f:
+            f.write(training_csv.getbuffer())
+        
+        # Preview the CSV
+        st.subheader("CSV Preview")
+        try:
+            preview_df = pd.read_csv(temp_path)
+            st.dataframe(preview_df.head())
+            
+            # Check if category column exists
+            if st.session_state.column_mapping.get("category", "Category") in preview_df.columns:
+                # Display category distribution
+                if "category" in st.session_state.column_mapping:
+                    category_col = st.session_state.column_mapping["category"]
+                else:
+                    category_col = "Category"
+                    
+                category_counts = preview_df[category_col].value_counts()
+                st.write(f"Found {len(category_counts)} unique categories in {len(preview_df)} transactions")
+                
+                # Train button
+                if st.button("Train Model with Pre-labeled Data"):
+                    with st.spinner("Training model..."):
+                        vectorizer, model = train_from_labeled_csv(temp_path, st.session_state.column_mapping)
+                        
+                        if vectorizer is not None and model is not None:
+                            st.success("Model trained successfully!")
+                        else:
+                            st.error("Failed to train model. Check logs for details.")
+            else:
+                st.error(f"Category column '{st.session_state.column_mapping.get('category', 'Category')}' not found in the CSV.")
+                
+        except Exception as e:
+            st.error(f"Error processing CSV: {str(e)}")
     
     # Model info
     st.subheader("ML Model Information")
