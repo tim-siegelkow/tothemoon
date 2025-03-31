@@ -36,6 +36,14 @@ DEFAULT_CATEGORIES = [
     "Flights",
     "Accommodation",
     "Health & Fitness",
+    "Subscriptions",
+    "Education & Productivity",
+    "Gifts",
+    "Travel Expenses",
+    "Insurance",
+    "Penalties",
+    "Coffee",
+    "Investments",
     "Miscellaneous"
 ]
 

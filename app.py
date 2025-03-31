@@ -9,7 +9,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # Import custom modules
-from database.db import init_db, get_session, add_transaction, update_transaction_category, get_all_transactions
+from database.db import init_db, get_session, add_transaction, update_transaction_category, get_all_transactions, reset_db
 from database.models import Transaction, AuditLog
 from utils.csv_handler import validate_csv, process_csv, export_transactions_to_csv
 from utils.visualization import (
@@ -326,19 +326,12 @@ def import_data_page():
                 # Save to database
                 session = get_session()
                 added_count = 0
-                skipped_count = 0
                 
                 for transaction in transactions:
-                    result = add_transaction(session, transaction)
-                    if result:
-                        added_count += 1
-                    else:
-                        skipped_count += 1
+                    add_transaction(session, transaction)
+                    added_count += 1
                 
-                if skipped_count > 0:
-                    st.success(f"Successfully processed {added_count} new transactions! ({skipped_count} skipped as duplicates)")
-                else:
-                    st.success(f"Successfully processed {added_count} transactions!")
+                st.success(f"Successfully processed {added_count} transactions!")
                 
                 st.info("Please navigate to 'Verify Transactions' to review and categorize them.")
 
@@ -593,6 +586,9 @@ def settings_page():
     
     training_csv = st.file_uploader("Upload pre-labeled CSV", type="csv", key="training_csv")
     
+    # Add option to save training data to database
+    save_to_db = st.checkbox("Also save training data to database", value=False)
+    
     if training_csv is not None:
         # Save the uploaded file temporarily
         temp_path = os.path.join(DATA_DIR, "temp_training_data.csv")
@@ -623,6 +619,28 @@ def settings_page():
                         
                         if vectorizer is not None and model is not None:
                             st.success("Model trained successfully!")
+                            
+                            # If selected, save transactions to database
+                            if save_to_db:
+                                with st.spinner("Saving transactions to database..."):
+                                    # Process CSV and save to database
+                                    transactions = process_csv(preview_df, st.session_state.column_mapping)
+                                    
+                                    # Add user verified category from the CSV
+                                    for transaction in transactions:
+                                        row_idx = transactions.index(transaction)
+                                        if row_idx < len(preview_df):
+                                            transaction.user_verified_category = preview_df.iloc[row_idx][category_col]
+                                    
+                                    # Save to database
+                                    session = get_session()
+                                    added_count = 0
+                                    
+                                    for transaction in transactions:
+                                        add_transaction(session, transaction)
+                                        added_count += 1
+                                    
+                                    st.success(f"Added {added_count} transactions to database!")
                         else:
                             st.error("Failed to train model. Check logs for details.")
             else:
@@ -649,6 +667,48 @@ def settings_page():
         st.write(", ".join(model.classes_))
     else:
         st.warning("Model is not trained yet. Please import data and verify some transactions to train the model.")
+    
+    # Database management section
+    st.subheader("Database Management")
+    
+    # Add export all transactions section
+    st.subheader("Export All Transactions")
+    st.write("Export all transaction data to a CSV file.")
+    
+    if st.button("Export All Transactions", use_container_width=True):
+        session = get_session()
+        all_transactions = get_all_transactions(session)
+        
+        if not all_transactions:
+            st.info("No transactions found to export.")
+        else:
+            export_path = os.path.join(DATA_DIR, f"all_transactions_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv")
+            if export_transactions_to_csv(all_transactions, export_path):
+                st.success(f"All transactions exported to {export_path}")
+                
+                # Create a download button for the exported file
+                with open(export_path, "rb") as file:
+                    st.download_button(
+                        label="Download CSV File",
+                        data=file,
+                        file_name=f"all_transactions_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv",
+                        mime="text/csv"
+                    )
+            else:
+                st.error("Error exporting transactions")
+    
+    st.warning("⚠️ The following operations are irreversible and will delete all your data!")
+    
+    if st.button("Reset Database", type="primary", use_container_width=True):
+        # Display a confirmation dialog
+        confirmation = st.text_input("Type 'RESET' to confirm database reset:")
+        if confirmation == "RESET":
+            with st.spinner("Resetting database..."):
+                reset_db()
+                st.success("Database has been reset successfully!")
+                st.info("You may need to restart the application for changes to take effect.")
+        elif confirmation and confirmation != "RESET":
+            st.error("Confirmation text doesn't match. Database was not reset.")
 
 # Main function
 def main():
