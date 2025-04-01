@@ -44,7 +44,7 @@ DEFAULT_CATEGORIES = [
     "Penalties",
     "Coffee",
     "Investments",
-    "Miscellaneous"
+    "Other"
 ]
 
 # Confidence threshold for auto-categorization

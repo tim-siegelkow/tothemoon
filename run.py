@@ -13,6 +13,9 @@ def run_app():
     # Change to the script directory
     os.chdir(script_dir)
     
+    # Add the script directory to Python path
+    sys.path.insert(0, script_dir)
+    
     # Run the Streamlit app
     subprocess.run([sys.executable, "-m", "streamlit", "run", "app.py"])
 

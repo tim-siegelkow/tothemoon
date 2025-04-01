@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import io
 from datetime import datetime
 import sys
 import os
@@ -8,7 +9,7 @@ from io import StringIO
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from config import DEFAULT_CSV_MAPPING
 from database.models import Transaction
-from database.db import generate_transaction_hash
+from database.db import add_transaction
 
 def validate_csv(file_content, column_mapping=None):
     """
@@ -150,9 +151,6 @@ def process_csv(df, column_mapping=None):
             amount=amount,
             original_category=original_category
         )
-        
-        # Generate and set the transaction hash
-        transaction.transaction_hash = generate_transaction_hash(date, partner_name, amount)
         
         # Store additional data as a string in the description field
         # Format: "Description [Type: X, Account: Y, Reference: Z]"
