@@ -16,6 +16,9 @@ VECTORIZER_PATH = os.path.join(MODEL_DIR, "vectorizer.pkl")
 # Data directories
 DATA_DIR = os.path.join(BASE_DIR, "data")
 
+# Notion integration
+NOTION_CONFIG_PATH = os.path.join(DATA_DIR, "notion_config.json")
+
 # Ensure directories exist
 os.makedirs(MODEL_DIR, exist_ok=True)
 os.makedirs(DATA_DIR, exist_ok=True)

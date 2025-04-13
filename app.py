@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import os
 import io
+import json
 from datetime import datetime, timedelta
 import time
 import plotly.express as px
@@ -14,11 +15,12 @@ from database.models import Transaction, AuditLog
 from utils.csv_handler import validate_csv, process_csv, export_transactions_to_csv
 from utils.visualization import (
     prepare_data_for_viz, generate_monthly_summary, 
-    create_category_pie_chart, create_monthly_trend_chart, create_category_bar_chart
+    create_category_pie_chart, create_monthly_trend_chart, create_category_bar_chart, create_dining_expenses_chart
 )
+from utils.notion_handler import NotionHandler
 from ml.training import train_and_save_model, train_from_labeled_csv
 from ml.inference import categorize_transactions, load_model
-from config import DEFAULT_CATEGORIES, DEFAULT_CSV_MAPPING, DATA_DIR
+from config import DEFAULT_CATEGORIES, DEFAULT_CSV_MAPPING, DATA_DIR, NOTION_CONFIG_PATH
 
 # Initialize the application
 def init_app():
@@ -56,7 +58,7 @@ def app_navigation():
     
     navigation = st.sidebar.radio(
         "Navigation",
-        ["Dashboard", "Import Data", "Verify Transactions", "Transaction History", "Settings"]
+        ["Dashboard", "Import Data", "Verify Transactions", "Transaction History", "Settings", "Notion Integration"]
     )
     
     return navigation
@@ -147,6 +149,30 @@ def dashboard_page():
     months_to_show = st.slider("Number of months to display", 1, 12, 3)
     category_bar_chart = create_category_bar_chart(df_filtered, months=months_to_show)
     st.plotly_chart(category_bar_chart, use_container_width=True)
+    
+    # Category Expenses Over Time Chart
+    st.subheader("Category Expenses Over Time")
+    col1, col2 = st.columns([2, 1])
+    with col1:
+        selected_categories = st.multiselect(
+            "Select categories to display",
+            DEFAULT_CATEGORIES,
+            default=["Dining"],
+            key="category_time_select"
+        )
+    with col2:
+        time_scale = st.radio(
+            "Select time scale",
+            ["day", "week", "month", "year"],
+            horizontal=True,
+            index=2  # Default to monthly view
+        )
+    
+    if selected_categories:
+        dining_chart = create_dining_expenses_chart(df_filtered, time_scale=time_scale, categories=selected_categories)
+        st.plotly_chart(dining_chart, use_container_width=True)
+    else:
+        st.warning("Please select at least one category to display the chart.")
     
     # Export button
     if st.button("Export Filtered Data to CSV"):
@@ -710,25 +736,195 @@ def settings_page():
         elif confirmation and confirmation != "RESET":
             st.error("Confirmation text doesn't match. Database was not reset.")
 
+# Notion integration page
+def notion_integration_page():
+    st.title("Notion Integration")
+    
+    # Load existing configuration
+    notion_config = {}
+    if os.path.exists(NOTION_CONFIG_PATH):
+        try:
+            with open(NOTION_CONFIG_PATH, 'r') as f:
+                notion_config = json.load(f)
+        except:
+            st.warning("Failed to load existing Notion configuration. Starting fresh.")
+    
+    # Notion connection setup
+    st.subheader("Notion API Setup")
+    
+    with st.expander("How to get your Notion API token and database ID", expanded=not notion_config):
+        st.markdown("""
+        To connect ToTheMoon with Notion, you need to:
+        
+        1. **Create a Notion integration**:
+           - Go to [Notion Integrations](https://www.notion.so/my-integrations)
+           - Click "New integration"
+           - Name it "ToTheMoon Finance Tracker"
+           - Select the workspace where you want to use it
+           - Get the "Internal Integration Token"
+        
+        2. **Create a database in Notion**:
+           - Create a new database page in Notion
+           - Make sure it has the following properties:
+             - Date (date type)
+             - Description (title type)
+             - Amount (number type)
+             - Category (select type)
+           - Share the database with your integration (click "Share" and add your integration)
+        
+        3. **Get the database ID**:
+           - Open your database in Notion
+           - The URL will look like: `https://www.notion.so/workspace/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX?v=...`
+           - The database ID is the part marked with X's
+        """)
+    
+    # API token input
+    notion_token = st.text_input(
+        "Notion API Token",
+        value=notion_config.get("token", ""),
+        type="password",
+        help="Your Notion API integration token"
+    )
+    
+    # Database ID input
+    notion_database_id = st.text_input(
+        "Notion Database ID",
+        value=notion_config.get("database_id", ""),
+        help="ID of your Notion database"
+    )
+    
+    # Test connection
+    if st.button("Test Connection"):
+        if not notion_token or not notion_database_id:
+            st.error("Please provide both API token and database ID")
+        else:
+            handler = NotionHandler(token=notion_token)
+            if handler._test_connection():
+                handler.set_database_id(notion_database_id)
+                valid, message = handler.verify_database_structure()
+                if valid:
+                    st.success("Successfully connected to Notion and verified database structure")
+                    # Save configuration
+                    notion_config = {
+                        "token": notion_token,
+                        "database_id": notion_database_id
+                    }
+                    with open(NOTION_CONFIG_PATH, 'w') as f:
+                        json.dump(notion_config, f)
+                else:
+                    st.error(f"Connection successful, but database issue: {message}")
+            else:
+                st.error("Failed to connect to Notion API. Please check your token.")
+    
+    # Push data section
+    st.subheader("Push Data to Notion")
+    
+    # Get all transactions
+    session = get_session()
+    transactions = get_all_transactions(session)
+    
+    # If no transactions, show message
+    if not transactions:
+        st.info("No transactions found. Please import data first.")
+    else:
+        # Filter options
+        st.markdown("### Filter Transactions")
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            start_date = st.date_input(
+                "Start Date",
+                value=datetime.now() - timedelta(days=90),
+                key="notion_start_date"
+            )
+        
+        with col2:
+            end_date = st.date_input(
+                "End Date",
+                value=datetime.now(),
+                key="notion_end_date"
+            )
+        
+        start_datetime = datetime.combine(start_date, datetime.min.time())
+        end_datetime = datetime.combine(end_date, datetime.max.time())
+        
+        # Filter by category
+        categories = ["All"] + DEFAULT_CATEGORIES
+        selected_category = st.selectbox("Category", categories, index=0)
+        
+        # Filter transactions
+        filtered_transactions = [
+            t for t in transactions 
+            if t.date >= start_datetime and t.date <= end_datetime and 
+            (selected_category == "All" or 
+             t.user_verified_category == selected_category or 
+             (not t.user_verified_category and t.ai_suggested_category == selected_category))
+        ]
+        
+        st.markdown(f"### {len(filtered_transactions)} Transactions Selected")
+        
+        # Display preview of transactions to push
+        if filtered_transactions:
+            df = pd.DataFrame([
+                {
+                    "Date": t.date.strftime("%Y-%m-%d"),
+                    "Description": t.description,
+                    "Amount": t.amount,
+                    "Category": t.user_verified_category or t.ai_suggested_category or "Uncategorized"
+                }
+                for t in filtered_transactions
+            ])
+            
+            st.dataframe(df.head(10) if len(df) > 10 else df)
+            
+            if len(df) > 10:
+                st.info(f"Showing 10 of {len(df)} transactions")
+            
+            # Push button
+            if st.button("Push to Notion"):
+                if not notion_config.get("token") or not notion_config.get("database_id"):
+                    st.error("Please set up and test your Notion connection first")
+                else:
+                    handler = NotionHandler(
+                        token=notion_config["token"],
+                        database_id=notion_config["database_id"]
+                    )
+                    
+                    with st.spinner(f"Pushing {len(filtered_transactions)} transactions to Notion..."):
+                        success, result = handler.push_transactions(filtered_transactions)
+                        
+                        if success:
+                            st.success(f"Successfully pushed {result['success']} transactions to Notion")
+                            if result['failed'] > 0:
+                                st.warning(f"{result['failed']} transactions failed to push")
+                            if result['skipped'] > 0:
+                                st.info(f"{result['skipped']} transactions were skipped (already exist)")
+                        else:
+                            st.error(f"Failed to push transactions: {result}")
+        else:
+            st.info("No transactions match the selected filters")
+
 # Main function
 def main():
     # Initialize app
     init_app()
     
-    # Navigation
-    navigation = app_navigation()
+    # Handle navigation
+    page = app_navigation()
     
-    # Page routing
-    if navigation == "Dashboard":
+    if page == "Dashboard":
         dashboard_page()
-    elif navigation == "Import Data":
+    elif page == "Import Data":
         import_data_page()
-    elif navigation == "Verify Transactions":
+    elif page == "Verify Transactions":
         verify_transactions_page()
-    elif navigation == "Transaction History":
+    elif page == "Transaction History":
         transaction_history_page()
-    elif navigation == "Settings":
+    elif page == "Settings":
         settings_page()
+    elif page == "Notion Integration":
+        notion_integration_page()
 
 if __name__ == "__main__":
     main()
