@@ -74,6 +74,9 @@ class NotionHandler:
                             "select": {
                                 "name": transaction.user_verified_category or transaction.ai_suggested_category or "Uncategorized"
                             }
+                        },
+                        "Amount Reimbursed": {
+                            "number": None
                         }
                     }
                 )
@@ -93,7 +96,9 @@ class NotionHandler:
             "Date": "date",
             "Description": "title",
             "Amount": "number",
-            "Category": "select"
+            "Category": "select",
+            "Amount Reimbursed": "number",
+            "€ Amount (abs)": "formula"
         }
         
         try:

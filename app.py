@@ -359,6 +359,44 @@ def import_data_page():
                 
                 st.success(f"Successfully processed {added_count} transactions!")
                 
+                # Export to Notion option
+                st.subheader("Export to Notion")
+                export_to_notion = st.checkbox("Export these transactions to Notion", value=False)
+                
+                if export_to_notion:
+                    # Check if Notion is configured
+                    notion_config = {}
+                    if os.path.exists(NOTION_CONFIG_PATH):
+                        try:
+                            with open(NOTION_CONFIG_PATH, 'r') as f:
+                                notion_config = json.load(f)
+                            
+                            if not notion_config.get("token") or not notion_config.get("database_id"):
+                                st.error("Notion is not properly configured. Please set it up in the Notion Integration page.")
+                            else:
+                                # Initialize Notion handler
+                                handler = NotionHandler(
+                                    token=notion_config["token"],
+                                    database_id=notion_config["database_id"]
+                                )
+                                
+                                # Export to Notion
+                                with st.spinner(f"Pushing {len(transactions)} transactions to Notion..."):
+                                    success, result = handler.push_transactions(transactions)
+                                    
+                                    if success:
+                                        st.success(f"Successfully pushed {result['success']} transactions to Notion")
+                                        if result['failed'] > 0:
+                                            st.warning(f"{result['failed']} transactions failed to push")
+                                        if result['skipped'] > 0:
+                                            st.info(f"{result['skipped']} transactions were skipped (already exist)")
+                                    else:
+                                        st.error(f"Failed to push transactions: {result}")
+                        except Exception as e:
+                            st.error(f"Error with Notion configuration: {e}")
+                    else:
+                        st.error("Notion is not configured. Please set it up in the Notion Integration page.")
+                
                 st.info("Please navigate to 'Verify Transactions' to review and categorize them.")
 
 # Verify transactions page
@@ -770,6 +808,8 @@ def notion_integration_page():
              - Description (title type)
              - Amount (number type)
              - Category (select type)
+             - Amount Reimbursed (number type)
+             - € Amount (abs) (formula type)
            - Share the database with your integration (click "Share" and add your integration)
         
         3. **Get the database ID**:
