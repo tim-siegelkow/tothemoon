@@ -380,20 +380,60 @@ def import_data_page():
                                     database_id=notion_config["database_id"]
                                 )
                                 
-                                # Export to Notion
-                                with st.spinner(f"Pushing {len(transactions)} transactions to Notion..."):
-                                    success, result = handler.push_transactions(transactions)
+                                # Create progress tracking components
+                                progress_bar = st.progress(0)
+                                status_text = st.empty()
+                                error_container = st.container()
+                                
+                                # Define progress callback function
+                                def update_progress(current, total, results):
+                                    # Update progress bar
+                                    progress_bar.progress(current / total)
                                     
+                                    # Update status text
+                                    status_text.text(f"Processing: {current}/{total} transactions | " +
+                                                   f"Success: {results['success']} | " +
+                                                   f"Failed: {results['failed']} | " +
+                                                   f"Skipped: {results['skipped']}")
+                                
+                                # Export to Notion with progress tracking
+                                with st.spinner(f"Pushing {len(transactions)} transactions to Notion..."):
+                                    success, result = handler.push_transactions(transactions, progress_callback=update_progress)
+                                    
+                                    # Show final status
                                     if success:
-                                        st.success(f"Successfully pushed {result['success']} transactions to Notion")
+                                        progress_bar.progress(1.0)  # Ensure progress bar is complete
+                                        
+                                        if result['success'] > 0:
+                                            st.success(f"✅ Successfully pushed {result['success']} transactions to Notion")
+                                        
                                         if result['failed'] > 0:
-                                            st.warning(f"{result['failed']} transactions failed to push")
+                                            st.warning(f"⚠️ {result['failed']} transactions failed to push")
+                                            
+                                            # Show detailed errors if any
+                                            if result['errors'] and len(result['errors']) > 0:
+                                                with error_container.expander("View Error Details"):
+                                                    for error in result['errors']:
+                                                        st.error(error)
+                                        
                                         if result['skipped'] > 0:
-                                            st.info(f"{result['skipped']} transactions were skipped (already exist)")
+                                            st.info(f"ℹ️ {result['skipped']} transactions were skipped (already exist in Notion)")
+                                            
+                                        # Show final summary
+                                        st.write(f"**Export Summary:**")
+                                        summary_cols = st.columns(4)
+                                        with summary_cols[0]:
+                                            st.metric("Total", result['total'])
+                                        with summary_cols[1]:
+                                            st.metric("Success", result['success'])
+                                        with summary_cols[2]:
+                                            st.metric("Failed", result['failed'])
+                                        with summary_cols[3]:
+                                            st.metric("Skipped", result['skipped'])
                                     else:
-                                        st.error(f"Failed to push transactions: {result}")
+                                        st.error(f"❌ Failed to push transactions: {result}")
                         except Exception as e:
-                            st.error(f"Error with Notion configuration: {e}")
+                            st.error(f"Error with Notion export: {str(e)}")
                     else:
                         st.error("Notion is not configured. Please set it up in the Notion Integration page.")
                 
@@ -735,8 +775,414 @@ def settings_page():
     # Database management section
     st.subheader("Database Management")
     
+    # Add transaction cleanup section
+    st.markdown("### Transaction Cleanup")
+    st.write("Remove unwanted transactions from the database.")
+    
+    # Create tabs for the two deletion options
+    cleanup_tab1, cleanup_tab2 = st.tabs(["Delete by Transaction Date", "Delete by Import Date"])
+    
+    with cleanup_tab1:
+        st.write("This option deletes transactions based on when they occurred (the transaction date).")
+        st.warning("⚠️ This will delete ALL transactions that occurred within the selected date range.")
+        
+        # Add extra explanation about identifying transactions to delete
+        with st.expander("How to identify which transactions to delete"):
+            st.markdown("""
+            **To remove incorrect imports when you know the transaction dates:**
+            1. Go to **Transaction History** to see which dates contain the incorrect data
+            2. Note the date range of the problematic transactions
+            3. Use that date range in the selectors below
+            4. This will remove ALL transactions occurring within that date range
+            """)
+        
+        # Initialize session state variables if needed
+        if "tx_delete_step" not in st.session_state:
+            st.session_state.tx_delete_step = "select_dates"
+        if "tx_delete_preview" not in st.session_state:
+            st.session_state.tx_delete_preview = None
+            
+        # Create date pickers for selecting start and end dates for transaction-based deletion
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            from_tx_date = st.date_input(
+                "Delete transactions from",
+                value=datetime.now(),
+                key="tx_date_start_picker"
+            )
+        
+        with col2:
+            to_tx_date = st.date_input(
+                "to (inclusive)",
+                value=datetime.now(),
+                key="tx_date_end_picker"
+            )
+        
+        # Convert dates to datetimes
+        from_tx_datetime = datetime.combine(from_tx_date, datetime.min.time())
+        to_tx_datetime = datetime.combine(to_tx_date, datetime.max.time())
+        
+        # Function to preview transactions
+        def preview_tx_date_click():
+            st.session_state.tx_delete_step = "preview"
+            session = get_session()
+            from database.models import Transaction
+            
+            # Query transactions in the date range
+            preview_transactions = session.query(Transaction).filter(
+                Transaction.date >= from_tx_datetime,
+                Transaction.date <= to_tx_datetime
+            ).order_by(Transaction.date.desc()).all()
+            
+            # Store preview results in session state
+            st.session_state.tx_delete_preview = {
+                "transactions": preview_transactions,
+                "from_date": from_tx_date,
+                "to_date": to_tx_date,
+                "from_datetime": from_tx_datetime,
+                "to_datetime": to_tx_datetime
+            }
+        
+        # Function to confirm deletion
+        def confirm_tx_delete_click():
+            st.session_state.tx_delete_step = "confirm"
+        
+        # Function to execute deletion
+        def execute_tx_delete():
+            if st.session_state.tx_delete_confirmation == "DELETE":
+                st.session_state.tx_delete_step = "execute"
+                try:
+                    session = get_session()
+                    
+                    # Get count before deletion for verification
+                    from database.models import Transaction
+                    preview_data = st.session_state.tx_delete_preview
+                    
+                    # Delete transactions in date range
+                    result = session.query(Transaction).filter(
+                        Transaction.date >= preview_data["from_datetime"],
+                        Transaction.date <= preview_data["to_datetime"]
+                    ).delete(synchronize_session=False)
+                    
+                    # Commit the changes
+                    session.commit()
+                    
+                    # Format date message
+                    if preview_data["from_date"] == preview_data["to_date"]:
+                        date_msg = f"on {preview_data['from_date'].strftime('%Y-%m-%d')}"
+                    else:
+                        date_msg = f"between {preview_data['from_date'].strftime('%Y-%m-%d')} and {preview_data['to_date'].strftime('%Y-%m-%d')}"
+                    
+                    if result > 0:
+                        st.session_state.tx_delete_result = {
+                            "status": "success",
+                            "message": f"✅ Successfully deleted {result} transactions with dates {date_msg}!",
+                            "count": result
+                        }
+                    else:
+                        st.session_state.tx_delete_result = {
+                            "status": "warning",
+                            "message": f"⚠️ No transactions were found with dates {date_msg}.",
+                            "count": 0
+                        }
+                except Exception as e:
+                    st.session_state.tx_delete_result = {
+                        "status": "error",
+                        "message": f"❌ Error deleting transactions: {str(e)}",
+                        "error": str(e)
+                    }
+                    # Try to rollback
+                    try:
+                        session.rollback()
+                    except:
+                        pass
+            else:
+                st.session_state.tx_delete_step = "error"
+                st.session_state.tx_delete_result = {
+                    "status": "error",
+                    "message": "Confirmation text doesn't match. Transactions were not deleted."
+                }
+        
+        # Function to reset the flow
+        def reset_tx_deletion():
+            st.session_state.tx_delete_step = "select_dates"
+            st.session_state.tx_delete_preview = None
+            if "tx_delete_result" in st.session_state:
+                del st.session_state.tx_delete_result
+            if "tx_delete_confirmation" in st.session_state:
+                del st.session_state.tx_delete_confirmation
+        
+        # Show appropriate UI based on the current step
+        if st.session_state.tx_delete_step == "select_dates":
+            # Show preview button
+            st.button("Preview Transactions", key="preview_tx_button", on_click=preview_tx_date_click)
+            
+        elif st.session_state.tx_delete_step == "preview":
+            preview_data = st.session_state.tx_delete_preview
+            preview_transactions = preview_data["transactions"]
+            
+            if not preview_transactions:
+                st.info("No transactions found in the selected date range.")
+                st.button("Back", key="back_from_empty_preview", on_click=reset_tx_deletion)
+            else:
+                st.subheader(f"Preview: {len(preview_transactions)} transactions to be deleted")
+                
+                # Convert to DataFrame for display
+                data = []
+                for t in preview_transactions[:50]:  # Limit to 50 for display
+                    category = t.user_verified_category or t.ai_suggested_category or ""
+                    data.append({
+                        "Date": t.date.strftime("%Y-%m-%d"),
+                        "Description": t.description[:50] + "..." if len(t.description) > 50 else t.description,
+                        "Amount": f"${t.amount:.2f}",
+                        "Category": category
+                    })
+                
+                df = pd.DataFrame(data)
+                st.dataframe(df, use_container_width=True)
+                
+                if len(preview_transactions) > 50:
+                    st.info(f"Showing 50 of {len(preview_transactions)} transactions")
+                
+                # Show action buttons
+                col1, col2 = st.columns(2)
+                with col1:
+                    st.button("Cancel", key="cancel_tx_delete", on_click=reset_tx_deletion)
+                with col2:
+                    st.button("Delete These Transactions", type="primary", key="confirm_tx_button", on_click=confirm_tx_delete_click)
+        
+        elif st.session_state.tx_delete_step == "confirm":
+            st.warning("⚠️ Are you sure you want to delete these transactions? This action cannot be undone.")
+            
+            # Display confirmation input
+            st.text_input(
+                "Type 'DELETE' (all caps) to confirm:",
+                key="tx_delete_confirmation"
+            )
+            
+            col1, col2 = st.columns(2)
+            with col1:
+                st.button("Cancel", key="cancel_from_confirm", on_click=reset_tx_deletion)
+            with col2:
+                st.button("Confirm Deletion", type="primary", key="execute_tx_button", on_click=execute_tx_delete)
+        
+        elif st.session_state.tx_delete_step in ["execute", "error"]:
+            # Display result
+            result = st.session_state.tx_delete_result
+            if result["status"] == "success":
+                st.success(result["message"])
+            elif result["status"] == "warning":
+                st.warning(result["message"])
+            else:
+                st.error(result["message"])
+            
+            # Back button
+            st.button("Start Over", key="reset_after_tx_delete", on_click=reset_tx_deletion)
+    
+    with cleanup_tab2:
+        st.write("This option deletes transactions based on when they were imported into the system.")
+        st.success("✓ This is useful when you want to undo a recent import without affecting older data.")
+        
+        # Add extra explanation
+        with st.expander("When to use this option"):
+            st.markdown("""
+            **Use this option when:**
+            - You just imported data that has issues
+            - You want to undo a specific import without affecting other data
+            - Your imported data contains transactions from various dates, but you want to remove them all
+            
+            The system tracks when each transaction was added to the database, so this option lets you target
+            all transactions that were imported around the same time.
+            """)
+        
+        # Initialize session state variables if needed
+        if "import_delete_step" not in st.session_state:
+            st.session_state.import_delete_step = "select_dates"
+        if "import_delete_preview" not in st.session_state:
+            st.session_state.import_delete_preview = None
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            # Create a date picker for the start date
+            from_import_date = st.date_input(
+                "Delete imports from",
+                value=datetime.now(),
+                key="import_date_start_picker"
+            )
+        
+        with col2:
+            # Create a date picker for the end date
+            to_import_date = st.date_input(
+                "to (inclusive)",
+                value=datetime.now(),
+                key="import_date_end_picker"
+            )
+        
+        # Convert dates to datetimes
+        from_import_datetime = datetime.combine(from_import_date, datetime.min.time())
+        to_import_datetime = datetime.combine(to_import_date, datetime.max.time())
+        
+        # Function to preview transactions
+        def preview_import_date_click():
+            st.session_state.import_delete_step = "preview"
+            session = get_session()
+            from database.models import Transaction
+            
+            # Query transactions in the import date range
+            preview_transactions = session.query(Transaction).filter(
+                Transaction.created_at >= from_import_datetime,
+                Transaction.created_at <= to_import_datetime
+            ).order_by(Transaction.created_at.desc()).all()
+            
+            # Store preview results in session state
+            st.session_state.import_delete_preview = {
+                "transactions": preview_transactions,
+                "from_date": from_import_date,
+                "to_date": to_import_date,
+                "from_datetime": from_import_datetime,
+                "to_datetime": to_import_datetime
+            }
+        
+        # Function to confirm deletion
+        def confirm_import_delete_click():
+            st.session_state.import_delete_step = "confirm"
+        
+        # Function to execute deletion
+        def execute_import_delete():
+            if st.session_state.import_delete_confirmation == "DELETE":
+                st.session_state.import_delete_step = "execute"
+                try:
+                    session = get_session()
+                    
+                    # Get preview data
+                    preview_data = st.session_state.import_delete_preview
+                    
+                    # Delete transactions in import date range
+                    result = session.query(Transaction).filter(
+                        Transaction.created_at >= preview_data["from_datetime"],
+                        Transaction.created_at <= preview_data["to_datetime"]
+                    ).delete(synchronize_session=False)
+                    
+                    # Commit the changes
+                    session.commit()
+                    
+                    # Format date message
+                    if preview_data["from_date"] == preview_data["to_date"]:
+                        date_msg = f"on {preview_data['from_date'].strftime('%Y-%m-%d')}"
+                    else:
+                        date_msg = f"between {preview_data['from_date'].strftime('%Y-%m-%d')} and {preview_data['to_date'].strftime('%Y-%m-%d')}"
+                    
+                    if result > 0:
+                        st.session_state.import_delete_result = {
+                            "status": "success",
+                            "message": f"✅ Successfully deleted {result} transactions that were imported {date_msg}!",
+                            "count": result
+                        }
+                    else:
+                        st.session_state.import_delete_result = {
+                            "status": "warning",
+                            "message": f"⚠️ No transactions were found that were imported {date_msg}.",
+                            "count": 0
+                        }
+                except Exception as e:
+                    st.session_state.import_delete_result = {
+                        "status": "error",
+                        "message": f"❌ Error deleting transactions: {str(e)}",
+                        "error": str(e)
+                    }
+                    # Try to rollback
+                    try:
+                        session.rollback()
+                    except:
+                        pass
+            else:
+                st.session_state.import_delete_step = "error"
+                st.session_state.import_delete_result = {
+                    "status": "error",
+                    "message": "Confirmation text doesn't match. Transactions were not deleted."
+                }
+        
+        # Function to reset the flow
+        def reset_import_deletion():
+            st.session_state.import_delete_step = "select_dates"
+            st.session_state.import_delete_preview = None
+            if "import_delete_result" in st.session_state:
+                del st.session_state.import_delete_result
+            if "import_delete_confirmation" in st.session_state:
+                del st.session_state.import_delete_confirmation
+        
+        # Show appropriate UI based on the current step
+        if st.session_state.import_delete_step == "select_dates":
+            # Show preview button
+            st.button("Preview Transactions", key="preview_import_button", on_click=preview_import_date_click)
+            
+        elif st.session_state.import_delete_step == "preview":
+            preview_data = st.session_state.import_delete_preview
+            preview_transactions = preview_data["transactions"]
+            
+            if not preview_transactions:
+                st.info("No transactions found that were imported in the selected date range.")
+                st.button("Back", key="back_from_empty_import_preview", on_click=reset_import_deletion)
+            else:
+                st.subheader(f"Preview: {len(preview_transactions)} transactions to be deleted")
+                
+                # Convert to DataFrame for display
+                data = []
+                for t in preview_transactions[:50]:  # Limit to 50 for display
+                    category = t.user_verified_category or t.ai_suggested_category or ""
+                    data.append({
+                        "Date": t.date.strftime("%Y-%m-%d"),
+                        "Description": t.description[:50] + "..." if len(t.description) > 50 else t.description,
+                        "Amount": f"${t.amount:.2f}",
+                        "Category": category,
+                        "Imported On": t.created_at.strftime("%Y-%m-%d %H:%M")
+                    })
+                
+                df = pd.DataFrame(data)
+                st.dataframe(df, use_container_width=True)
+                
+                if len(preview_transactions) > 50:
+                    st.info(f"Showing 50 of {len(preview_transactions)} transactions")
+                
+                # Show action buttons
+                col1, col2 = st.columns(2)
+                with col1:
+                    st.button("Cancel", key="cancel_import_delete", on_click=reset_import_deletion)
+                with col2:
+                    st.button("Delete These Transactions", type="primary", key="confirm_import_button", on_click=confirm_import_delete_click)
+        
+        elif st.session_state.import_delete_step == "confirm":
+            st.warning("⚠️ Are you sure you want to delete these transactions? This action cannot be undone.")
+            
+            # Display confirmation input
+            st.text_input(
+                "Type 'DELETE' (all caps) to confirm:",
+                key="import_delete_confirmation"
+            )
+            
+            col1, col2 = st.columns(2)
+            with col1:
+                st.button("Cancel", key="cancel_from_import_confirm", on_click=reset_import_deletion)
+            with col2:
+                st.button("Confirm Deletion", type="primary", key="execute_import_button", on_click=execute_import_delete)
+        
+        elif st.session_state.import_delete_step in ["execute", "error"]:
+            # Display result
+            result = st.session_state.import_delete_result
+            if result["status"] == "success":
+                st.success(result["message"])
+            elif result["status"] == "warning":
+                st.warning(result["message"])
+            else:
+                st.error(result["message"])
+            
+            # Back button
+            st.button("Start Over", key="reset_after_import_delete", on_click=reset_import_deletion)
+
     # Add export all transactions section
-    st.subheader("Export All Transactions")
+    st.subheader("Export All Transactions") 
     st.write("Export all transaction data to a CSV file.")
     
     if st.button("Export All Transactions", use_container_width=True):
@@ -931,17 +1377,57 @@ def notion_integration_page():
                         database_id=notion_config["database_id"]
                     )
                     
-                    with st.spinner(f"Pushing {len(filtered_transactions)} transactions to Notion..."):
-                        success, result = handler.push_transactions(filtered_transactions)
+                    # Create progress tracking components
+                    progress_bar = st.progress(0)
+                    status_text = st.empty()
+                    error_container = st.container()
+                    
+                    # Define progress callback function
+                    def update_progress(current, total, results):
+                        # Update progress bar
+                        progress_bar.progress(current / total)
                         
+                        # Update status text
+                        status_text.text(f"Processing: {current}/{total} transactions | " +
+                                       f"Success: {results['success']} | " +
+                                       f"Failed: {results['failed']} | " +
+                                       f"Skipped: {results['skipped']}")
+                    
+                    with st.spinner(f"Pushing {len(filtered_transactions)} transactions to Notion..."):
+                        success, result = handler.push_transactions(filtered_transactions, progress_callback=update_progress)
+                        
+                        # Show final status
                         if success:
-                            st.success(f"Successfully pushed {result['success']} transactions to Notion")
+                            progress_bar.progress(1.0)  # Ensure progress bar is complete
+                            
+                            if result['success'] > 0:
+                                st.success(f"✅ Successfully pushed {result['success']} transactions to Notion")
+                            
                             if result['failed'] > 0:
-                                st.warning(f"{result['failed']} transactions failed to push")
+                                st.warning(f"⚠️ {result['failed']} transactions failed to push")
+                                
+                                # Show detailed errors if any
+                                if result['errors'] and len(result['errors']) > 0:
+                                    with error_container.expander("View Error Details"):
+                                        for error in result['errors']:
+                                            st.error(error)
+                            
                             if result['skipped'] > 0:
-                                st.info(f"{result['skipped']} transactions were skipped (already exist)")
+                                st.info(f"ℹ️ {result['skipped']} transactions were skipped (already exist in Notion)")
+                                
+                            # Show final summary
+                            st.write(f"**Export Summary:**")
+                            summary_cols = st.columns(4)
+                            with summary_cols[0]:
+                                st.metric("Total", result['total'])
+                            with summary_cols[1]:
+                                st.metric("Success", result['success'])
+                            with summary_cols[2]:
+                                st.metric("Failed", result['failed'])
+                            with summary_cols[3]:
+                                st.metric("Skipped", result['skipped'])
                         else:
-                            st.error(f"Failed to push transactions: {result}")
+                            st.error(f"❌ Failed to push transactions: {result}")
         else:
             st.info("No transactions match the selected filters")
 

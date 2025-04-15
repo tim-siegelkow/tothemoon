@@ -34,8 +34,17 @@ class NotionHandler:
         """Set the Notion database ID."""
         self.database_id = database_id
     
-    def push_transactions(self, transactions):
-        """Push transactions to Notion database."""
+    def push_transactions(self, transactions, progress_callback=None):
+        """
+        Push transactions to Notion database with detailed error tracking.
+        
+        Args:
+            transactions: List of Transaction objects to push
+            progress_callback: Optional callback function to report progress
+            
+        Returns:
+            tuple: (success_status, results_dict)
+        """
         if not self.client or not self.database_id:
             return False, "Notion API token or database ID not set"
         
@@ -45,10 +54,33 @@ class NotionHandler:
         except Exception as e:
             return False, f"Failed to access Notion database: {e}"
         
-        results = {"success": 0, "failed": 0, "skipped": 0}
+        results = {
+            "success": 0, 
+            "failed": 0, 
+            "skipped": 0,
+            "total": len(transactions),
+            "errors": []  # Store specific error messages
+        }
         
-        for transaction in transactions:
+        # Check for existing transactions to avoid duplicates
+        try:
+            existing_transactions = self._get_existing_transactions()
+        except Exception as e:
+            existing_transactions = []
+            results["errors"].append(f"Failed to fetch existing transactions: {str(e)}")
+        
+        for idx, transaction in enumerate(transactions):
             try:
+                # Create a transaction identifier based on date and description
+                transaction_id = f"{transaction.date.strftime('%Y-%m-%d')}_{transaction.description}_{transaction.amount}"
+                
+                # Skip if already exists in Notion
+                if transaction_id in existing_transactions:
+                    results["skipped"] += 1
+                    if progress_callback:
+                        progress_callback(idx + 1, len(transactions), results)
+                    continue
+                
                 # Create a page in the Notion database for the transaction
                 self.client.pages.create(
                     parent={"database_id": self.database_id},
@@ -82,10 +114,55 @@ class NotionHandler:
                 )
                 results["success"] += 1
             except Exception as e:
-                print(f"Failed to push transaction {transaction.transaction_id}: {e}")
+                error_message = f"Failed to push transaction {transaction.transaction_id}: {str(e)}"
                 results["failed"] += 1
+                results["errors"].append(error_message)
+                print(error_message)
+            
+            # Update progress if callback provided
+            if progress_callback:
+                progress_callback(idx + 1, len(transactions), results)
         
         return True, results
+    
+    def _get_existing_transactions(self):
+        """
+        Fetch existing transactions from Notion to avoid duplicates.
+        Returns a set of transaction identifiers.
+        """
+        existing = set()
+        
+        try:
+            # Query the database
+            response = self.client.databases.query(
+                database_id=self.database_id,
+                page_size=100  # Adjust as needed
+            )
+            
+            # Process results
+            for page in response["results"]:
+                try:
+                    # Extract date, description and amount
+                    props = page["properties"]
+                    date = props.get("Date", {}).get("date", {}).get("start", "")
+                    
+                    title_items = props.get("Description", {}).get("title", [])
+                    description = title_items[0]["text"]["content"] if title_items else ""
+                    
+                    amount = props.get("Amount", {}).get("number", 0)
+                    
+                    # Create unique identifier
+                    if date and description:
+                        transaction_id = f"{date}_{description}_{amount}"
+                        existing.add(transaction_id)
+                except Exception:
+                    # Skip this entry if we can't parse it
+                    continue
+                
+            return existing
+        except Exception as e:
+            print(f"Error fetching existing transactions: {e}")
+            return set()  # Return empty set on error
     
     def verify_database_structure(self):
         """Verify that the database has the required properties."""

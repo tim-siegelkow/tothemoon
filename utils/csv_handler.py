@@ -130,6 +130,13 @@ def process_csv(df, column_mapping=None):
                 if not pd.isna(value):
                     additional_data[field] = str(value)
         
+        # Check for user-provided category first
+        user_category = None
+        if "category" in column_mapping and column_mapping["category"] in df.columns:
+            category_value = row[column_mapping["category"]]
+            if not pd.isna(category_value) and str(category_value).strip():
+                user_category = str(category_value).strip()
+        
         # Determine transaction type from Type field or based on amount
         transaction_type = None
         if "type" in additional_data:
@@ -138,8 +145,8 @@ def process_csv(df, column_mapping=None):
             # Positive amount is Income, negative is Expense
             transaction_type = "Income" if amount >= 0 else "Expense"
         
-        # Original category can be derived from transaction type
-        original_category = transaction_type
+        # Original category can be derived from transaction type if no user category
+        original_category = user_category if user_category else transaction_type
         
         # Generate a partner name from the description
         partner_name = description.split('[')[0].strip() if '[' in description else description
@@ -151,6 +158,10 @@ def process_csv(df, column_mapping=None):
             amount=amount,
             original_category=original_category
         )
+        
+        # If user provided a category in the CSV, set it as the verified category
+        if user_category:
+            transaction.user_verified_category = user_category
         
         # Store additional data as a string in the description field
         # Format: "Description [Type: X, Account: Y, Reference: Z]"

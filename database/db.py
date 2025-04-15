@@ -80,3 +80,71 @@ def update_transaction_category(session, transaction_id, new_category, old_categ
     session.commit()
     
     return transaction
+
+def delete_transactions_from_date(session, from_date):
+    """Delete all transactions from a specific date onward.
+    
+    Args:
+        session: The database session
+        from_date: The date from which to delete transactions (inclusive)
+        
+    Returns:
+        int: The number of transactions deleted
+    """
+    from database.models import Transaction
+    from sqlalchemy import func
+    
+    # First count how many will be deleted
+    count = session.query(func.count(Transaction.transaction_id)).filter(
+        Transaction.date >= from_date
+    ).scalar()
+    
+    # Then delete the transactions
+    session.query(Transaction).filter(
+        Transaction.date >= from_date
+    ).delete(synchronize_session=False)
+    
+    # Commit the changes
+    session.commit()
+    
+    return count
+
+def delete_transactions_by_import_date(session, from_import_date, to_import_date=None):
+    """Delete all transactions that were imported within a specific date range.
+    
+    Args:
+        session: The database session
+        from_import_date: The start date from which to delete transactions (inclusive)
+        to_import_date: The end date until which to delete transactions (inclusive, optional)
+        
+    Returns:
+        int: The number of transactions deleted
+    """
+    from database.models import Transaction
+    from sqlalchemy import func
+    
+    # Build the query filter
+    if to_import_date:
+        # Delete transactions imported between from_date and to_date (inclusive)
+        filter_condition = (
+            (Transaction.created_at >= from_import_date) & 
+            (Transaction.created_at <= to_import_date)
+        )
+    else:
+        # Delete transactions imported on or after from_date
+        filter_condition = (Transaction.created_at >= from_import_date)
+    
+    # First count how many will be deleted
+    count = session.query(func.count(Transaction.transaction_id)).filter(
+        filter_condition
+    ).scalar()
+    
+    # Then delete the transactions
+    session.query(Transaction).filter(
+        filter_condition
+    ).delete(synchronize_session=False)
+    
+    # Commit the changes
+    session.commit()
+    
+    return count
