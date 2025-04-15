@@ -1,0 +1,1024 @@
+Booking Date,Value Date,Partner Name,Partner Iban,Type,Payment Reference,Payment Reference.1,Amount (EUR),Original Amount,Original Currency,Exchange Rate,Category
+2024-05-01,2024-05-01,THY00000004ID2PL,,Presentment,,Hauptkonto,-929.8,929.8,EUR,1.0,Flights
+2024-05-02,2024-05-01,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-55.11,55.11,EUR,1.0,Groceries
+2024-05-02,2024-05-01,6868 Restaurant,,Presentment,,Hauptkonto,-12.4,12.4,EUR,1.0,Dining
+2024-05-02,2024-05-02,Delikato,,Presentment,,Hauptkonto,-25.5,25.5,EUR,1.0,Dining
+2024-05-02,2024-05-02,BOLT.EU/R/2405011159,,Presentment,,Hauptkonto,-3.01,3.01,EUR,1.0,Transportation
+2024-05-02,2024-05-02,BOLT.EU/R/2405011754,,Presentment,,Hauptkonto,-4.09,4.09,EUR,1.0,Transportation
+2024-05-04,2024-05-04,LIME*2 RIDES,,Presentment,,Hauptkonto,-4.16,4.16,EUR,1.0,Transportation
+2024-05-04,2024-05-04,AMZN Mktp DE*HG5O64VZ4,,Presentment,,Hauptkonto,-142.64,142.64,EUR,1.0,Home Improvement
+2024-05-05,2024-05-05,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-52.28,52.28,EUR,1.0,Groceries
+2024-05-05,2024-05-05,MILES MOBILITY GMBH,,Presentment,,Hauptkonto,-4.23,4.23,EUR,1.0,Transportation
+2024-05-05,2024-05-05,BOLT.EU/R/2405041623,,Presentment,,Hauptkonto,-3.19,3.19,EUR,1.0,Transportation
+2024-05-05,2024-05-05,BOLT.EU/R/2405041645,,Presentment,,Hauptkonto,-0.99,0.99,EUR,1.0,Transportation
+2024-05-05,2024-05-05,OBI SAGT DANKE,,Presentment,,Hauptkonto,-92.59,92.59,EUR,1.0,Home Improvement
+2024-05-06,2024-05-05,RESTAURANT KUCHI,,Presentment,,Hauptkonto,-20.0,20.0,EUR,1.0,Dining
+2024-05-06,2024-05-06,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-62.8,62.8,EUR,1.0,Transportation
+2024-05-06,2024-05-06,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-29.9,29.9,EUR,1.0,Transportation
+2024-05-06,2024-05-06,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-20.9,20.9,EUR,1.0,Transportation
+2024-05-06,2024-05-05,22201598,,Presentment,,Hauptkonto,-70.0,70.0,EUR,1.0,Withdrawal
+2024-05-07,2024-05-07,PAYPAL *viktor.guemues,,Presentment,,Hauptkonto,-119.0,119.0,EUR,1.0,Dining
+2024-05-07,2024-05-07,PAYPAL *julian.hemmeri,,Presentment,,Hauptkonto,-8.11,8.11,EUR,1.0,Housing & Utilities
+2024-05-07,2024-05-07,EGYM Wellpass GmbH,DE95120700700020000255,Direct Debit,EGYM Wellpass GmbH Wellpass Mitgliedsbeitrag 05.2024 96d77d79980744b3b29501791c39d6a2,Hauptkonto,-10.0,,,,Health & Fitness
+2024-05-08,2024-05-08,AMZN Mktp DE*HC6B98FC4,,Presentment,,Hauptkonto,-117.68,117.68,EUR,1.0,Home Improvement
+2024-05-08,2024-05-08,AVIS RENT A CAR  A Ca,,Presentment,,Hauptkonto,-20.39,405.0,ZAR,0.050345679,Travel Expenses
+2024-05-08,2024-05-08,APPLE.COM/BILL,,Presentment,,Hauptkonto,-2.99,2.99,EUR,1.0,Subscriptions
+2024-05-08,2024-05-08,WWW ZALANDO DE,,Presentment,,Hauptkonto,-194.91,194.91,EUR,1.0,Clothing
+2024-05-09,2024-05-09,PAYPAL *lorian.abazi,,Presentment,,Hauptkonto,-14.5,14.5,EUR,1.0,Dining
+2024-05-09,2024-05-08,INDIE CAMPERS GERMANY,,Presentment,,Hauptkonto,-299.09,299.09,EUR,1.0,Travel Expenses
+2024-05-10,2024-05-10,MILES MOBILITY GMBH,,Presentment,,Hauptkonto,-12.32,12.32,EUR,1.0,Transportation
+2024-05-10,2024-05-10,22201598,,Presentment,,Hauptkonto,-100.0,100.0,EUR,1.0,Withdrawal
+2024-05-10,2024-05-10,Spatkauf Torstrasse,,Presentment,,Hauptkonto,-12.5,12.5,EUR,1.0,Nightlife
+2024-05-11,2024-05-11,SumUp  *Bechstein Netw,,Presentment,,Hauptkonto,-11.0,11.0,EUR,1.0,Dining
+2024-05-11,2024-05-11,Altes Europa und Freun,,Presentment,,Hauptkonto,-105.0,105.0,EUR,1.0,Dining
+2024-05-11,2024-05-11,Zettle_*Hokey Pokey Gm,,Presentment,,Hauptkonto,-5.6,5.6,EUR,1.0,Dining
+2024-05-11,2024-05-11,22207822,,Presentment,,Hauptkonto,-70.0,70.0,EUR,1.0,Withdrawal
+2024-05-11,2024-05-11,NETFLIX.COM,,Presentment,,Hauptkonto,-4.99,4.99,EUR,1.0,Subscriptions
+2024-05-12,2024-05-12,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-29.9,29.9,EUR,1.0,Transportation
+2024-05-12,2024-05-12,FLIXBUS.COM,,Presentment,,Hauptkonto,-40.98,40.98,EUR,1.0,Transportation
+2024-05-12,2024-05-12,BOLT.EU/R/2405111622,,Presentment,,Hauptkonto,-1.85,1.85,EUR,1.0,Transportation
+2024-05-12,2024-05-12,BOLT.EUR2405111728,,Presentment,,Hauptkonto,-1.54,1.54,EUR,1.0,Transportation
+2024-05-12,2024-05-12,WWW ZALANDO LOUNGE DE,,Presentment,,Hauptkonto,-126.75,126.75,EUR,1.0,Clothing
+2024-05-13,2024-05-12,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-52.86,52.86,EUR,1.0,Groceries
+2024-05-13,2024-05-13,ANGRY CHICKEN GmbH,,Presentment,,Hauptkonto,-15.0,15.0,EUR,1.0,Dining
+2024-05-13,2024-05-13,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1034296937234/. Uber Payments BV, Ihr Einkauf bei Uber Payments BV",Hauptkonto,-27.99,,,,Transportation
+2024-05-13,2024-05-13,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1034290282108/. Uber Payments BV, Ihr Einkauf bei Uber Payments BV",Hauptkonto,-15.92,,,,Transportation
+2024-05-13,2024-05-13,Spotify,,Presentment,,Hauptkonto,-17.99,17.99,EUR,1.0,Subscriptions
+2024-05-13,2024-05-13,QX QUARTERLY CROSSING GMBH,DE90500400000316455500,Direct Debit,Beitrag QX,Hauptkonto,-46.41,,,,Education & Productivity
+2024-05-15,2024-05-15,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Credit Transfer,PP.5079.PP/ABBUCHUNG VOM PAYPAL-KONTO,Hauptkonto,144.0,,,,Reimbursements
+2024-05-16,2024-05-16,Harvest,,Presentment,,Hauptkonto,-11.0,11.0,EUR,1.0,Dining
+2024-05-17,2024-05-17,REWE Michael Roth oHG,,Presentment,,Hauptkonto,-2.48,2.48,EUR,1.0,Groceries
+2024-05-17,2024-05-17,Nuernberg HBF,,Presentment,,Hauptkonto,-1.0,1.0,EUR,1.0,Dining
+2024-05-17,2024-05-17,DB Fernverkehr AG,,Presentment,,Hauptkonto,-6.6,6.6,EUR,1.0,Transportation
+2024-05-17,2024-05-17,AMZN Mktp DE,,Presentment Refund,,Hauptkonto,11.99,11.99,EUR,1.0,Reimbursements
+2024-05-19,2024-05-19,MILES MOBILITY GMBH,,Presentment,,Hauptkonto,-4.92,4.92,EUR,1.0,Transportation
+2024-05-20,2024-05-20,VOLKSBANK STUTTGART EG,,Presentment,,Hauptkonto,-150.0,150.0,EUR,1.0,Withdrawal
+2024-05-21,2024-05-21,AmRest DE Sp. z o.o. &,,Presentment,,Hauptkonto,-12.98,12.98,EUR,1.0,Dining
+2024-05-22,2024-05-22,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1034509908917/. Bolt Operations OU, Ihr Einkauf bei Bolt Operations OU",Hauptkonto,-1.34,,,,Transportation
+2024-05-23,2024-05-22,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-57.41,57.41,EUR,1.0,Groceries
+2024-05-23,2024-05-23,BOCADILLOS,,Presentment,,Hauptkonto,-11.5,11.5,EUR,1.0,Dining
+2024-05-24,2024-05-24,AMZN Mktp DE,,Presentment Refund,,Hauptkonto,12.99,12.99,EUR,1.0,Reimbursements
+2024-05-24,2024-05-24,AMZN Mktp DE,,Presentment Refund,,Hauptkonto,12.99,12.99,EUR,1.0,Reimbursements
+2024-05-25,2024-05-25,MILES MOBILITY GMBH,,Presentment,,Hauptkonto,-15.55,15.55,EUR,1.0,Transportation
+2024-05-25,2024-05-25,Hoeffner Moebelgesells,,Presentment,,Hauptkonto,-21.97,21.97,EUR,1.0,Home Improvement
+2024-05-25,2024-05-25,DER HOLLÄNDER GMBH,,Presentment,,Hauptkonto,-18.99,18.99,EUR,1.0,Home Improvement
+2024-05-25,2024-05-25,DER HOLLÄNDER GMBH,,Presentment,,Hauptkonto,-232.18,232.18,EUR,1.0,Home Improvement
+2024-05-26,2024-05-26,Taqueria El Oso,,Presentment,,Hauptkonto,-18.5,18.5,EUR,1.0,Dining
+2024-05-26,2024-05-26,Home Shop & Ice Cafe,,Presentment,,Hauptkonto,-5.0,5.0,EUR,1.0,Dining
+2024-05-27,2024-05-27,PAYPAL *BOLT.EU R 2405,,Presentment,,Hauptkonto,-1.8,1.8,EUR,1.0,Transportation
+2024-05-27,2024-05-27,PAYPAL *BOLT.EU R 2405,,Presentment,,Hauptkonto,-1.4,1.4,EUR,1.0,Transportation
+2024-05-27,2024-05-27,Berliner Sparkasse,,Presentment,,Hauptkonto,-80.0,80.0,EUR,1.0,Withdrawal
+2024-05-27,2024-05-27,Sarah Decoine,DE49100500001069883758,Debit Transfer,Miete,Hauptkonto,-824.59,,,,Housing & Utilities
+2024-05-27,2024-05-27,LSP*Else Club,,Presentment,,Hauptkonto,-20.5,20.5,EUR,1.0,Nightlife
+2024-05-28,2024-05-28,APOTHEKE BERLIN HBF,,Presentment,,Hauptkonto,-11.94,11.94,EUR,1.0,Groceries
+2024-05-29,2024-05-28,LIME*RIDE,,Presentment,,Hauptkonto,-2.08,2.08,EUR,1.0,Transportation
+2024-05-29,2024-05-29,Vodafone GmbH,DE04700202700015434515,Direct Debit,0000117893576 0019570251738                                           Rechnungsnr: 120602832376          KdNr. 117893576 Vodafone sagt Danke,Hauptkonto,-22.99,,,,Subscriptions
+2024-05-30,2024-05-30,1komma5. GmbH,DE50240603008546053200,Credit Transfer,LOHN / GEHALT         05/24,Hauptkonto,3264.98,,,,Income
+2024-06-01,2024-06-01,LSP*BeachMitte GmbH,,Presentment,,Hauptkonto,-7.8,7.8,EUR,1.0,Dining
+2024-06-01,2024-06-01,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-82.7,82.7,EUR,1.0,Transportation
+2024-06-02,2024-06-01,dean & david,,Presentment,,Hauptkonto,-4.45,4.45,EUR,1.0,Dining
+2024-06-02,2024-06-01,Feinbäckerei Thiele Fi,,Presentment,,Hauptkonto,-2.85,2.85,EUR,1.0,Dining
+2024-06-02,2024-06-01,Feinbaeckerei Ruch Gmb,,Presentment,,Hauptkonto,-9.8,9.8,EUR,1.0,Dining
+2024-06-02,2024-06-01,LE CROBAG 5020,,Presentment,,Hauptkonto,-3.2,3.2,EUR,1.0,Dining
+2024-06-03,2024-06-03,UZR*Tieu & Nguyen GbR,,Presentment,,Hauptkonto,-15.3,15.3,EUR,1.0,Dining
+2024-06-03,2024-06-02,Irish Pubs Gaststaette,,Presentment,,Hauptkonto,-16.0,16.0,EUR,1.0,Nightlife
+2024-06-03,2024-06-02,Irish Pubs Gaststaette,,Presentment,,Hauptkonto,-16.0,16.0,EUR,1.0,Nightlife
+2024-06-04,2024-06-03,AmRest DE Sp. z o.o. &,,Presentment,,Hauptkonto,-17.56,17.56,EUR,1.0,Dining
+2024-06-04,2024-06-03,GH,,Presentment,,Hauptkonto,-17.79,17.79,EUR,1.0,Dining
+2024-06-05,2024-06-04,Backwerk Berlin Hbf,,Presentment,,Hauptkonto,-11.7,11.7,EUR,1.0,Dining
+2024-06-05,2024-06-04,DB Fernverkehr AG,,Presentment,,Hauptkonto,-2.8,2.8,EUR,1.0,Transportation
+2024-06-06,2024-06-06,DM-Drogerie Markt,,Presentment,,Hauptkonto,-22.05,22.05,EUR,1.0,Groceries
+2024-06-06,2024-06-06,Lidl sagt Danke,,Presentment,,Hauptkonto,-128.76,128.76,EUR,1.0,Groceries
+2024-06-06,2024-06-05,Baeckerhaus Veit,,Presentment,,Hauptkonto,-4.65,4.65,EUR,1.0,Dining
+2024-06-06,2024-06-05,S-Dogan GmbH & Co. KG,,Presentment,,Hauptkonto,-52.0,52.0,EUR,1.0,Dining
+2024-06-06,2024-06-05,22201598,,Presentment,,Hauptkonto,-80.0,80.0,EUR,1.0,Withdrawal
+2024-06-06,2024-06-06,1komma5. GmbH,DE50240603008546053200,Credit Transfer,RNr. 20240526-reise-nach-hamburg RDat. 26.05.2024,Hauptkonto,20.9,,,,Reimbursements
+2024-06-07,2024-06-07,SOCAR Tankstelle,,Presentment,,Hauptkonto,-13.14,12.7,CHF,1.0346456693,Transportation
+2024-06-07,2024-06-07,EGYM Wellpass GmbH,DE95120700700020000255,Direct Debit,EGYM Wellpass GmbH Wellpass Mitgliedsbeitrag 06.2024 96d77d79980744b3b29501791c39d6a2,Hauptkonto,-10.0,,,,Health & Fitness
+2024-06-07,2024-06-07,Aral Station 230478000,,Presentment,,Hauptkonto,-94.46,94.46,EUR,1.0,Travel Expenses
+2024-06-08,2024-06-08,grindelwaldSPORTS AG,,Presentment,,Hauptkonto,-39.25,38.0,CHF,1.0328947368,Travel Expenses
+2024-06-08,2024-06-08,APPLE.COM/BILL,,Presentment,,Hauptkonto,-2.99,2.99,EUR,1.0,Subscriptions
+2024-06-09,2024-06-09,Stoosbahnen AG,,Presentment,,Hauptkonto,-47.95,46.4,CHF,1.0334051724,Travel Expenses
+2024-06-10,2024-06-10,SOCAR Tankstelle,,Presentment,,Hauptkonto,-3.62,3.5,CHF,1.0342857143,Groceries
+2024-06-10,2024-06-10,McDonalds Seewen 20194,,Presentment,,Hauptkonto,-5.06,4.9,CHF,1.0326530612,Dining
+2024-06-10,2024-06-10,McDonalds Seewen 20194,,Presentment,,Hauptkonto,-5.48,5.3,CHF,1.0339622642,Dining
+2024-06-10,2024-06-10,NETFLIX.COM,,Presentment,,Hauptkonto,-4.99,4.99,EUR,1.0,Subscriptions
+2024-06-11,2024-06-11,Lidl sagt Danke,,Presentment,,Hauptkonto,-12.93,12.93,EUR,1.0,Groceries
+2024-06-11,2024-06-11,McDonalds MyStop,,Presentment,,Hauptkonto,-15.4,14.9,CHF,1.033557047,Dining
+2024-06-11,2024-06-11,2626 Agip Service-Stat,,Presentment,,Hauptkonto,-20.06,20.06,EUR,1.0,Transportation
+2024-06-12,2024-06-12,PAYPAL *DB VERTRIEB A-,,Presentment,,Hauptkonto,-60.0,60.0,EUR,1.0,Transportation
+2024-06-12,2024-06-12,Aral Station 288154123,,Presentment,,Hauptkonto,-40.34,40.34,EUR,1.0,Travel Expenses
+2024-06-13,2024-06-13,Lidl sagt Danke,,Presentment,,Hauptkonto,-34.17,34.17,EUR,1.0,Groceries
+2024-06-13,2024-06-13,Spotify,,Presentment,,Hauptkonto,-17.99,17.99,EUR,1.0,Subscriptions
+2024-06-14,2024-06-14,PAYPAL *francisco.pott,,Presentment,,Hauptkonto,-126.0,126.0,EUR,1.0,Housing & Utilities
+2024-06-14,2024-06-14,PAYPAL *francisco.pott,,Presentment,,Hauptkonto,-62.98,62.98,EUR,1.0,Housing & Utilities
+2024-06-14,2024-06-13,DECATHLON Deutschland,,Presentment,,Hauptkonto,-146.93,146.93,EUR,1.0,Other
+2024-06-15,2024-06-15,Zettle_*Ruffing  Olbri,,Presentment,,Hauptkonto,-11.55,11.55,EUR,1.0,Dining
+2024-06-15,2024-06-15,Food Container GmbH,,Presentment,,Hauptkonto,-4.8,4.8,EUR,1.0,Dining
+2024-06-15,2024-06-15,Leib und Seele-Michael,,Presentment,,Hauptkonto,-11.0,11.0,EUR,1.0,Dining
+2024-06-15,2024-06-15,BuchnEder GbR,,Presentment,,Hauptkonto,-10.0,10.0,EUR,1.0,Education & Productivity
+2024-06-16,2024-06-16,Cafe Kiosk/Lotto,,Presentment,,Hauptkonto,-20.99,20.99,EUR,1.0,Dining
+2024-06-16,2024-06-16,Zettle_*Alan-Taxi-GmbH,,Presentment,,Hauptkonto,-33.0,33.0,EUR,1.0,Transportation
+2024-06-17,2024-06-17,Lekkerland SE (REWE To,,Presentment,,Hauptkonto,-5.08,5.08,EUR,1.0,Groceries
+2024-06-17,2024-06-17,Höflinger 10136,,Presentment,,Hauptkonto,-9.7,9.7,EUR,1.0,Dining
+2024-06-18,2024-06-18,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1035060688429/. Uber, Ihr Einkauf bei Uber",Hauptkonto,-128.41,,,,Transportation
+2024-06-18,2024-06-18,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1035047852179/. Uber, Ihr Einkauf bei Uber",Hauptkonto,-17.1,,,,Transportation
+2024-06-18,2024-06-18,AMZN Mktp DE*HF8NY4JA4,,Presentment,,Hauptkonto,-18.74,18.74,EUR,1.0,Education & Productivity
+2024-06-18,2024-06-18,N26,,Fee,DHL Express Delivery,Hauptkonto,-20.0,,,,Other
+2024-06-18,2024-06-18,INDIE CAMPERS GERMANY,,Presentment,,Hauptkonto,-2140.48,2140.48,EUR,1.0,Penalties
+2024-06-19,2024-06-18,EDEKA Kiezmarkt TStr,,Presentment,,Hauptkonto,-19.72,19.72,EUR,1.0,Groceries
+2024-06-20,2024-06-19,Berliner Sparkasse,,Presentment,,Hauptkonto,-500.0,500.0,EUR,1.0,Withdrawal
+2024-06-21,2024-06-21,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1035135814816/. Uber, Ihr Einkauf bei Uber",Hauptkonto,-51.08,,,,Transportation
+2024-06-23,2024-06-23,MELLER,,Presentment,,Hauptkonto,-51.9,51.9,EUR,1.0,Clothing
+2024-06-23,2024-06-23,DECATHLON Deutschland,,Presentment,,Hauptkonto,-79.95,79.95,EUR,1.0,Other
+2024-06-24,2024-06-24,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-24.15,24.15,EUR,1.0,Transportation
+2024-06-25,2024-06-25,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-28.64,28.64,EUR,1.0,Groceries
+2024-06-25,2024-06-25,Sarah Decoine,DE49100500001069883758,Debit Transfer,Miete,Hauptkonto,-824.59,,,,Housing & Utilities
+2024-06-25,2024-06-25,Fabio Maroto Lopez,DE79500105175432257763,Credit Transfer,Suedafrika Unterkunft 2.0,Hauptkonto,221.0,,,,Reimbursements
+2024-06-25,2024-06-25,Eventim / TicketOnline,,Presentment,,Hauptkonto,-99.98,99.98,EUR,1.0,Entertainment
+2024-06-26,2024-06-26,PAY.nl*goldies GmbH,,Presentment,,Hauptkonto,-8.9,8.9,EUR,1.0,Dining
+2024-06-26,2024-06-26,PAYPAL *viktor.guemues,,Presentment,,Hauptkonto,-35.0,35.0,EUR,1.0,Nightlife
+2024-06-27,2024-06-27,Vodafone GmbH,DE04700202700015434515,Direct Debit,0000117893576 0019630664836                                           Rechnungsnr: 120675745414          KdNr. 117893576 Vodafone sagt Danke,Hauptkonto,-38.97,,,,Subscriptions
+2024-06-27,2024-06-26,www.hhv.de,,Presentment,,Hauptkonto,-129.95,129.95,EUR,1.0,Clothing
+2024-06-27,2024-06-27,PAYPAL *tobiroehnelt,,Presentment,,Hauptkonto,-864.5,864.5,EUR,1.0,Reimbursements
+2024-06-27,2024-06-27,DECATHLON Deutschland,,Presentment,,Hauptkonto,-104.98,104.98,EUR,1.0,Other
+2024-06-27,2024-06-27,DECATHLON Deutschland,,Presentment,,Hauptkonto,-28.97,28.97,EUR,1.0,Other
+2024-06-28,2024-06-28,QX QUARTERLY CROSSING GMBH,DE90500400000316455500,Direct Debit,Beitrag QX,Hauptkonto,-46.41,,,,Education & Productivity
+2024-06-28,2024-06-28,1komma5. GmbH,DE50240603008546053200,Credit Transfer,LOHN / GEHALT         06/24,Hauptkonto,3264.98,,,,Income
+2024-07-01,2024-07-01,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-24.15,24.15,EUR,1.0,Transportation
+2024-07-01,2024-07-01,BOLT.EU/R/2406301148,,Presentment,,Hauptkonto,-9.0,9.0,EUR,1.0,Transportation
+2024-07-02,2024-07-02,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-1.15,1.15,EUR,1.0,Groceries
+2024-07-02,2024-07-02,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-127.11,127.11,EUR,1.0,Groceries
+2024-07-02,2024-07-01,Tor Kebap,,Presentment,,Hauptkonto,-10.0,10.0,EUR,1.0,Dining
+2024-07-02,2024-07-02,DECATHLON Deutschland,,Presentment Refund,,Hauptkonto,49.95,49.95,EUR,1.0,Reimbursements
+2024-07-03,2024-07-03,Maras Eis cafe,,Presentment,,Hauptkonto,-21.0,21.0,EUR,1.0,Dining
+2024-07-04,2024-07-04,WWW ZALANDO LOUNGE DE,,Presentment Refund,,Hauptkonto,104.0,104.0,EUR,1.0,Clothing
+2024-07-04,2024-07-04,RESIDENT ADVISOR TICKE,,Presentment,,Hauptkonto,-33.9,33.9,EUR,1.0,Nightlife
+2024-07-05,2024-07-05,Telegraphenamt Berlin,,Presentment,,Hauptkonto,-6.0,6.0,EUR,1.0,Dining
+2024-07-06,2024-07-06,SF Kamps Backstube,,Presentment,,Hauptkonto,-22.4,22.4,EUR,1.0,Dining
+2024-07-06,2024-07-06,NTV MILANO CENTRALE,,Presentment,,Hauptkonto,-104.7,104.7,EUR,1.0,Travel Expenses
+2024-07-06,2024-07-06,Mark Holtmeier,DE72200505501315421071,Credit Transfer,kapstadt wohnung,Hauptkonto,221.0,,,,Reimbursements
+2024-07-06,2024-07-06,Mol*Howler Europe B.V.,,Presentment,,Hauptkonto,-51.5,51.5,EUR,1.0,Entertainment
+2024-07-08,2024-07-08,TRATTORIA D'AGATA,,Presentment,,Hauptkonto,-34.0,34.0,EUR,1.0,Dining
+2024-07-08,2024-07-08,GRILLI SRL,,Presentment,,Hauptkonto,-40.0,40.0,EUR,1.0,Dining
+2024-07-08,2024-07-08,PUZELLA GIULIA,,Presentment,,Hauptkonto,-30.0,30.0,EUR,1.0,Dining
+2024-07-08,2024-07-08,VOI IT,,Presentment,,Hauptkonto,-2.32,2.32,EUR,1.0,Transportation
+2024-07-08,2024-07-08,VOI IT,,Presentment,,Hauptkonto,-2.76,2.76,EUR,1.0,Transportation
+2024-07-08,2024-07-08,ISP       4875-TORINO,,Presentment,,Hauptkonto,-303.9,303.9,EUR,1.0,Nightlife
+2024-07-08,2024-07-08,Mol*Howler Europe B.V.,,Presentment,,Hauptkonto,-25.0,25.0,EUR,1.0,Entertainment
+2024-07-09,2024-07-09,CARREFOUR 0414,,Presentment,,Hauptkonto,-38.73,38.73,EUR,1.0,Groceries
+2024-07-09,2024-07-09,LA ROMANA DAL 1947 SRL,,Presentment,,Hauptkonto,-3.5,3.5,EUR,1.0,Dining
+2024-07-09,2024-07-09,BRUN PASTA,,Presentment,,Hauptkonto,-15.0,15.0,EUR,1.0,Dining
+2024-07-09,2024-07-09,LA CASINA,,Presentment,,Hauptkonto,-71.0,71.0,EUR,1.0,Dining
+2024-07-09,2024-07-09,CAFFE' CROCETTA,,Presentment,,Hauptkonto,-9.0,9.0,EUR,1.0,Dining
+2024-07-09,2024-07-09,VOI IT,,Presentment,,Hauptkonto,-4.08,4.08,EUR,1.0,Transportation
+2024-07-09,2024-07-09,VOI IT,,Presentment,,Hauptkonto,-2.98,2.98,EUR,1.0,Transportation
+2024-07-09,2024-07-09,VOI IT,,Presentment,,Hauptkonto,-3.2,3.2,EUR,1.0,Transportation
+2024-07-09,2024-07-09,VOI IT,,Presentment,,Hauptkonto,-3.2,3.2,EUR,1.0,Transportation
+2024-07-09,2024-07-09,VOI IT,,Presentment,,Hauptkonto,-2.2,2.2,EUR,1.0,Transportation
+2024-07-09,2024-07-09,VOI IT,,Presentment,,Hauptkonto,-3.42,3.42,EUR,1.0,Transportation
+2024-07-09,2024-07-09,EGYM Wellpass GmbH,DE95120700700020000255,Direct Debit,EGYM Wellpass GmbH Wellpass Mitgliedsbeitrag 07.2024 96d77d79980744b3b29501791c39d6a2,Hauptkonto,-10.0,,,,Health & Fitness
+2024-07-09,2024-07-09,Fernanda Rosas Mayoral,DE48640500000009170199,Credit Transfer,,Hauptkonto,550.0,,,,Reimbursements
+2024-07-10,2024-07-10,TAP & GO,,Presentment,,Hauptkonto,-1.9,1.9,EUR,1.0,Groceries
+2024-07-10,2024-07-10,GELATERIA POLARIS,,Presentment,,Hauptkonto,-6.5,6.5,EUR,1.0,Dining
+2024-07-10,2024-07-10,LA PERLA SAS,,Presentment,,Hauptkonto,-18.0,18.0,EUR,1.0,Dining
+2024-07-10,2024-07-10,MEAT M AMA MASSA,,Presentment,,Hauptkonto,-78.7,78.7,EUR,1.0,Dining
+2024-07-10,2024-07-09,LIME*RIDE,,Presentment,,Hauptkonto,-2.38,2.38,EUR,1.0,Transportation
+2024-07-10,2024-07-10,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-27.59,27.59,EUR,1.0,Transportation
+2024-07-10,2024-07-10,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-27.59,27.59,EUR,1.0,Transportation
+2024-07-10,2024-07-10,RESIDENT ADVISOR TICKE,,Presentment,,Hauptkonto,-20.35,20.35,EUR,1.0,Nightlife
+2024-07-12,2024-07-11,GELATERIA 5 TERRE,,Presentment,,Hauptkonto,-14.5,14.5,EUR,1.0,Dining
+2024-07-12,2024-07-11,GELATERIA POLARIS,,Presentment,,Hauptkonto,-15.5,15.5,EUR,1.0,Dining
+2024-07-12,2024-07-11,LIGURIA BT DPR,,Presentment,,Hauptkonto,-180.0,180.0,EUR,1.0,Dining
+2024-07-12,2024-07-12,SumUp  *RivaReno Gelat,,Presentment,,Hauptkonto,-10.0,10.0,EUR,1.0,Dining
+2024-07-12,2024-07-11,BAR ENOTECA 5 TERRE DI,,Presentment,,Hauptkonto,-64.5,64.5,EUR,1.0,Nightlife
+2024-07-13,2024-07-12,MORFEA MICHELE,,Presentment,,Hauptkonto,-15.0,15.0,EUR,1.0,Dining
+2024-07-13,2024-07-12,THEBOX,,Presentment,,Hauptkonto,-10.5,10.5,EUR,1.0,Dining
+2024-07-13,2024-07-12,HABANA 500,,Presentment,,Hauptkonto,-24.0,24.0,EUR,1.0,Dining
+2024-07-13,2024-07-12,BER CUCCIOLO SNC,,Presentment,,Hauptkonto,-21.0,21.0,EUR,1.0,Dining
+2024-07-13,2024-07-12,GELATERIA S. TRINITA',,Presentment,,Hauptkonto,-10.9,10.9,EUR,1.0,Dining
+2024-07-13,2024-07-12,THEBOX,,Presentment,,Hauptkonto,-10.5,10.5,EUR,1.0,Dining
+2024-07-13,2024-07-12,LA GELATIERA,,Presentment,,Hauptkonto,-1.5,1.5,EUR,1.0,Dining
+2024-07-13,2024-07-12,COCA COLA,,Presentment,,Hauptkonto,-5.0,5.0,EUR,1.0,Dining
+2024-07-13,2024-07-12,LA GELATIERA,,Presentment,,Hauptkonto,-3.0,3.0,EUR,1.0,Dining
+2024-07-13,2024-07-13,EIS S.R.L.,,Presentment,,Hauptkonto,-3.0,3.0,EUR,1.0,Dining
+2024-07-13,2024-07-12,VIP'S BAR DI CAPECCHI,,Presentment,,Hauptkonto,-18.0,18.0,EUR,1.0,Nightlife
+2024-07-14,2024-07-13,CRF EXP FIR4636,,Presentment,,Hauptkonto,-4.9,4.9,EUR,1.0,Dining
+2024-07-14,2024-07-13,NANNARELLA,,Presentment,,Hauptkonto,-67.0,67.0,EUR,1.0,Dining
+2024-07-14,2024-07-14,SP MAGNIFICO FOOD,,Presentment,,Hauptkonto,-23.5,23.5,EUR,1.0,Dining
+2024-07-14,2024-07-13,TABACCHERIA LEONARDO,,Presentment,,Hauptkonto,-6.0,6.0,EUR,1.0,Nightlife
+2024-07-15,2024-07-14,CONAD,,Presentment,,Hauptkonto,-7.54,7.54,EUR,1.0,Groceries
+2024-07-15,2024-07-14,THE ROMAN FOOD TOUR SR,,Presentment,,Hauptkonto,-45.0,45.0,EUR,1.0,Dining
+2024-07-15,2024-07-15,POMPI IL REGNO DEL TIR,,Presentment,,Hauptkonto,-17.4,17.4,EUR,1.0,Dining
+2024-07-15,2024-07-15,6868 Restaurant,,Presentment,,Hauptkonto,-19.8,19.8,EUR,1.0,Dining
+2024-07-15,2024-07-14,RADIOTAXI IM 23,,Presentment,,Hauptkonto,-12.0,12.0,EUR,1.0,Transportation
+2024-07-15,2024-07-15,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-4.4,4.4,EUR,1.0,Transportation
+2024-07-15,2024-07-15,Spotify,,Presentment,,Hauptkonto,-17.99,17.99,EUR,1.0,Subscriptions
+2024-07-15,2024-07-14,MONTANI ENZO,,Presentment,,Hauptkonto,-9.0,9.0,EUR,1.0,Nightlife
+2024-07-15,2024-07-15,LE LEVAIN,,Presentment,,Hauptkonto,-7.4,7.4,EUR,1.0,Nightlife
+2024-07-15,2024-07-14,Musei Vaticani Audiogu,,Presentment,,Hauptkonto,-8.0,8.0,EUR,1.0,Entertainment
+2024-07-16,2024-07-15,TAP & GO,,Presentment,,Hauptkonto,-1.9,1.9,EUR,1.0,Groceries
+2024-07-16,2024-07-16,ATAC TAP&GO,,Presentment,,Hauptkonto,-1.5,1.5,EUR,1.0,Groceries
+2024-07-16,2024-07-15,PANE E SALAME,,Presentment,,Hauptkonto,-33.0,33.0,EUR,1.0,Dining
+2024-07-16,2024-07-16,OTELLO,,Presentment,,Hauptkonto,-110.0,110.0,EUR,1.0,Dining
+2024-07-17,2024-07-17,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-77.19,77.19,EUR,1.0,Groceries
+2024-07-17,2024-07-17,6868 Restaurant,,Presentment,,Hauptkonto,-9.9,9.9,EUR,1.0,Dining
+2024-07-17,2024-07-17,LIME*RIDE,,Presentment,,Hauptkonto,-4.0,4.0,EUR,1.0,Transportation
+2024-07-17,2024-07-18,"Stadtkasse, BW Bank Stuttgart",DE28600501010002002408,Debit Transfer,Aktenzeichen 505.11.661628.3,Hauptkonto,-20.0,,,,Withdrawal
+2024-07-17,2024-07-18,"Stadtkasse, BW Bank Stuttgart",DE28600501010002002408,Debit Transfer,Aktenzeichen 505.11.625633.3,Hauptkonto,-55.0,,,,Withdrawal
+2024-07-17,2024-07-17,APPLE.COM/BILL,,Presentment,,Hauptkonto,-2.99,2.99,EUR,1.0,Subscriptions
+2024-07-17,2024-07-18,Indie Campers Germany GmbH,DE62508400050140597600,Debit Transfer,Buchung 1750336 Bussgeld 2,Hauptkonto,-25.0,,,,Penalties
+2024-07-17,2024-07-18,Indie Campers Germany GmbH,DE62508400050140597600,Debit Transfer,Buchung 1750336 Bussgeld 1,Hauptkonto,-25.0,,,,Penalties
+2024-07-18,2024-07-18,Deutsche Post AG,,Presentment,,Hauptkonto,-3.5,3.5,EUR,1.0,Groceries
+2024-07-18,2024-07-18,Howler International Limited,BE62967200925661,Credit Transfer,5BPS67MP-0,Hauptkonto,4.5,,,,Reimbursements
+2024-07-19,2024-07-19,Harvest,,Presentment,,Hauptkonto,-11.55,11.55,EUR,1.0,Dining
+2024-07-19,2024-07-19,NETFLIX.COM,,Presentment,,Hauptkonto,-4.99,4.99,EUR,1.0,Subscriptions
+2024-07-19,2024-07-19,Alisia Costa,DE76100110012623024237,MoneyBeam,cena ,Hauptkonto,45.0,,,,Reimbursements
+2024-07-21,2024-07-21,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-5.28,5.28,EUR,1.0,Groceries
+2024-07-21,2024-07-21,Bayat GmbH,,Presentment,,Hauptkonto,-5.5,5.5,EUR,1.0,Groceries
+2024-07-21,2024-07-20,MIDO FUJI,,Presentment,,Hauptkonto,-400.0,400.0,EUR,1.0,Dining
+2024-07-21,2024-07-20,ENOTECA SORSI E MORSI,,Presentment,,Hauptkonto,-8.0,8.0,EUR,1.0,Nightlife
+2024-07-21,2024-07-20,LSP*Else Club,,Presentment,,Hauptkonto,-44.5,44.5,EUR,1.0,Nightlife
+2024-07-22,2024-07-22,63320109 Koln Hbf  Kam,,Presentment,,Hauptkonto,-12.2,12.2,EUR,1.0,Dining
+2024-07-22,2024-07-22,KFC 1055 LAMIA GMBH,,Presentment,,Hauptkonto,-16.27,16.27,EUR,1.0,Dining
+2024-07-22,2024-07-22,MCDONALD S DEUTSCHLAND,,Presentment,,Hauptkonto,-15.38,15.38,EUR,1.0,Dining
+2024-07-22,2024-07-22,1 FC KOELN GASTRONOMIE,,Presentment,,Hauptkonto,-5.0,5.0,EUR,1.0,Dining
+2024-07-22,2024-07-21,FLIXBUS.COM,,Presentment,,Hauptkonto,-31.98,31.98,EUR,1.0,Transportation
+2024-07-22,2024-07-22,DB Fernverkehr AG,,Presentment,,Hauptkonto,-3.5,3.5,EUR,1.0,Transportation
+2024-07-22,2024-07-22,RESIDENT ADVISOR TICKE,,Presentment,,Hauptkonto,-24.85,24.85,EUR,1.0,Nightlife
+2024-07-22,2024-07-22,ENOTECA SORSI E MORSI,,Presentment,,Hauptkonto,-13.0,13.0,EUR,1.0,Nightlife
+2024-07-22,2024-07-21,IVS GmbH,,Presentment,,Hauptkonto,-55.0,55.0,EUR,1.0,Other
+2024-07-23,2024-07-23,LIME*RIDE,,Presentment,,Hauptkonto,-3.25,3.25,EUR,1.0,Transportation
+2024-07-23,2024-07-23,SumUp  *Jakob Daniel B,,Presentment,,Hauptkonto,-14.4,14.4,EUR,1.0,Other
+2024-07-24,2024-07-24,Back Saray,,Presentment,,Hauptkonto,-5.0,5.0,EUR,1.0,Dining
+2024-07-25,2024-07-25,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-88.08,88.08,EUR,1.0,Groceries
+2024-07-25,2024-07-25,Sarah Decoine,DE49100500001069883758,Debit Transfer,Miete,Hauptkonto,-824.59,,,,Housing & Utilities
+2024-07-26,2024-07-26,SumUp  *Hokey Pokey Gm,,Presentment,,Hauptkonto,-5.6,5.6,EUR,1.0,Dining
+2024-07-26,2024-07-26,Vodafone GmbH,DE04700202700015434515,Direct Debit,0000117893576 0019689107414                                           Rechnungsnr: 120743211670          KdNr. 117893576 Vodafone sagt Danke,Hauptkonto,-22.99,,,,Subscriptions
+2024-07-28,2024-07-28,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-30.07,30.07,EUR,1.0,Groceries
+2024-07-28,2024-07-27,Minh Dang Dinh,,Presentment,,Hauptkonto,-26.0,26.0,EUR,1.0,Dining
+2024-07-28,2024-07-28,Ripieno,,Presentment,,Hauptkonto,-200.0,200.0,EUR,1.0,Dining
+2024-07-28,2024-07-28,Baecker Taudien,,Presentment,,Hauptkonto,-21.4,21.4,EUR,1.0,Dining
+2024-07-28,2024-07-28,EasyPark GmbH,,Presentment,,Hauptkonto,-12.42,12.42,EUR,1.0,Transportation
+2024-07-28,2024-07-27,22201598,,Presentment,,Hauptkonto,-150.0,150.0,EUR,1.0,Withdrawal
+2024-07-29,2024-07-29,Sarah Decoine,DE49100500001069883758,Credit Transfer,nebenkosten kredit,Hauptkonto,155.78,,,,Reimbursements
+2024-07-29,2024-07-29,1komma5. GmbH,DE50240603008546053200,Credit Transfer,LOHN / GEHALT         07/24,Hauptkonto,3264.98,,,,Income
+2024-07-29,2024-07-29,SumUp  *nuture ART GbR,,Presentment,,Hauptkonto,-75.9,75.9,EUR,1.0,Entertainment
+2024-07-31,2024-07-30,EasyPark GmbH,,Presentment,,Hauptkonto,-11.56,11.56,EUR,1.0,Transportation
+2024-08-02,2024-08-01,Skate & Glide,,Presentment,,Hauptkonto,-270.0,270.0,EUR,1.0,Other
+2024-08-03,2024-08-03,LSP*Else Club,,Presentment,,Hauptkonto,-18.7,18.7,EUR,1.0,Nightlife
+2024-08-03,2024-08-03,LSP*Else Club,,Presentment,,Hauptkonto,-18.0,18.0,EUR,1.0,Nightlife
+2024-08-04,2024-08-04,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-120.22,120.22,EUR,1.0,Groceries
+2024-08-04,2024-08-04,Club del Burro,,Presentment,,Hauptkonto,-59.6,59.6,EUR,1.0,Dining
+2024-08-04,2024-08-03,22201598,,Presentment,,Hauptkonto,-180.0,180.0,EUR,1.0,Withdrawal
+2024-08-04,2024-08-03,LSP*Else Club,,Presentment,,Hauptkonto,-7.3,7.3,EUR,1.0,Nightlife
+2024-08-05,2024-08-05,SumUp  *Backshop Yunus,,Presentment,,Hauptkonto,-11.7,11.7,EUR,1.0,Dining
+2024-08-05,2024-08-05,UBR* PENDING.UBER.COM,,Presentment,,Hauptkonto,-25.48,25.48,EUR,1.0,Transportation
+2024-08-07,2024-08-07,EGYM Wellpass GmbH,DE95120700700020000255,Direct Debit,EGYM Wellpass GmbH Wellpass Mitgliedsbeitrag 08.2024 96d77d79980744b3b29501791c39d6a2,Hauptkonto,-10.0,,,,Health & Fitness
+2024-08-08,2024-08-08,BOLT.EU/O/2408072129,,Presentment,,Hauptkonto,-8.3,8.3,EUR,1.0,Transportation
+2024-08-08,2024-08-08,APPLE.COM/BILL,,Presentment,,Hauptkonto,-2.99,2.99,EUR,1.0,Subscriptions
+2024-08-09,2024-08-09,City Chicken,,Presentment,,Hauptkonto,-12.8,12.8,EUR,1.0,Dining
+2024-08-10,2024-08-09,Polats Minimarkt,,Presentment,,Hauptkonto,-11.99,11.99,EUR,1.0,Groceries
+2024-08-10,2024-08-10,SumUp  *Yarok Restaura,,Presentment,,Hauptkonto,-11.0,11.0,EUR,1.0,Dining
+2024-08-11,2024-08-11,City Chicken,,Presentment,,Hauptkonto,-11.4,11.4,EUR,1.0,Dining
+2024-08-11,2024-08-11,City Chicken,,Presentment,,Hauptkonto,-2.9,2.9,EUR,1.0,Dining
+2024-08-12,2024-08-11,TIO TIO Hub Berlin,,Presentment,,Hauptkonto,-5.0,5.0,EUR,1.0,Dining
+2024-08-12,2024-08-11,SumUp  *131 BAR,,Presentment,,Hauptkonto,-9.0,9.0,EUR,1.0,Dining
+2024-08-12,2024-08-11,SumUp  *131 BAR,,Presentment,,Hauptkonto,-9.0,9.0,EUR,1.0,Dining
+2024-08-12,2024-08-11,SumUp  *131 BAR,,Presentment,,Hauptkonto,-9.0,9.0,EUR,1.0,Dining
+2024-08-12,2024-08-11,TIO TIO Hub Berlin,,Presentment,,Hauptkonto,-8.0,8.0,EUR,1.0,Dining
+2024-08-12,2024-08-12,SumUp  *131 BAR,,Presentment,,Hauptkonto,-6.5,6.5,EUR,1.0,Dining
+2024-08-12,2024-08-12,SumUp  *Hokey Pokey Gm,,Presentment,,Hauptkonto,-5.6,5.6,EUR,1.0,Dining
+2024-08-12,2024-08-12,6868 Restaurant,,Presentment,,Hauptkonto,-18.0,18.0,EUR,1.0,Dining
+2024-08-12,2024-08-12,DER HOLLÄNDER GMBH,,Presentment,,Hauptkonto,-49.98,49.98,EUR,1.0,Home Improvement
+2024-08-12,2024-08-12,IC CASH 01012105,,Presentment,,Hauptkonto,-80.0,80.0,EUR,1.0,Withdrawal
+2024-08-12,2024-08-12,RESIDENT ADVISOR TICKE,,Presentment,,Hauptkonto,-19.2,19.2,EUR,1.0,Nightlife
+2024-08-12,2024-08-12,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Credit Transfer,PP.5079.PP/ABBUCHUNG VOM PAYPAL-KONTO,Hauptkonto,500.64,,,,Reimbursements
+2024-08-12,2024-08-12,BASSLINER,,Presentment,,Hauptkonto,-21.0,21.0,EUR,1.0,Entertainment
+2024-08-13,2024-08-13,DECATHLON Deutschland,,Presentment,,Hauptkonto,-30.96,30.96,EUR,1.0,Other
+2024-08-14,2024-08-13,EDEKA Kiezmarkt TStr,,Presentment,,Hauptkonto,-20.35,20.35,EUR,1.0,Groceries
+2024-08-14,2024-08-14,SumUp  *Yarok Restaura,,Presentment,,Hauptkonto,-38.0,38.0,EUR,1.0,Dining
+2024-08-14,2024-08-14,Vodafone Deutschland GmbH,DE13380700590045335700,Direct Debit,08/2024 K-NR. 333136237 Ihre Rechnung online bei www.vodafone.de/meinkabel,Hauptkonto,-62.98,,,,Housing & Utilities
+2024-08-14,2024-08-14,PAYPAL *viktor.guemues,,Presentment,,Hauptkonto,-92.5,92.5,EUR,1.0,Nightlife
+2024-08-15,2024-08-15,EDEKA Kiezmarkt TStr,,Presentment,,Hauptkonto,-23.35,23.35,EUR,1.0,Groceries
+2024-08-15,2024-08-15,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-12.1,12.1,EUR,1.0,Transportation
+2024-08-15,2024-08-15,Spotify,,Presentment,,Hauptkonto,-17.99,17.99,EUR,1.0,Subscriptions
+2024-08-15,2024-08-15,WEEZEVENT,,Presentment,,Hauptkonto,-50.0,50.0,EUR,1.0,Nightlife
+2024-08-15,2024-08-15,DB Vertrieb GmbH,,Presentment Refund,,Hauptkonto,12.1,12.1,EUR,1.0,Reimbursements
+2024-08-16,2024-08-16,63120150 Frankfurt Ode,,Presentment,,Hauptkonto,-18.99,18.99,EUR,1.0,Dining
+2024-08-16,2024-08-16,63120110 Frankfurt Ode,,Presentment,,Hauptkonto,-2.94,2.94,EUR,1.0,Dining
+2024-08-16,2024-08-16,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-12.1,12.1,EUR,1.0,Transportation
+2024-08-16,2024-08-16,WEEZEVENT CASHLESS,,Presentment,,Hauptkonto,-50.0,50.0,EUR,1.0,Nightlife
+2024-08-16,2024-08-16,PAYPAL *florianscheiwe,,Presentment,,Hauptkonto,-200.0,200.0,EUR,1.0,Accommodation
+2024-08-17,2024-08-17,PAYPAL *11TS,,Presentment,,Hauptkonto,-202.37,202.37,EUR,1.0,Clothing
+2024-08-18,2024-08-18,Netflix.com,,Presentment,,Hauptkonto,-4.99,4.99,EUR,1.0,Subscriptions
+2024-08-20,2024-08-20,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-78.41,78.41,EUR,1.0,Groceries
+2024-08-20,2024-08-20,Hoongy Restaurant,,Presentment,,Hauptkonto,-35.0,35.0,EUR,1.0,Dining
+2024-08-20,2024-08-20,6868 Restaurant,,Presentment,,Hauptkonto,-9.9,9.9,EUR,1.0,Dining
+2024-08-20,2024-08-20,PAYPAL *hannah-weber,,Presentment,,Hauptkonto,-10.0,10.0,EUR,1.0,Nightlife
+2024-08-22,2024-08-22,EXPEDIA 72902181475457,,Presentment,,Hauptkonto,-132.79,132.79,EUR,1.0,Flights
+2024-08-22,2024-08-22,PAYPAL *tobiroehnelt,,Presentment,,Hauptkonto,-24.0,24.0,EUR,1.0,Entertainment
+2024-08-23,2024-08-23,PAYPAL *fer.rosasm,,Presentment,,Hauptkonto,-330.0,330.0,EUR,1.0,Flights
+2024-08-23,2024-08-22,Zettle_*Sanctuary - It,,Presentment,,Hauptkonto,-7.6,7.6,EUR,1.0,Dining
+2024-08-23,2024-08-23,Bäckerei Kamps,,Presentment,,Hauptkonto,-10.8,10.8,EUR,1.0,Dining
+2024-08-23,2024-08-23,BOLT.EU/D/2408222212,,Presentment,,Hauptkonto,-19.53,19.53,EUR,1.0,Transportation
+2024-08-23,2024-08-23,PAYPAL *11TS,,Presentment,,Hauptkonto,-440.74,440.74,EUR,1.0,Clothing
+2024-08-24,2024-08-23,MEYER FEINKOST GMBH,,Presentment,,Hauptkonto,-16.75,16.75,EUR,1.0,Dining
+2024-08-24,2024-08-24,POKERIA SARDINE,,Presentment,,Hauptkonto,-22.7,22.7,EUR,1.0,Dining
+2024-08-24,2024-08-23,UBR* PENDING.UBER.COM,,Presentment,,Hauptkonto,-5.0,5.0,EUR,1.0,Transportation
+2024-08-24,2024-08-24,BOLT.EU/O/2408231008,,Presentment,,Hauptkonto,-7.91,7.91,EUR,1.0,Transportation
+2024-08-24,2024-08-24,BOLT.EU/O/2408231337,,Presentment,,Hauptkonto,-3.85,3.85,EUR,1.0,Transportation
+2024-08-24,2024-08-24,REPSOL E1163,,Presentment,,Hauptkonto,-11.9,11.9,EUR,1.0,Transportation
+2024-08-24,2024-08-24,REPSOL E1163,,Presentment,,Hauptkonto,-4.84,4.84,EUR,1.0,Transportation
+2024-08-24,2024-08-24,COOLTRAMOTOS,,Presentment,,Hauptkonto,-141.4,141.4,EUR,1.0,Travel Expenses
+2024-08-26,2024-08-25,MINIPRECO,,Presentment,,Hauptkonto,-8.08,8.08,EUR,1.0,Groceries
+2024-08-26,2024-08-25,THE MONARCH,,Presentment,,Hauptkonto,-30.0,30.0,EUR,1.0,Dining
+2024-08-26,2024-08-26,CULTURA DO HAMBUGUER,,Presentment,,Hauptkonto,-29.7,29.7,EUR,1.0,Dining
+2024-08-26,2024-08-26,HEIM CAFE,,Presentment,,Hauptkonto,-35.0,35.0,EUR,1.0,Dining
+2024-08-26,2024-08-26,Sarah Decoine,DE49100500001069883758,Debit Transfer,Miete,Hauptkonto,-824.59,,,,Housing & Utilities
+2024-08-26,2024-08-25,EL CORTE INGLES,,Presentment,,Hauptkonto,-100.0,100.0,EUR,1.0,Clothing
+2024-08-27,2024-08-27,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1036465342902/. Bolt Operations OU, Ihr Einkauf bei Bolt Operations OU",Hauptkonto,-1.95,,,,Transportation
+2024-08-28,2024-08-27,GINGINHA DO CARMO,,Presentment,,Hauptkonto,-3.1,3.1,EUR,1.0,Dining
+2024-08-28,2024-08-27,BONJARDIM,,Presentment,,Hauptkonto,-40.0,40.0,EUR,1.0,Dining
+2024-08-28,2024-08-27,Amorino,,Presentment,,Hauptkonto,-5.2,5.2,EUR,1.0,Dining
+2024-08-28,2024-08-27,CAFE DEDES,,Presentment,,Hauptkonto,-46.0,46.0,EUR,1.0,Dining
+2024-08-28,2024-08-27,RES DOZO SUSH IZAKAY,,Presentment,,Hauptkonto,-65.0,65.0,EUR,1.0,Dining
+2024-08-28,2024-08-28,BOLT.EU/D/2408272220,,Presentment,,Hauptkonto,-23.79,23.79,EUR,1.0,Transportation
+2024-08-28,2024-08-28,Vodafone GmbH,DE04700202700015434515,Direct Debit,0000117893576 0019750627962                                           Rechnungsnr: 120817111509          KdNr. 117893576 Vodafone sagt Danke,Hauptkonto,-14.67,,,,Subscriptions
+2024-08-28,2024-08-27,ZARA,,Presentment,,Hauptkonto,-80.0,80.0,EUR,1.0,Clothing
+2024-08-28,2024-08-27,ARQUIVOS,,Presentment,,Hauptkonto,-84.5,84.5,EUR,1.0,Clothing
+2024-08-28,2024-08-28,1komma5. GmbH,DE50240603008546053200,Credit Transfer,LOHN / GEHALT         08/24,Hauptkonto,3264.98,,,,Income
+2024-08-29,2024-08-28,PINGO DOCE CAIS DO S,,Presentment,,Hauptkonto,-3.98,3.98,EUR,1.0,Groceries
+2024-08-29,2024-08-28,DHAKA MINIMERCADO,,Presentment,,Hauptkonto,-3.0,3.0,EUR,1.0,Groceries
+2024-08-29,2024-08-28,DHAKA MINIMERCADO,,Presentment,,Hauptkonto,-4.0,4.0,EUR,1.0,Groceries
+2024-08-29,2024-08-29,A2,,Presentment,,Hauptkonto,-0.85,0.85,EUR,1.0,Groceries
+2024-08-29,2024-08-29,E.S.COINA N10,,Presentment,,Hauptkonto,-4.37,4.37,EUR,1.0,Groceries
+2024-08-29,2024-08-28,GUACAMOLE CAIS DO SO,,Presentment,,Hauptkonto,-16.5,16.5,EUR,1.0,Dining
+2024-08-29,2024-08-29,MARIE BLANCHERE,,Presentment,,Hauptkonto,-11.8,11.8,EUR,1.0,Dining
+2024-08-29,2024-08-29,PAYPAL *11TS,,Presentment Refund,,Hauptkonto,76.45,76.45,EUR,1.0,Reimbursements
+2024-08-30,2024-08-29,ALOMA,,Presentment,,Hauptkonto,-1.75,1.75,EUR,1.0,Groceries
+2024-08-30,2024-08-29,PAULA E RICARDO,,Presentment,,Hauptkonto,-5.59,5.59,EUR,1.0,Groceries
+2024-08-30,2024-08-29,MINIPRECO,,Presentment,,Hauptkonto,-7.48,7.48,EUR,1.0,Groceries
+2024-08-30,2024-08-29,Feel Rio City Square,,Presentment,,Hauptkonto,-23.0,23.0,EUR,1.0,Dining
+2024-08-30,2024-08-29,TRANSTEJO,,Presentment,,Hauptkonto,-6.0,6.0,EUR,1.0,Dining
+2024-08-30,2024-08-30,FAUNA E FLORA,,Presentment,,Hauptkonto,-38.0,38.0,EUR,1.0,Dining
+2024-08-30,2024-08-30,BOLT.EU/O/2408291320,,Presentment,,Hauptkonto,-5.04,5.04,EUR,1.0,Transportation
+2024-08-30,2024-08-30,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1036574706163/. Bolt Operations OU, Ihr Einkauf bei Bolt Operations OU",Hauptkonto,-1.92,,,,Transportation
+2024-08-30,2024-08-30,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1036574603583/. Bolt Operations OU, Ihr Einkauf bei Bolt Operations OU",Hauptkonto,-1.31,,,,Transportation
+2024-08-30,2024-08-30,PAYPAL *11TS,,Presentment Refund,,Hauptkonto,125.92,125.92,EUR,1.0,Reimbursements
+2024-08-31,2024-08-30,MINIPRECO,,Presentment,,Hauptkonto,-16.47,16.47,EUR,1.0,Groceries
+2024-08-31,2024-08-30,Fraport AG,,Presentment,,Hauptkonto,-1.0,1.0,EUR,1.0,Groceries
+2024-08-31,2024-08-30,AUCHAN DUQUE D AVILA,,Presentment,,Hauptkonto,-8.17,8.17,EUR,1.0,Groceries
+2024-08-31,2024-08-30,REST ATIRA TE AO RIO,,Presentment,,Hauptkonto,-125.0,125.0,EUR,1.0,Dining
+2024-08-31,2024-08-30,KFC 389,,Presentment,,Hauptkonto,-29.25,29.25,EUR,1.0,Dining
+2024-08-31,2024-08-30,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-6.3,6.3,EUR,1.0,Transportation
+2024-08-31,2024-08-31,BOLT.EU/R/2408301550,,Presentment,,Hauptkonto,-10.47,10.47,EUR,1.0,Transportation
+2024-08-31,2024-08-31,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-3.65,3.65,EUR,1.0,Transportation
+2024-08-31,2024-08-31,BOLT.EU/O/2408310016,,Presentment,,Hauptkonto,-24.8,24.8,EUR,1.0,Transportation
+2024-09-01,2024-08-31,Travelshop Hauptbahnho,,Presentment,,Hauptkonto,-4.0,4.0,EUR,1.0,Groceries
+2024-09-02,2024-09-02,City Chicken,,Presentment,,Hauptkonto,-5.9,5.9,EUR,1.0,Dining
+2024-09-02,2024-09-02,LIME*RIDE E5UO,,Presentment,,Hauptkonto,-4.24,4.24,EUR,1.0,Transportation
+2024-09-02,2024-09-02,UBR* PENDING.UBER.COM,,Presentment,,Hauptkonto,-34.87,34.87,EUR,1.0,Transportation
+2024-09-02,2024-09-02,22201492,,Presentment,,Hauptkonto,-70.0,70.0,EUR,1.0,Withdrawal
+2024-09-02,2024-09-02,PAYPAL *mholtmeier,,Presentment,,Hauptkonto,-15.0,15.0,EUR,1.0,Gifts
+2024-09-03,2024-09-03,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1036626541302/. Bolt Operations OU, Ihr Einkauf bei Bolt Operations OU",Hauptkonto,-1.44,,,,Transportation
+2024-09-04,2024-09-04,Netto Marken-Discount,,Presentment,,Hauptkonto,-4.07,4.07,EUR,1.0,Groceries
+2024-09-04,2024-09-04,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-96.91,96.91,EUR,1.0,Groceries
+2024-09-04,2024-09-04,Vietbowl Restaurant,,Presentment,,Hauptkonto,-15.0,15.0,EUR,1.0,Dining
+2024-09-04,2024-09-04,6868 Restaurant,,Presentment,,Hauptkonto,-12.4,12.4,EUR,1.0,Dining
+2024-09-04,2024-09-04,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-35.99,35.99,EUR,1.0,Transportation
+2024-09-04,2024-09-04,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-29.99,29.99,EUR,1.0,Transportation
+2024-09-05,2024-09-05,Brewdog Friedrichshain,,Presentment,,Hauptkonto,-98.67,98.67,EUR,1.0,Nightlife
+2024-09-06,2024-09-06,Netto Marken-Discount,,Presentment,,Hauptkonto,-7.32,7.32,EUR,1.0,Groceries
+2024-09-07,2024-09-06,Restaurant Vietbowl,,Presentment,,Hauptkonto,-15.0,15.0,EUR,1.0,Dining
+2024-09-07,2024-09-06,TICKETMASTER GERMANY,,Presentment,,Hauptkonto,-51.5,51.5,EUR,1.0,Entertainment
+2024-09-08,2024-09-08,APPLE.COM/BILL,,Presentment,,Hauptkonto,-2.99,2.99,EUR,1.0,Subscriptions
+2024-09-08,2024-09-08,Defshop GmbH,,Presentment,,Hauptkonto,-62.34,62.34,EUR,1.0,Clothing
+2024-09-09,2024-09-09,PAYPAL *pham.aqd,,Presentment,,Hauptkonto,-8.59,8.59,EUR,1.0,Dining
+2024-09-09,2024-09-08,WWW.MYPROTEIN.COM,,Presentment,,Hauptkonto,-41.93,41.93,EUR,1.0,Health & Fitness
+2024-09-09,2024-09-09,EGYM Wellpass GmbH,DE95120700700020000255,Direct Debit,EGYM Wellpass GmbH Wellpass Mitgliedsbeitrag 09.2024 96d77d79980744b3b29501791c39d6a2,Hauptkonto,-10.0,,,,Health & Fitness
+2024-09-11,2024-09-10,DB Fernverkehr AG,,Presentment,,Hauptkonto,-8.4,8.4,EUR,1.0,Transportation
+2024-09-11,2024-09-11,PAYPAL *Juk5450,,Presentment,,Hauptkonto,-50.0,50.0,EUR,1.0,Withdrawal
+2024-09-12,2024-09-12,wyld Tagesbar & Concep,,Presentment,,Hauptkonto,-8.58,8.58,EUR,1.0,Dining
+2024-09-12,2024-09-11,VOI DE,,Presentment,,Hauptkonto,-1.83,1.83,EUR,1.0,Transportation
+2024-09-12,2024-09-11,VOI DE,,Presentment,,Hauptkonto,-1.83,1.83,EUR,1.0,Transportation
+2024-09-12,2024-09-12,AMAZON* X77NX05D5,,Presentment,,Hauptkonto,-417.74,417.74,EUR,1.0,Home Improvement
+2024-09-13,2024-09-12,VOI DE,,Presentment,,Hauptkonto,-1.83,1.83,EUR,1.0,Transportation
+2024-09-13,2024-09-13,Vodafone Deutschland GmbH,DE13380700590045335700,Direct Debit,09/2024 K-NR. 333136237 Ihre Rechnung online bei www.vodafone.de/meinkabel,Hauptkonto,-62.98,,,,Housing & Utilities
+2024-09-15,2024-09-14,Lidl sagt Danke,,Presentment,,Hauptkonto,-19.55,19.55,EUR,1.0,Groceries
+2024-09-15,2024-09-15,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-25.2,25.2,EUR,1.0,Transportation
+2024-09-15,2024-09-15,Spotify,,Presentment,,Hauptkonto,-17.99,17.99,EUR,1.0,Subscriptions
+2024-09-15,2024-09-14,ZARA 14813 STU KONIGST,,Presentment,,Hauptkonto,-73.05,73.05,EUR,1.0,Clothing
+2024-09-16,2024-09-16,YORMAS AG,,Presentment,,Hauptkonto,-10.4,10.4,EUR,1.0,Dining
+2024-09-16,2024-09-16,SumUp  *Vibe Taxi und,,Presentment,,Hauptkonto,-34.0,34.0,EUR,1.0,Transportation
+2024-09-16,2024-09-16,VOI DE,,Presentment,,Hauptkonto,-1.62,1.62,EUR,1.0,Transportation
+2024-09-16,2024-09-16,SPARKASSE KARLSRUHE,,Presentment,,Hauptkonto,-110.0,110.0,EUR,1.0,Withdrawal
+2024-09-17,2024-09-17,City Chicken,,Presentment,,Hauptkonto,-13.9,13.9,EUR,1.0,Dining
+2024-09-17,2024-09-17,Restaurant Vietbowl,,Presentment,,Hauptkonto,-16.39,16.39,EUR,1.0,Dining
+2024-09-17,2024-09-17,BVG APP/ONLINE LOGPAY,,Presentment,,Hauptkonto,-2.4,2.4,EUR,1.0,Transportation
+2024-09-18,2024-09-18,Deutsche Post AG,,Presentment,,Hauptkonto,-1.6,1.6,EUR,1.0,Groceries
+2024-09-18,2024-09-18,BOLT.EU/O/2409180207,,Presentment,,Hauptkonto,-42.3,42.3,EUR,1.0,Transportation
+2024-09-18,2024-09-18,NETFLIX.COM,,Presentment,,Hauptkonto,-4.99,4.99,EUR,1.0,Subscriptions
+2024-09-18,2024-09-18,Victoria Reichart,DE24260500010156032781,Credit Transfer,Uber zum Flughafen (Griechenland),Hauptkonto,20.0,,,,Reimbursements
+2024-09-18,2024-09-18,Victoria Reichart,DE24260500010156032781,Credit Transfer,Griechenland Hotel 2. Zahlung vor Ort,Hauptkonto,169.0,,,,Reimbursements
+2024-09-20,2024-09-19,SQUARE DELICIOUS,,Presentment,,Hauptkonto,-4.0,4.0,EUR,1.0,Dining
+2024-09-20,2024-09-19,PAP CHOTELS A.E.,,Presentment,,Hauptkonto,-12.0,12.0,EUR,1.0,Dining
+2024-09-20,2024-09-20,CASUALFOOD  3580 1,,Presentment,,Hauptkonto,-19.0,19.0,EUR,1.0,Dining
+2024-09-20,2024-09-20,ARISTA THEOCHARIDIS,,Presentment,,Hauptkonto,-15.9,15.9,EUR,1.0,Dining
+2024-09-20,2024-09-20,PAP CHOTELS A.E.,,Presentment,,Hauptkonto,-17.0,17.0,EUR,1.0,Dining
+2024-09-20,2024-09-20,PAP CHOTELS A.E.,,Presentment,,Hauptkonto,-9.5,9.5,EUR,1.0,Dining
+2024-09-20,2024-09-20,TICKETMASTER GERMANY,,Presentment,,Hauptkonto,-316.0,316.0,EUR,1.0,Entertainment
+2024-09-20,2024-09-19,PAP HOTELS,,Presentment,,Hauptkonto,-338.0,338.0,EUR,1.0,Accommodation
+2024-09-21,2024-09-21,SQUARE DELICIOUS,,Presentment,,Hauptkonto,-2.5,2.5,EUR,1.0,Dining
+2024-09-21,2024-09-21,PAP CHOTELS A.E.,,Presentment,,Hauptkonto,-11.0,11.0,EUR,1.0,Dining
+2024-09-23,2024-09-22,KASSANDRA ICE CREAM,,Presentment,,Hauptkonto,-5.5,5.5,EUR,1.0,Dining
+2024-09-23,2024-09-22,PAP CHOTELS A.E.,,Presentment,,Hauptkonto,-12.0,12.0,EUR,1.0,Dining
+2024-09-23,2024-09-22,VASOS MATAMIS,,Presentment,,Hauptkonto,-10.0,10.0,EUR,1.0,Dining
+2024-09-23,2024-09-23,ANESIADIS CHARILAO,,Presentment,,Hauptkonto,-19.0,19.0,EUR,1.0,Dining
+2024-09-23,2024-09-23,FYSI KAI PARADOSI,,Presentment,,Hauptkonto,-13.5,13.5,EUR,1.0,Dining
+2024-09-23,2024-09-23,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-4.4,4.4,EUR,1.0,Transportation
+2024-09-23,2024-09-23,STAMOS STAMOS,,Presentment,,Hauptkonto,-21.0,21.0,EUR,1.0,Nightlife
+2024-09-24,2024-09-23,A TSALDARIS E E,,Presentment,,Hauptkonto,-146.0,146.0,EUR,1.0,Dining
+2024-09-24,2024-09-24,SumUp  *Yarok Restaura,,Presentment,,Hauptkonto,-7.0,7.0,EUR,1.0,Dining
+2024-09-24,2024-09-23,GINGERBAR,,Presentment,,Hauptkonto,-62.7,62.7,EUR,1.0,Nightlife
+2024-09-25,2024-09-24,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-68.2,68.2,EUR,1.0,Groceries
+2024-09-25,2024-09-24,DUTY FREE,,Presentment,,Hauptkonto,-1.8,1.8,EUR,1.0,Groceries
+2024-09-25,2024-09-25,SSP HELLAS/BURGER KING,,Presentment,,Hauptkonto,-15.0,15.0,EUR,1.0,Dining
+2024-09-26,2024-09-25,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-14.99,14.99,EUR,1.0,Transportation
+2024-09-26,2024-09-26,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-29.99,29.99,EUR,1.0,Transportation
+2024-09-27,2024-09-27,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-7.02,7.02,EUR,1.0,Groceries
+2024-09-27,2024-09-27,Sophien-Apotheke,,Presentment,,Hauptkonto,-12.57,12.57,EUR,1.0,Groceries
+2024-09-27,2024-09-27,Vodafone GmbH,DE04700202700015434515,Direct Debit,0000117893576 0019809122409                                           Rechnungsnr: 120884724739          KdNr. 117893576 Vodafone sagt Danke,Hauptkonto,-13.99,,,,Subscriptions
+2024-09-27,2024-09-27,1komma5. GmbH,DE50240603008546053200,Credit Transfer,LOHN / GEHALT         09/24,Hauptkonto,3264.98,,,,Income
+2024-09-28,2024-09-28,HM.COM,,Presentment,,Hauptkonto,-39.98,39.98,EUR,1.0,Clothing
+2024-09-28,2024-09-28,AMAZON* X77NX05D5,,Presentment Refund,,Hauptkonto,37.85,37.85,EUR,1.0,Reimbursements
+2024-09-28,2024-09-28,AMAZON* X77NX05D5,,Presentment Refund,,Hauptkonto,10.99,10.99,EUR,1.0,Reimbursements
+2024-09-30,2024-09-30,Sarah Decoine,DE49100500001069883758,Debit Transfer,Miete,Hauptkonto,-824.59,,,,Housing & Utilities
+2024-09-30,2024-09-30,QX QUARTERLY CROSSING GMBH,DE90500400000316455500,Direct Debit,Beitrag QX,Hauptkonto,-46.41,,,,Education & Productivity
+2024-10-02,2024-10-01,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-47.79,47.79,EUR,1.0,Transportation
+2024-10-02,2024-10-01,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-55.99,55.99,EUR,1.0,Transportation
+2024-10-03,2024-10-02,Axel Bruegmann GmbH,,Presentment,,Hauptkonto,-1.8,1.8,EUR,1.0,Groceries
+2024-10-04,2024-10-04,Fernanda Rosas Mayoral,DE48640500000009170199,Credit Transfer,lisbon,Hauptkonto,245.5,,,,Reimbursements
+2024-10-04,2024-10-04,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Credit Transfer,PP.5079.PP/ABBUCHUNG VOM PAYPAL-KONTO,Hauptkonto,219.19,,,,Reimbursements
+2024-10-06,2024-10-05,KFC 364 GÖTTINGEN,,Presentment,,Hauptkonto,-15.48,15.48,EUR,1.0,Dining
+2024-10-06,2024-10-06,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-27.0,27.0,EUR,1.0,Transportation
+2024-10-06,2024-10-06,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-44.99,44.99,EUR,1.0,Transportation
+2024-10-07,2024-10-07,Cofana GmbH,DE49600501010405737370,Debit Transfer,112663,Hauptkonto,-23.5,,,,Nightlife
+2024-10-08,2024-10-07,LE CROBAG 5020,,Presentment,,Hauptkonto,-2.1,2.1,EUR,1.0,Dining
+2024-10-08,2024-10-08,1894 Bistro & Bar,,Presentment,,Hauptkonto,-195.47,195.47,EUR,1.0,Dining
+2024-10-08,2024-10-08,AMZN Mktp DE*TO8ZJ6QK4,,Presentment,,Hauptkonto,-70.76,70.76,EUR,1.0,Home Improvement
+2024-10-08,2024-10-08,EGYM Wellpass GmbH,DE95120700700020000255,Direct Debit,EGYM Wellpass GmbH Wellpass Mitgliedsbeitrag 10.2024 96d77d79980744b3b29501791c39d6a2,Hauptkonto,-10.0,,,,Health & Fitness
+2024-10-08,2024-10-08,APPLE.COM/BILL,,Presentment,,Hauptkonto,-2.99,2.99,EUR,1.0,Subscriptions
+2024-10-09,2024-10-08,MEDIA MARKT,,Presentment,,Hauptkonto,-114.99,114.99,EUR,1.0,Other
+2024-10-09,2024-10-09,GRUNDEIGENTÜMER- VERSICHERUNG VVaG,DE79430609671283768400,Direct Debit,Lastschrifteinzug zu Ihrem Vertrag  1012000720176546 Privathaftpflichtversicherung,Hauptkonto,-29.6,,,,Insurance
+2024-10-10,2024-10-09,BÄCKEREI MOOCK,,Presentment,,Hauptkonto,-6.6,6.6,EUR,1.0,Dining
+2024-10-10,2024-10-10,PAYPAL *emilia.trinh,,Presentment,,Hauptkonto,-33.72,33.72,EUR,1.0,Dining
+2024-10-11,2024-10-11,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-59.41,59.41,EUR,1.0,Groceries
+2024-10-12,2024-10-11,6868 Restaurant,,Presentment,,Hauptkonto,-9.9,9.9,EUR,1.0,Dining
+2024-10-12,2024-10-12,PAYPAL *fh.fabianholst,,Presentment,,Hauptkonto,-15.0,15.0,EUR,1.0,Dining
+2024-10-12,2024-10-12,Noto Bar und Restauran,,Presentment,,Hauptkonto,-21.8,21.8,EUR,1.0,Dining
+2024-10-12,2024-10-12,PAYPAL *sonja.janker,,Presentment,,Hauptkonto,-19.0,19.0,EUR,1.0,Dining
+2024-10-12,2024-10-12,PAYPAL *11TS,,Presentment Refund,,Hauptkonto,283.33,283.33,EUR,1.0,Reimbursements
+2024-10-12,2024-10-12,PAYPAL *11TS,,Presentment Refund,,Hauptkonto,157.41,157.41,EUR,1.0,Reimbursements
+2024-10-13,2024-10-12,Baecker Taudien,,Presentment,,Hauptkonto,-10.75,10.75,EUR,1.0,Dining
+2024-10-13,2024-10-13,Roeststaette Berlin,,Presentment,,Hauptkonto,-13.54,13.54,EUR,1.0,Dining
+2024-10-13,2024-10-13,Sammys Berliner Donuts,,Presentment,,Hauptkonto,-4.4,4.4,EUR,1.0,Dining
+2024-10-13,2024-10-13,Etsy.com*Multiple Shop,,Presentment,,Hauptkonto,-26.53,26.53,EUR,1.0,Home Improvement
+2024-10-14,2024-10-14,Vodafone Deutschland GmbH,DE13380700590045335700,Direct Debit,10/2024 K-NR. 333136237 Ihre Rechnung online bei www.vodafone.de/meinkabel,Hauptkonto,-62.98,,,,Housing & Utilities
+2024-10-14,2024-10-14,AMAZON* X77NX05D5,,Presentment Refund,,Hauptkonto,219.99,219.99,EUR,1.0,Reimbursements
+2024-10-15,2024-10-15,Spotify,,Presentment,,Hauptkonto,-17.99,17.99,EUR,1.0,Subscriptions
+2024-10-17,2024-10-17,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-78.14,78.14,EUR,1.0,Groceries
+2024-10-18,2024-10-17,KONDITOREI TILLMAN,,Presentment,,Hauptkonto,-3.0,3.0,EUR,1.0,Dining
+2024-10-19,2024-10-19,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-1.15,1.15,EUR,1.0,Groceries
+2024-10-19,2024-10-18,Coreen Korean Restaura,,Presentment,,Hauptkonto,-50.6,50.6,EUR,1.0,Dining
+2024-10-19,2024-10-18,KONDITOREI TILLMAN,,Presentment,,Hauptkonto,-10.65,10.65,EUR,1.0,Dining
+2024-10-19,2024-10-18,NETFLIX.COM,,Presentment,,Hauptkonto,-4.99,4.99,EUR,1.0,Subscriptions
+2024-10-19,2024-10-19,UZR*PREMIUM Entertainm,,Presentment,,Hauptkonto,-31.0,31.0,EUR,1.0,Entertainment
+2024-10-20,2024-10-20,COFFEE FELLOWS ALEX 2,,Presentment,,Hauptkonto,-2.4,2.4,EUR,1.0,Dining
+2024-10-20,2024-10-20,VOI DE,,Presentment,,Hauptkonto,-2.43,2.43,EUR,1.0,Transportation
+2024-10-21,2024-10-21,SumUp  *Yarok Restaura,,Presentment,,Hauptkonto,-3.0,3.0,EUR,1.0,Dining
+2024-10-21,2024-10-20,www.vabali.de,,Presentment,,Hauptkonto,-7.0,7.0,EUR,1.0,Entertainment
+2024-10-22,2024-10-21,Baecker Taudien,,Presentment,,Hauptkonto,-17.8,17.8,EUR,1.0,Dining
+2024-10-22,2024-10-22,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1037700534945/. MILES Mobility GmbH, Ihr Einkauf bei MILES Mobility GmbH",Hauptkonto,-3.97,,,,Transportation
+2024-10-22,2024-10-22,BOLT.EU/R/2410212123,,Presentment,,Hauptkonto,-5.85,5.85,EUR,1.0,Transportation
+2024-10-22,2024-10-22,BOLT.EU/R/2410212122,,Presentment,,Hauptkonto,-30.0,30.0,EUR,1.0,Transportation
+2024-10-22,2024-10-22,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1037696007190/. MILES Mobility GmbH, Ihr Einkauf bei MILES Mobility GmbH",Hauptkonto,-0.87,,,,Transportation
+2024-10-22,2024-10-22,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1037672067320/. Bolt Operations OU, Ihr Einkauf bei Bolt Operations OU",Hauptkonto,-3.36,,,,Transportation
+2024-10-22,2024-10-22,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1037671406304/. Bolt Operations OU, Ihr Einkauf bei Bolt Operations OU",Hauptkonto,-2.31,,,,Transportation
+2024-10-22,2024-10-22,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1037662431612/. Bolt Operations OU, Ihr Einkauf bei Bolt Operations OU",Hauptkonto,-14.6,,,,Transportation
+2024-10-22,2024-10-21,Vabali Spa Berlin,,Presentment,,Hauptkonto,-128.8,128.8,EUR,1.0,Entertainment
+2024-10-23,2024-10-23,City Chicken,,Presentment,,Hauptkonto,-17.64,17.64,EUR,1.0,Dining
+2024-10-23,2024-10-23,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-23.75,23.75,EUR,1.0,Transportation
+2024-10-23,2024-10-23,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-30.35,30.35,EUR,1.0,Transportation
+2024-10-23,2024-10-23,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-26.39,26.39,EUR,1.0,Transportation
+2024-10-23,2024-10-23,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1037720181415/. Bolt Operations OU, Ihr Einkauf bei Bolt Operations OU",Hauptkonto,-12.9,,,,Transportation
+2024-10-25,2024-10-24,SumUp  *Cafe Ribo,,Presentment,,Hauptkonto,-3.2,3.2,EUR,1.0,Dining
+2024-10-25,2024-10-24,Asman,,Presentment,,Hauptkonto,-9.5,9.5,EUR,1.0,Dining
+2024-10-25,2024-10-25,Sarah Decoine,DE49100500001069883758,Debit Transfer,Miete,Hauptkonto,-824.59,,,,Housing & Utilities
+2024-10-26,2024-10-26,Flink SE,,Presentment,,Hauptkonto,-17.65,17.65,EUR,1.0,Groceries
+2024-10-26,2024-10-25,Zettle_*Sanctuary - It,,Presentment,,Hauptkonto,-3.4,3.4,EUR,1.0,Dining
+2024-10-26,2024-10-25,Tor Kebap,,Presentment,,Hauptkonto,-11.0,11.0,EUR,1.0,Dining
+2024-10-26,2024-10-26,6868 Restaurant,,Presentment,,Hauptkonto,-9.9,9.9,EUR,1.0,Dining
+2024-10-26,2024-10-26,Back Galerie,,Presentment,,Hauptkonto,-5.3,5.3,EUR,1.0,Dining
+2024-10-27,2024-10-27,REWE Michael Roth oHG,,Presentment,,Hauptkonto,-22.79,22.79,EUR,1.0,Groceries
+2024-10-27,2024-10-27,REWE Michael Roth oHG,,Presentment,,Hauptkonto,-13.74,13.74,EUR,1.0,Groceries
+2024-10-27,2024-10-27,DB Fernverkehr AG,,Presentment,,Hauptkonto,-6.9,6.9,EUR,1.0,Transportation
+2024-10-27,2024-10-27,Uniqlo 205,,Presentment,,Hauptkonto,-29.9,29.9,EUR,1.0,Clothing
+2024-10-28,2024-10-28,SumUp  *Tiramistu,,Presentment,,Hauptkonto,-7.9,7.9,EUR,1.0,Dining
+2024-10-28,2024-10-28,VOI DE,,Presentment,,Hauptkonto,-1.62,1.62,EUR,1.0,Transportation
+2024-10-28,2024-10-28,VOI DE,,Presentment,,Hauptkonto,-1.62,1.62,EUR,1.0,Transportation
+2024-10-28,2024-10-28,Vodafone GmbH,DE04700202700015434515,Direct Debit,0000117893576 0019868798613                                           Rechnungsnr: 120955950882          KdNr. 117893576 Vodafone sagt Danke,Hauptkonto,-13.99,,,,Subscriptions
+2024-10-29,2024-10-29,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1037826714980/. MILES Mobility GmbH, Ihr Einkauf bei MILES Mobility GmbH",Hauptkonto,-10.0,,,,Transportation
+2024-10-29,2024-10-29,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1037826715536/PP.5079.PP/. MILES Mobility GmbH, Ihr Einkauf bei MILES Mobility GmbH",Hauptkonto,-3.87,,,,Transportation
+2024-10-30,2024-10-29,KATZ DER BÄCKER GMBH,,Presentment,,Hauptkonto,-11.15,11.15,EUR,1.0,Dining
+2024-10-30,2024-10-30,1komma5. GmbH,DE50240603008546053200,Credit Transfer,LOHN / GEHALT         10/24,Hauptkonto,3264.98,,,,Income
+2024-11-01,2024-10-31,UZR*Cheng Zhang FOMOSA,,Presentment,,Hauptkonto,-100.0,100.0,EUR,1.0,Withdrawal
+2024-11-02,2024-11-01,YORMAS AG,,Presentment,,Hauptkonto,-5.7,5.7,EUR,1.0,Dining
+2024-11-02,2024-11-01,YORMAS AG,,Presentment,,Hauptkonto,-3.3,3.3,EUR,1.0,Dining
+2024-11-02,2024-11-02,Das Backhaus,,Presentment,,Hauptkonto,-2.7,2.7,EUR,1.0,Dining
+2024-11-02,2024-11-01,DB Fernverkehr AG,,Presentment,,Hauptkonto,-16.8,16.8,EUR,1.0,Transportation
+2024-11-02,2024-11-01,Landesbank Baden-Wuert,,Presentment,,Hauptkonto,-60.0,60.0,EUR,1.0,Withdrawal
+2024-11-03,2024-11-02,REWE Goettingen/Ge,,Presentment,,Hauptkonto,-42.01,42.01,EUR,1.0,Groceries
+2024-11-03,2024-11-02,FIZ Goettingen,,Presentment,,Hauptkonto,-5.0,5.0,EUR,1.0,Health & Fitness
+2024-11-04,2024-11-03,Alfred Ewert-Tee u.Gew,,Presentment,,Hauptkonto,-10.3,10.3,EUR,1.0,Groceries
+2024-11-04,2024-11-03,DM-Drogerie Markt,,Presentment,,Hauptkonto,-6.45,6.45,EUR,1.0,Groceries
+2024-11-04,2024-11-04,AMZN Mktp DE*TX9Y53FS4,,Presentment,,Hauptkonto,-378.11,378.11,EUR,1.0,Other
+2024-11-05,2024-11-05,City Chicken,,Presentment,,Hauptkonto,-6.9,6.9,EUR,1.0,Dining
+2024-11-05,2024-11-05,6868 Restaurant,,Presentment,,Hauptkonto,-10.5,10.5,EUR,1.0,Dining
+2024-11-05,2024-11-04,LIME*RIDE E5UO,,Presentment,,Hauptkonto,-4.68,4.68,EUR,1.0,Transportation
+2024-11-06,2024-11-06,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-98.69,98.69,EUR,1.0,Groceries
+2024-11-06,2024-11-06,Eva Siegelkow,DE40260400300642755300,Credit Transfer,Galaxy S20,Hauptkonto,380.0,,,,Reimbursements
+2024-11-07,2024-11-06,Baecker Taudien,,Presentment,,Hauptkonto,-3.95,3.95,EUR,1.0,Dining
+2024-11-08,2024-11-08,APPLE.COM/BILL,,Presentment,,Hauptkonto,-2.99,2.99,EUR,1.0,Subscriptions
+2024-11-09,2024-11-09,APPLE.COM/BILL,,Presentment,,Hauptkonto,-6.99,6.99,EUR,1.0,Subscriptions
+2024-11-11,2024-11-10,City Chicken,,Presentment,,Hauptkonto,-14.3,14.3,EUR,1.0,Dining
+2024-11-11,2024-11-11,City Chicken,,Presentment,,Hauptkonto,-6.9,6.9,EUR,1.0,Dining
+2024-11-11,2024-11-11,Baecker Taudien,,Presentment,,Hauptkonto,-6.6,6.6,EUR,1.0,Dining
+2024-11-11,2024-11-11,SP CERASCREEN DANKE,,Presentment,,Hauptkonto,-125.91,125.91,EUR,1.0,Health & Fitness
+2024-11-11,2024-11-11,PAYPAL *lynncunningham,,Presentment,,Hauptkonto,-13.0,13.0,EUR,1.0,Nightlife
+2024-11-12,2024-11-12,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-60.88,60.88,EUR,1.0,Groceries
+2024-11-12,2024-11-12,City Chicken,,Presentment,,Hauptkonto,-6.9,6.9,EUR,1.0,Dining
+2024-11-13,2024-11-12,Baecker Taudien,,Presentment,,Hauptkonto,-1.0,1.0,EUR,1.0,Dining
+2024-11-13,2024-11-13,EGYM Wellpass GmbH,DE52100190001000027873,Direct Debit,EGYM Wellpass GmbH Wellpass-Mitgliedsbeitrag-11.2024-96d77d79980744b3b29501791c39d6a2,Hauptkonto,-10.0,,,,Health & Fitness
+2024-11-13,2024-11-13,1komma5. GmbH,DE50240603008546053200,Credit Transfer,"RNr. 20241109-b2b-leadership-teammeeting-,20241109-b2b-leadership-teammeeting-,20241109-team-offsite-hahnenklee,20241109-team-offsite-hahnen",Hauptkonto,371.24,,,,Reimbursements
+2024-11-14,2024-11-14,PAYPAL *gero.klingler,,Presentment,,Hauptkonto,-11.0,11.0,EUR,1.0,Dining
+2024-11-14,2024-11-14,Vodafone Deutschland GmbH,DE13380700590045335700,Direct Debit,11/2024 K-NR. 333136237 Ihre Rechnung online bei www.vodafone.de/meinkabel,Hauptkonto,-62.98,,,,Housing & Utilities
+2024-11-15,2024-11-14,Backbaron Rosenthal Pl,,Presentment,,Hauptkonto,-3.6,3.6,EUR,1.0,Dining
+2024-11-15,2024-11-15,Smash,,Presentment,,Hauptkonto,-16.9,16.9,EUR,1.0,Dining
+2024-11-15,2024-11-14,BVG APP/ONLINE LOGPAY,,Presentment,,Hauptkonto,-10.8,10.8,EUR,1.0,Transportation
+2024-11-15,2024-11-15,Spotify,,Presentment,,Hauptkonto,-17.99,17.99,EUR,1.0,Subscriptions
+2024-11-17,2024-11-17,Zettle_*LH Brands GmbH,,Presentment,,Hauptkonto,-23.76,23.76,EUR,1.0,Dining
+2024-11-17,2024-11-17,DECATHLON Deutschland,,Presentment Refund,,Hauptkonto,11.98,11.98,EUR,1.0,Reimbursements
+2024-11-18,2024-11-17,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-78.35,78.35,EUR,1.0,Groceries
+2024-11-18,2024-11-17,SPC*Birds in the Kitch,,Presentment,,Hauptkonto,-28.7,28.7,EUR,1.0,Dining
+2024-11-18,2024-11-18,PAYPAL *fer.rosasm,,Presentment,,Hauptkonto,-12.0,12.0,EUR,1.0,Entertainment
+2024-11-18,2024-11-18,PAYPAL *viktor.guemues,,Presentment,,Hauptkonto,-154.0,154.0,EUR,1.0,Entertainment
+2024-11-19,2024-11-18,Baecker Taudien,,Presentment,,Hauptkonto,-3.8,3.8,EUR,1.0,Dining
+2024-11-19,2024-11-18,Baecker Taudien,,Presentment,,Hauptkonto,-3.9,3.9,EUR,1.0,Dining
+2024-11-19,2024-11-19,Formidable,,Presentment,,Hauptkonto,-10.4,10.4,EUR,1.0,Dining
+2024-11-19,2024-11-19,Copy Clara,,Presentment,,Hauptkonto,-20.0,20.0,EUR,1.0,Home Improvement
+2024-11-19,2024-11-19,Berliner Sparkasse,,Presentment,,Hauptkonto,-60.0,60.0,EUR,1.0,Withdrawal
+2024-11-19,2024-11-18,NETFLIX.COM,,Presentment,,Hauptkonto,-4.99,4.99,EUR,1.0,Subscriptions
+2024-11-19,2024-11-19,Contra Tischtennis,,Presentment,,Hauptkonto,-131.62,131.62,EUR,1.0,Other
+2024-11-20,2024-11-20,Ace  Tate Germany Gmb,,Presentment,,Hauptkonto,-155.0,155.0,EUR,1.0,Other
+2024-11-21,2024-11-20,EDEKA Kiezmarkt TStr,,Presentment,,Hauptkonto,-32.9,32.9,EUR,1.0,Groceries
+2024-11-21,2024-11-21,AMZN Mktp DE*TE9TE1FU4,,Presentment,,Hauptkonto,-292.2,292.2,EUR,1.0,Home Improvement
+2024-11-22,2024-11-21,Kiezmarkt LH GmbH,,Presentment,,Hauptkonto,-1.25,1.25,EUR,1.0,Groceries
+2024-11-22,2024-11-21,EDEKA Kiezmarkt TStr,,Presentment,,Hauptkonto,-16.07,16.07,EUR,1.0,Groceries
+2024-11-22,2024-11-21,Chickenbuzz Restaurant,,Presentment,,Hauptkonto,-30.0,30.0,EUR,1.0,Dining
+2024-11-22,2024-11-22,RESIDENT ADVISOR TICKE,,Presentment,,Hauptkonto,-35.2,35.2,EUR,1.0,Nightlife
+2024-11-23,2024-11-23,Amrit Restaurant Kreuz,,Presentment,,Hauptkonto,-70.29,70.29,EUR,1.0,Dining
+2024-11-23,2024-11-23,Paolo Pinkel,,Presentment,,Hauptkonto,-37.0,37.0,EUR,1.0,Nightlife
+2024-11-23,2024-11-23,Paolo Pinkel,,Presentment,,Hauptkonto,-12.91,12.91,EUR,1.0,Nightlife
+2024-11-24,2024-11-24,Flink SE,,Presentment,,Hauptkonto,-17.95,17.95,EUR,1.0,Groceries
+2024-11-24,2024-11-23,UBR* PENDING.UBER.COM,,Presentment,,Hauptkonto,-11.91,11.91,EUR,1.0,Transportation
+2024-11-24,2024-11-24,VOI DE,,Presentment,,Hauptkonto,-2.43,2.43,EUR,1.0,Transportation
+2024-11-24,2024-11-24,VOI DE,,Presentment,,Hauptkonto,-2.67,2.67,EUR,1.0,Transportation
+2024-11-24,2024-11-23,Copy Clara,,Presentment,,Hauptkonto,-80.0,80.0,EUR,1.0,Home Improvement
+2024-11-24,2024-11-23,LSP*Renate,,Presentment,,Hauptkonto,-6.44,6.44,EUR,1.0,Nightlife
+2024-11-25,2024-11-25,EDEKA Sapphire,,Presentment,,Hauptkonto,-12.41,12.41,EUR,1.0,Groceries
+2024-11-25,2024-11-25,KONDITOREI TILLMAN,,Presentment,,Hauptkonto,-5.05,5.05,EUR,1.0,Dining
+2024-11-25,2024-11-25,Taqueria El Oso,,Presentment,,Hauptkonto,-63.52,63.52,EUR,1.0,Dining
+2024-11-25,2024-11-25,Sarah Decoine,DE49100500001069883758,Debit Transfer,Miete,Hauptkonto,-824.59,,,,Housing & Utilities
+2024-11-26,2024-11-26,EDEKA Kiezmarkt TStr,,Presentment,,Hauptkonto,-46.22,46.22,EUR,1.0,Groceries
+2024-11-28,2024-11-27,Rossmann 3900,,Presentment,,Hauptkonto,-14.45,14.45,EUR,1.0,Groceries
+2024-11-28,2024-11-28,Vodafone GmbH,DE04700202700015434515,Direct Debit,0000117893576 0019928700941                                           Rechnungsnr: 121027231707          KdNr. 117893576 Vodafone sagt Danke,Hauptkonto,-14.07,,,,Subscriptions
+2024-11-28,2024-11-28,1komma5. GmbH,DE50240603008546053200,Credit Transfer,LOHN / GEHALT         11/24,Hauptkonto,3264.98,,,,Income
+2024-11-30,2024-11-29,Sophien-Apotheke,,Presentment,,Hauptkonto,-16.5,16.5,EUR,1.0,Groceries
+2024-11-30,2024-11-30,BOLT.EU/P/2411291841,,Presentment,,Hauptkonto,-3.99,3.99,EUR,1.0,Transportation
+2024-11-30,2024-11-29,CinemaxX Movietainment,,Presentment,,Hauptkonto,-16.97,16.97,EUR,1.0,Entertainment
+2024-11-30,2024-11-29,CinemaxX Movietainment,,Presentment,,Hauptkonto,-26.98,26.98,EUR,1.0,Entertainment
+2024-12-01,2024-12-01,UBER   *TRIP,,Presentment,,Hauptkonto,-9.97,9.97,EUR,1.0,Transportation
+2024-12-01,2024-12-01,VOI DE,,Presentment,,Hauptkonto,-3.39,3.39,EUR,1.0,Transportation
+2024-12-01,2024-11-30,SumUp  *Schaustellerbe,,Presentment,,Hauptkonto,-8.0,8.0,EUR,1.0,Nightlife
+2024-12-02,2024-12-01,SumUp  *Uwe Speer,,Presentment,,Hauptkonto,-24.0,24.0,EUR,1.0,Nightlife
+2024-12-04,2024-12-03,Flink SE,,Presentment,,Hauptkonto,-24.55,24.55,EUR,1.0,Groceries
+2024-12-04,2024-12-03,Espresso house 21017,,Presentment,,Hauptkonto,-8.2,8.2,EUR,1.0,Dining
+2024-12-04,2024-12-03,SPC*Birds in the Kitch,,Presentment,,Hauptkonto,-33.3,33.3,EUR,1.0,Dining
+2024-12-04,2024-12-03,Wolt,,Presentment,,Hauptkonto,-22.9,22.9,EUR,1.0,Dining
+2024-12-04,2024-12-03,LIME*RIDE E5UO,,Presentment,,Hauptkonto,-2.35,2.35,EUR,1.0,Transportation
+2024-12-04,2024-12-03,LIME*RIDE E5UO,,Presentment,,Hauptkonto,-2.66,2.66,EUR,1.0,Transportation
+2024-12-04,2024-12-03,LIME*RIDE E5UO,,Presentment,,Hauptkonto,-2.42,2.42,EUR,1.0,Transportation
+2024-12-05,2024-12-04,6868 Restaurant,,Presentment,,Hauptkonto,-9.9,9.9,EUR,1.0,Dining
+2024-12-06,2024-12-05,Lotto Postshop Biesel,,Presentment,,Hauptkonto,-5.24,5.24,EUR,1.0,Other
+2024-12-08,2024-12-07,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-47.98,47.98,EUR,1.0,Groceries
+2024-12-08,2024-12-06,HoDoRi,,Presentment,,Hauptkonto,-53.0,53.0,EUR,1.0,Dining
+2024-12-08,2024-12-07,6868 Restaurant,,Presentment,,Hauptkonto,-10.5,10.5,EUR,1.0,Dining
+2024-12-08,2024-12-07,BOLT.EU/R/2412070124,,Presentment,,Hauptkonto,-4.14,4.14,EUR,1.0,Transportation
+2024-12-08,2024-12-07,PAYPAL *dieletztewiese,,Presentment,,Hauptkonto,-0.01,0.01,EUR,1.0,Nightlife
+2024-12-08,2024-12-07,AIRBNB * HM4EHM2ZTR,,Presentment,,Hauptkonto,-699.47,699.47,EUR,1.0,Accommodation
+2024-12-09,2024-12-09,VOI DE,,Presentment,,Hauptkonto,-9.63,9.63,EUR,1.0,Transportation
+2024-12-09,2024-12-09,VOI DE,,Presentment,,Hauptkonto,-3.15,3.15,EUR,1.0,Transportation
+2024-12-09,2024-12-09,22201598,,Presentment,,Hauptkonto,-40.0,40.0,EUR,1.0,Withdrawal
+2024-12-09,2024-12-09,EGYM Wellpass GmbH,DE52100190001000027873,Direct Debit,EGYM Wellpass GmbH Wellpass-Mitgliedsbeitrag-12.2024-96d77d79980744b3b29501791c39d6a2,Hauptkonto,-10.0,,,,Health & Fitness
+2024-12-09,2024-12-08,APPLE.COM/BILL,,Presentment,,Hauptkonto,-2.99,2.99,EUR,1.0,Subscriptions
+2024-12-10,2024-12-09,St. Oberholz ¦ Rosenth,,Presentment,,Hauptkonto,-5.17,5.17,EUR,1.0,Coffee
+2024-12-10,2024-12-09,St. Oberholz ¦ Rosenth,,Presentment,,Hauptkonto,-13.4,13.4,EUR,1.0,Coffee
+2024-12-11,2024-12-10,Baecker Taudien,,Presentment,,Hauptkonto,-5.0,5.0,EUR,1.0,Dining
+2024-12-11,2024-12-11,St. Oberholz,,Presentment,,Hauptkonto,-4.7,4.7,EUR,1.0,Coffee
+2024-12-13,2024-12-12,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-41.99,41.99,EUR,1.0,Transportation
+2024-12-13,2024-12-13,Vodafone Deutschland GmbH,DE13380700590045335700,Direct Debit,12/2024 K-NR. 333136237 Ihre Rechnung online bei www.vodafone.de/meinkabel,Hauptkonto,-62.98,,,,Housing & Utilities
+2024-12-13,2024-12-12,St. Oberholz,,Presentment,,Hauptkonto,-5.17,5.17,EUR,1.0,Coffee
+2024-12-14,2024-12-13,ZEIT FÜR BROT GMBH,,Presentment,,Hauptkonto,-6.5,6.5,EUR,1.0,Dining
+2024-12-15,2024-12-15,Cafe Schwarzastr 9 Ber,,Presentment,,Hauptkonto,-3.8,3.8,EUR,1.0,Dining
+2024-12-15,2024-12-15,LSP*Burgermeister Eber,,Presentment,,Hauptkonto,-7.5,7.5,EUR,1.0,Dining
+2024-12-15,2024-12-15,City Chicken,,Presentment,,Hauptkonto,-27.5,27.5,EUR,1.0,Dining
+2024-12-15,2024-12-15,Spotify,,Presentment,,Hauptkonto,-17.99,17.99,EUR,1.0,Subscriptions
+2024-12-15,2024-12-15,Massimo Dutti 4641,,Presentment,,Hauptkonto,-219.85,219.85,EUR,1.0,Clothing
+2024-12-16,2024-12-15,Bayat GmbH,,Presentment,,Hauptkonto,-29.98,29.98,EUR,1.0,Groceries
+2024-12-16,2024-12-16,Wolt,,Presentment,,Hauptkonto,-44.29,44.29,EUR,1.0,Dining
+2024-12-16,2024-12-15,Suicide Club,,Presentment,,Hauptkonto,-20.0,20.0,EUR,1.0,Nightlife
+2024-12-16,2024-12-16,SumUp  *Jonatan svartb,,Presentment,,Hauptkonto,-28.6,28.6,EUR,1.0,Nightlife
+2024-12-16,2024-12-16,TixforGigs - Fluffy Cl,,Presentment,,Hauptkonto,-232.9,232.9,EUR,1.0,Entertainment
+2024-12-16,2024-12-16,St. Oberholz,,Presentment,,Hauptkonto,-4.7,4.7,EUR,1.0,Coffee
+2024-12-17,2024-12-17,denns Biomarkt Berlin,,Presentment,,Hauptkonto,-3.75,3.75,EUR,1.0,Groceries
+2024-12-17,2024-12-16,6868 Restaurant,,Presentment,,Hauptkonto,-10.5,10.5,EUR,1.0,Dining
+2024-12-17,2024-12-17,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Credit Transfer,PP.5079.PP/ABBUCHUNG VOM PAYPAL-KONTO,Hauptkonto,317.0,,,,Reimbursements
+2024-12-17,2024-12-17,St. Oberholz,,Presentment,,Hauptkonto,-4.4,4.4,EUR,1.0,Coffee
+2024-12-17,2024-12-17,St. Oberholz,,Presentment,,Hauptkonto,-4.7,4.7,EUR,1.0,Coffee
+2024-12-18,2024-12-18,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-16.79,16.79,EUR,1.0,Groceries
+2024-12-18,2024-12-17,Chickenbuzz Restaurant,,Presentment,,Hauptkonto,-19.2,19.2,EUR,1.0,Dining
+2024-12-18,2024-12-18,Wolt,,Presentment,,Hauptkonto,-19.75,19.75,EUR,1.0,Dining
+2024-12-19,2024-12-18,NETFLIX.COM,,Presentment,,Hauptkonto,-4.99,4.99,EUR,1.0,Subscriptions
+2024-12-19,2024-12-18,Landeshauptkasse Berlin,DE50100100100000082102,Debit Transfer,58.73.698843.5,Hauptkonto,-575.75,,,,Penalties
+2024-12-19,2024-12-18,St. Oberholz,,Presentment,,Hauptkonto,-4.7,4.7,EUR,1.0,Coffee
+2024-12-20,2024-12-19,Minh Dang Dinh,,Presentment,,Hauptkonto,-7.5,7.5,EUR,1.0,Dining
+2024-12-20,2024-12-19,BIO COMPANY SE KST 121,,Presentment,,Hauptkonto,-4.98,4.98,EUR,1.0,Dining
+2024-12-20,2024-12-20,City Chicken,,Presentment,,Hauptkonto,-7.4,7.4,EUR,1.0,Dining
+2024-12-20,2024-12-20,Ace  Tate E-com BV,,Presentment,,Hauptkonto,-125.0,125.0,EUR,1.0,Clothing
+2024-12-20,2024-12-20,AMZN Mktp DE*288JP7O75,,Presentment,,Hauptkonto,-56.17,56.17,EUR,1.0,Gifts
+2024-12-21,2024-12-20,Uniqlo,,Presentment,,Hauptkonto,-329.1,329.1,EUR,1.0,Clothing
+2024-12-22,2024-12-21,Fatih Servet Oencebe P,,Presentment,,Hauptkonto,-2.5,2.5,EUR,1.0,Groceries
+2024-12-22,2024-12-21,EDEKA Kiezmarkt TStr,,Presentment,,Hauptkonto,-11.11,11.11,EUR,1.0,Groceries
+2024-12-22,2024-12-21,HM.COM,,Presentment,,Hauptkonto,-120.94,120.94,EUR,1.0,Clothing
+2024-12-23,2024-12-23,AIRBNB * HM5JQD8PDD,,Presentment,,Hauptkonto,-56.07,56.07,EUR,1.0,Accommodation
+2024-12-24,2024-12-23,KFC 364 GÖTTINGEN,,Presentment,,Hauptkonto,-6.19,6.19,EUR,1.0,Dining
+2024-12-24,2024-12-23,Feinbaeckerei Ruch Gmb,,Presentment,,Hauptkonto,-4.18,4.18,EUR,1.0,Dining
+2024-12-25,2024-12-25,REWE Goettingen/Ge,,Presentment,,Hauptkonto,-47.62,47.62,EUR,1.0,Groceries
+2024-12-25,2024-12-25,BOLT.EU/R/2412240115,,Presentment,,Hauptkonto,-5.21,5.21,EUR,1.0,Transportation
+2024-12-25,2024-12-25,SPARKASSE GOETTINGEN,,Presentment,,Hauptkonto,-80.0,80.0,EUR,1.0,Withdrawal
+2024-12-25,2024-12-25,ZALANDO PAYMENTS GMBH,,Presentment,,Hauptkonto,-268.82,268.82,EUR,1.0,Clothing
+2024-12-26,2024-12-26,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-9.74,9.74,EUR,1.0,Transportation
+2024-12-26,2024-12-26,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-34.49,34.49,EUR,1.0,Transportation
+2024-12-26,2024-12-26,DISNEY PLUS,,Presentment,,Hauptkonto,-9.99,9.99,EUR,1.0,Subscriptions
+2024-12-27,2024-12-27,Sarah Decoine,DE49100500001069883758,Debit Transfer,Miete,Hauptkonto,-824.59,,,,Housing & Utilities
+2024-12-27,2024-12-27,1komma5. GmbH,DE50240603008546053200,Credit Transfer,LOHN / GEHALT         12/24,Hauptkonto,3298.98,,,,Income
+2024-12-30,2024-12-30,Cinnamood,,Presentment,,Hauptkonto,-4.9,4.9,EUR,1.0,Dining
+2024-12-30,2024-12-30,DB Vertrieb GmbH,DE02100100100152517108,Debit Transfer,7081411244129314,Hauptkonto,-62.9,,,,Transportation
+2024-12-30,2024-12-30,QX QUARTERLY CROSSING GMBH,DE90500400000316455500,Direct Debit,Beitrag QX,Hauptkonto,-46.41,,,,Education & Productivity
+2024-12-31,2024-12-31,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-44.14,44.14,EUR,1.0,Groceries
+2024-12-31,2024-12-30,Ditsch Hildesheim Hbf,,Presentment,,Hauptkonto,-5.65,5.65,EUR,1.0,Dining
+2024-12-31,2024-12-31,AMZNPrime DE*8U74602K5,,Presentment,,Hauptkonto,-8.99,8.99,EUR,1.0,Subscriptions
+2024-12-31,2024-12-31,Leony Broschek,DE17510500150462006792,Credit Transfer,Untermiete Torstrase 175,Hauptkonto,750.0,,,,Reimbursements
+2025-01-02,2025-01-02,Vodafone GmbH,DE04700202700015434515,Direct Debit,0000117893576 0019987635920                                           Rechnungsnr: 121097646099          KdNr. 117893576 Vodafone sagt Danke,Hauptkonto,-13.99,,,,Subscriptions
+2025-01-04,2025-01-04,CELLUCITY CT KIOSK 215,,Presentment,,Hauptkonto,-31.25,599.0,ZAR,0.0521702838,Groceries
+2025-01-05,2025-01-05,LiquorShop Kloof Stree,,Presentment,,Hauptkonto,-14.09,269.98,ZAR,0.052189051,Nightlife
+2025-01-05,2025-01-05,LiquorShop Kloof Stree,,Presentment,,Hauptkonto,-8.35,159.98,ZAR,0.0521940243,Nightlife
+2025-01-05,2025-01-05,LiquorShop Kloof Stree,,Presentment,,Hauptkonto,-10.95,209.98,ZAR,0.0521478236,Nightlife
+2025-01-06,2025-01-06,Yoco   *Natures Nectar,,Presentment,,Hauptkonto,-21.37,410.0,ZAR,0.0521219512,Dining
+2025-01-06,2025-01-06,Yoco   *The Hungry Hat,,Presentment,,Hauptkonto,-6.52,125.0,ZAR,0.05216,Dining
+2025-01-06,2025-01-06,Yoco   *The Athletic C,,Presentment,,Hauptkonto,-15.31,293.7,ZAR,0.0521280218,Nightlife
+2025-01-07,2025-01-07,MIDNIGHT MINI MARKET,,Presentment,,Hauptkonto,-7.82,150.0,ZAR,0.0521333333,Groceries
+2025-01-07,2025-01-07,Yoco   *Noodle Box Klo,,Presentment,,Hauptkonto,-29.87,573.0,ZAR,0.0521291449,Dining
+2025-01-07,2025-01-07,KAUAI,,Presentment,,Hauptkonto,-5.73,110.0,ZAR,0.0520909091,Dining
+2025-01-07,2025-01-07,LIEVITA,,Presentment,,Hauptkonto,-9.38,180.0,ZAR,0.0521111111,Dining
+2025-01-07,2025-01-07,EDGE FITNESS KLOOF,,Presentment,,Hauptkonto,-52.13,1000.0,ZAR,0.05213,Health & Fitness
+2025-01-07,2025-01-07,EGYM Wellpass GmbH,DE52100190001000027873,Direct Debit,EGYM Wellpass GmbH Wellpass-Mitgliedsbeitrag-01.2025-96d77d79980744b3b29501791c39d6a2,Hauptkonto,-10.0,,,,Health & Fitness
+2025-01-07,2025-01-07,MODULAR CLUB,,Presentment,,Hauptkonto,-7.82,150.0,ZAR,0.0521333333,Nightlife
+2025-01-07,2025-01-07,Yoco   *Kleinskys,,Presentment,,Hauptkonto,-5.84,112.0,ZAR,0.0521428571,Coffee
+2025-01-08,2025-01-08,Yoco   *The Poke Co  K,,Presentment,,Hauptkonto,-7.73,148.5,ZAR,0.0520538721,Dining
+2025-01-08,2025-01-08,Yoco   *Kleinskys,,Presentment,,Hauptkonto,-4.16,80.0,ZAR,52.0,Coffee
+2025-01-08,2025-01-08,REFUEL PROPERTIES (PTY,,Presentment,,Hauptkonto,-152.86,2936.92,ZAR,0.0520477235,Education & Productivity
+2025-01-09,2025-01-09,Checkers Kloof Street,,Presentment,,Hauptkonto,-108.85,2091.3,ZAR,0.0520489648,Groceries
+2025-01-09,2025-01-09,Yoco   *Noodle Box Klo,,Presentment,,Hauptkonto,-9.15,176.0,ZAR,0.0519886364,Dining
+2025-01-09,2025-01-08,APPLE.COM/BILL,,Presentment,,Hauptkonto,-2.99,2.99,EUR,1.0,Subscriptions
+2025-01-09,2025-01-09,Yoco   *Kleinskys,,Presentment,,Hauptkonto,-1.87,36.0,ZAR,0.0519444444,Coffee
+2025-01-10,2025-01-10,Yoco   *The Poke Co  K,,Presentment,,Hauptkonto,-10.31,199.0,ZAR,0.0518090452,Dining
+2025-01-10,2025-01-09,HM.COM,,Presentment Refund,,Hauptkonto,22.99,22.99,EUR,1.0,Reimbursements
+2025-01-10,2025-01-09,Uniqlo,,Presentment Refund,,Hauptkonto,26.95,26.95,EUR,1.0,Reimbursements
+2025-01-10,2025-01-10,Yoco   *Kleinskys,,Presentment,,Hauptkonto,-5.44,105.0,ZAR,0.0518095238,Coffee
+2025-01-11,2025-01-10,CLICKS LIFESTYLE,,Presentment,,Hauptkonto,-31.24,602.94,ZAR,0.051812784,Groceries
+2025-01-12,2025-01-12,EL BURRO TAQUERIA,,Presentment,,Hauptkonto,-46.39,900.0,ZAR,0.0515444444,Dining
+2025-01-12,2025-01-12,AP *AirDosh (Pty) Ltd,,Presentment,,Hauptkonto,-32.37,630.0,ZAR,0.0513809524,Dining
+2025-01-14,2025-01-13,AP *AirDosh (Pty) Ltd,,Presentment,,Hauptkonto,-10.38,202.0,ZAR,0.0513861386,Dining
+2025-01-14,2025-01-13,Yoco   *Paulines Coffe,,Presentment,,Hauptkonto,-7.45,145.0,ZAR,0.0513793103,Dining
+2025-01-14,2025-01-13,AP *AirDosh (Pty) Ltd,,Presentment,,Hauptkonto,-26.21,510.0,ZAR,0.0513921569,Dining
+2025-01-14,2025-01-14,Vodafone Deutschland GmbH,DE13380700590045335700,Direct Debit,01/2025 K-NR. 333136237 Ihre Rechnung online bei www.vodafone.de/meinkabel,Hauptkonto,-62.98,,,,Housing & Utilities
+2025-01-14,2025-01-14,Table Mountain Cablewa,,Presentment,,Hauptkonto,-43.16,840.0,ZAR,0.0513809524,Entertainment
+2025-01-15,2025-01-15,Giuliano Parisi,DE67201306002014326858,Debit Transfer,Fluge Madrid,Hauptkonto,-205.0,,,,Flights
+2025-01-15,2025-01-15,Yoco   *Noodle Box Klo,,Presentment,,Hauptkonto,-10.08,196.0,ZAR,0.0514285714,Dining
+2025-01-15,2025-01-15,Spotify,,Presentment,,Hauptkonto,-17.99,17.99,EUR,1.0,Subscriptions
+2025-01-15,2025-01-14,CAPRICE CAFE,,Presentment,,Hauptkonto,-39.05,760.0,ZAR,0.0513815789,Nightlife
+2025-01-15,2025-01-15,Yoco   *Kleinskys,,Presentment,,Hauptkonto,-1.85,36.0,ZAR,0.0513888889,Coffee
+2025-01-15,2025-01-15,Yoco   *Kleinskys,,Presentment,,Hauptkonto,-1.85,36.0,ZAR,0.0513888889,Coffee
+2025-01-16,2025-01-16,Checkers Kloof Street,,Presentment,,Hauptkonto,-44.25,860.15,ZAR,0.0514445155,Groceries
+2025-01-16,2025-01-16,Yoco   *Noodle Box Klo,,Presentment,,Hauptkonto,-8.77,170.0,ZAR,0.0515882353,Dining
+2025-01-16,2025-01-16,Yoco   *Sushibox Kloof,,Presentment,,Hauptkonto,-10.32,200.0,ZAR,0.0516,Dining
+2025-01-16,2025-01-16,Yoco   *Kleinskys,,Presentment,,Hauptkonto,-1.86,36.0,ZAR,0.0516666667,Coffee
+2025-01-17,2025-01-17,Yoco   *The Poke Co  K,,Presentment,,Hauptkonto,-10.31,199.0,ZAR,0.0518090452,Dining
+2025-01-17,2025-01-16,ZALANDO PAYMENTS GMBH,,Presentment Refund,,Hauptkonto,69.95,69.95,EUR,1.0,Reimbursements
+2025-01-17,2025-01-17,Yoco   *Kleinskys,,Presentment,,Hauptkonto,-1.86,36.0,ZAR,0.0516666667,Coffee
+2025-01-18,2025-01-17,ENGEN KLOOF STREET,,Presentment,,Hauptkonto,-23.57,455.0,ZAR,0.0518021978,Other
+2025-01-18,2025-01-18,AIRBNB * HM5JQD8PDD,,Presentment,,Hauptkonto,-33.64,33.64,EUR,1.0,Accommodation
+2025-01-18,2025-01-18,Yoco   *Kleinskys,,Presentment,,Hauptkonto,-2.05,39.6,ZAR,0.0517676768,Coffee
+2025-01-19,2025-01-19,Yoco   *Our Local,,Presentment,,Hauptkonto,-98.72,1900.0,ZAR,0.0519578947,Dining
+2025-01-19,2025-01-18,NETFLIX.COM,,Presentment,,Hauptkonto,-4.99,4.99,EUR,1.0,Subscriptions
+2025-01-21,2025-01-21,Yoco   *Noodle Box Klo,,Presentment,,Hauptkonto,-13.51,260.0,ZAR,0.0519615385,Dining
+2025-01-21,2025-01-21,VIDA E CAFFE KLOOF - P,,Presentment,,Hauptkonto,-6.06,116.6,ZAR,0.0519725557,Dining
+2025-01-21,2025-01-21,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1039710872764/PP.5079.PP/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-4.55,,,,Transportation
+2025-01-21,2025-01-21,AIRBNB * HM4EHM2ZTR,,Presentment,,Hauptkonto,-2510.32,2510.32,EUR,1.0,Accommodation
+2025-01-22,2025-01-22,Checkers Kloof Street,,Presentment,,Hauptkonto,-41.28,794.57,ZAR,0.0519526285,Groceries
+2025-01-22,2025-01-22,MANTRA CAFE PTY LTD,,Presentment,,Hauptkonto,-15.56,299.25,ZAR,0.0519966583,Dining
+2025-01-22,2025-01-22,Eva Siegelkow,DE40260400300642755300,Credit Transfer,Zypern,Hauptkonto,1600.0,,,,Reimbursements
+2025-01-22,2025-01-22,Florian Scheiwe,DE53120300001055375669,Credit Transfer,Airbnb Cape Town,Hauptkonto,1070.0,,,,Reimbursements
+2025-01-23,2025-01-23,Checkers Kloof Street,,Presentment,,Hauptkonto,-13.13,252.49,ZAR,0.0520020595,Groceries
+2025-01-23,2025-01-23,Yoco   *sunnyhuis,,Presentment,,Hauptkonto,-9.36,180.0,ZAR,52.0,Dining
+2025-01-23,2025-01-23,Yoco   *The Poke Co  K,,Presentment,,Hauptkonto,-13.1,251.9,ZAR,0.0520047638,Dining
+2025-01-23,2025-01-23,Yoco   *Oranjezicht Ci,,Presentment,,Hauptkonto,-12.48,240.0,ZAR,52.0,Dining
+2025-01-23,2025-01-23,Yoco   *Chasing Bees,,Presentment,,Hauptkonto,-15.55,299.0,ZAR,0.052006689,Clothing
+2025-01-23,2025-01-23,AIRBNB * HMHD5TAWHR,,Presentment,,Hauptkonto,-1622.5,1622.5,EUR,1.0,Accommodation
+2025-01-23,2025-01-23,Yoco   *Kleinskys,,Presentment,,Hauptkonto,-1.69,32.4,ZAR,0.0521604938,Coffee
+2025-01-24,2025-01-24,Checkers Kloof Street,,Presentment,,Hauptkonto,-1.92,36.99,ZAR,0.0519059205,Groceries
+2025-01-24,2025-01-24,Yoco   *Glen Country C,,Presentment,,Hauptkonto,-9.37,180.0,ZAR,0.0520555556,Dining
+2025-01-25,2025-01-25,THE POWER AND THE GLOR,,Presentment,,Hauptkonto,-6.24,120.0,ZAR,52.0,Dining
+2025-01-25,2025-01-25,Fernanda Rosas Mayoral,DE48640500000009170199,Credit Transfer,flights,Hauptkonto,249.0,,,,Reimbursements
+2025-01-25,2025-01-25,Yoco   *Kleinskys,,Presentment,,Hauptkonto,-7.07,136.0,ZAR,0.0519852941,Coffee
+2025-01-26,2025-01-25,CLICKS LIFESTYLE,,Presentment,,Hauptkonto,-6.5,124.98,ZAR,0.0520083213,Groceries
+2025-01-26,2025-01-26,TASTING ROOM,,Presentment,,Hauptkonto,-7.04,135.0,ZAR,0.0521481481,Dining
+2025-01-26,2025-01-26,TASTING ROOM,,Presentment,,Hauptkonto,-16.16,310.0,ZAR,0.0521290323,Dining
+2025-01-26,2025-01-26,Yoco   *Sonder cafe,,Presentment,,Hauptkonto,-95.3,1828.2,ZAR,0.052127776,Dining
+2025-01-26,2025-01-25,ENGEN KLOOF STREET,,Presentment,,Hauptkonto,-2.13,40.9,ZAR,0.0520782396,Nightlife
+2025-01-26,2025-01-25,ENGEN KLOOF STREET,,Presentment,,Hauptkonto,-5.56,106.9,ZAR,0.0520112254,Nightlife
+2025-01-26,2025-01-26,Yoco   *Fullstop Bomb,,Presentment,,Hauptkonto,-9.75,187.0,ZAR,0.0521390374,Nightlife
+2025-01-26,2025-01-26,Yoco   *Fullstop Bomb,,Presentment,,Hauptkonto,-18.77,360.0,ZAR,0.0521388889,Nightlife
+2025-01-27,2025-01-28,Sarah Decoine,DE49100500001069883758,Debit Transfer,Miete,Hauptkonto,-824.59,,,,Housing & Utilities
+2025-01-27,2025-01-27,Yoco   *Fullstop Bomb,,Presentment,,Hauptkonto,-4.3,82.5,ZAR,0.0521212121,Nightlife
+2025-01-27,2025-01-27,Yoco   *Fullstop Bomb,,Presentment,,Hauptkonto,-3.15,60.5,ZAR,0.0520661157,Nightlife
+2025-01-27,2025-01-27,Mark Holtmeier,DE72200505501315421071,Credit Transfer,,Hauptkonto,1070.0,,,,Reimbursements
+2025-01-28,2025-01-28,RYANAIR  KWK0,,Presentment,,Hauptkonto,-386.36,386.36,EUR,1.0,Flights
+2025-01-28,2025-01-28,RYANAIR  78D0,,Presentment,,Hauptkonto,-111.96,111.96,EUR,1.0,Flights
+2025-01-28,2025-01-28,Yoco   *Noodle Box Klo,,Presentment,,Hauptkonto,-12.51,240.0,ZAR,0.052125,Dining
+2025-01-28,2025-01-28,CLARKESBARANDDINING,,Presentment,,Hauptkonto,-72.98,1400.0,ZAR,0.0521285714,Dining
+2025-01-28,2025-01-28,"PayPal (Europe) S.a r.l. et Cie, S.C.A.",DE88500700100175526303,Direct Debit,"1039867242738  . Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-12.03,,,,Transportation
+2025-01-28,2025-01-28,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1039849118693/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-19.6,,,,Transportation
+2025-01-28,2025-01-28,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1039885387793/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-7.52,,,,Transportation
+2025-01-28,2025-01-28,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1039851739063/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-11.99,,,,Transportation
+2025-01-28,2025-01-28,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1039885766761/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-9.59,,,,Transportation
+2025-01-28,2025-01-28,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1039868700827/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-4.35,,,,Transportation
+2025-01-28,2025-01-28,Vodafone GmbH,DE04700202700015434515,Direct Debit,0000117893576 0020047563355                                           Rechnungsnr: 121173030895          KdNr. 117893576 Vodafone sagt Danke,Hauptkonto,-13.99,,,,Subscriptions
+2025-01-28,2025-01-28,BLONDIE,,Presentment,,Hauptkonto,-12.03,12.03,EUR,1.0,Nightlife
+2025-01-28,2025-01-28,CAPRICE CAFE,,Presentment,,Hauptkonto,-114.68,2200.0,ZAR,0.0521272727,Nightlife
+2025-01-28,2025-01-28,CAPRICE CAFE,,Presentment,,Hauptkonto,-14.33,275.0,ZAR,0.0521090909,Nightlife
+2025-01-28,2025-01-28,PAYLOGIC 207250618370,,Presentment,,Hauptkonto,-99.0,99.0,EUR,1.0,Entertainment
+2025-01-28,2025-01-28,Yoco   *Kleinskys,,Presentment,,Hauptkonto,-2.27,43.56,ZAR,0.0521120294,Coffee
+2025-01-29,2025-01-29,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1039900179538/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-2.67,,,,Transportation
+2025-01-29,2025-01-29,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1039900289139/PP.5079.PP/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-0.53,,,,Transportation
+2025-01-29,2025-01-29,iK *The Wok Bar,,Presentment,,Hauptkonto,-12.4,239.0,ZAR,0.0518828452,Nightlife
+2025-01-29,2025-01-29,Yoco   *Kleinskys,,Presentment,,Hauptkonto,-2.26,43.56,ZAR,0.051882461,Coffee
+2025-01-30,2025-01-30,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1039918300925/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-9.44,,,,Transportation
+2025-01-30,2025-01-30,1komma5. Services GmbH,DE71240603008547757500,Credit Transfer,LOHN / GEHALT         01/25,Hauptkonto,3238.36,,,,Income
+2025-01-31,2025-01-30,Checkers Kloof Street,,Presentment,,Hauptkonto,-21.36,411.71,ZAR,0.0518811785,Groceries
+2025-01-31,2025-01-30,Yoco   *Achla,,Presentment,,Hauptkonto,-9.52,185.0,ZAR,0.0514594595,Dining
+2025-01-31,2025-01-30,Yoco   *Oranjezicht Ci,,Presentment,,Hauptkonto,-6.17,120.0,ZAR,0.0514166667,Dining
+2025-01-31,2025-01-31,BETWEENUS,,Presentment,,Hauptkonto,-37.99,730.0,ZAR,0.0520410959,Dining
+2025-01-31,2025-01-31,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1039936479346/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-3.97,,,,Transportation
+2025-01-31,2025-01-31,AMZNPrime DE*GT3IV7TG5,,Presentment,,Hauptkonto,-8.99,8.99,EUR,1.0,Subscriptions
+2025-01-31,2025-01-31,Yoco   *Kleinskys,,Presentment,,Hauptkonto,-4.14,80.0,ZAR,0.05175,Coffee
+2025-02-01,2025-02-01,Yoco   *The Sneaker Sh,,Presentment,,Hauptkonto,-18.73,360.0,ZAR,0.0520277778,Clothing
+2025-02-01,2025-02-01,BLONDIE,,Presentment,,Hauptkonto,-28.62,550.0,ZAR,0.0520363636,Nightlife
+2025-02-01,2025-02-01,Yoco   *Barbershop,,Presentment,,Hauptkonto,-26.02,500.0,ZAR,0.05204,Other
+2025-02-02,2025-02-02,TAMBOERSWINKEL,,Presentment,,Hauptkonto,-1.82,35.0,ZAR,52.0,Dining
+2025-02-02,2025-02-01,VODASHOP PICBELL,,Presentment,,Hauptkonto,-11.92,229.0,ZAR,0.0520524017,Subscriptions
+2025-02-02,2025-02-01,ENGEN KLOOF STREET,,Presentment,,Hauptkonto,-4.99,95.9,ZAR,0.0520333681,Nightlife
+2025-02-02,2025-02-02,Xceed S.r.l.,,Presentment,,Hauptkonto,-16.8,323.0,ZAR,0.0520123839,Nightlife
+2025-02-03,2025-02-03,KAUAI,,Presentment,,Hauptkonto,-9.36,180.0,ZAR,52.0,Dining
+2025-02-03,2025-02-03,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1039971847490/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-2.66,,,,Transportation
+2025-02-03,2025-02-03,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1039970658285/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-2.71,,,,Transportation
+2025-02-03,2025-02-03,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1039972079406/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-2.66,,,,Transportation
+2025-02-03,2025-02-03,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1039971473546/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-2.55,,,,Transportation
+2025-02-03,2025-02-03,Yoco   *Texas,,Presentment,,Hauptkonto,-10.87,209.0,ZAR,0.0520095694,Nightlife
+2025-02-03,2025-02-03,Leony Broschek,DE17510500150462006792,Credit Transfer,Untermiete Februar,Hauptkonto,750.0,,,,Reimbursements
+2025-02-03,2025-02-02,TMNP BOULDERS GATE (SI,,Presentment,,Hauptkonto,-44.72,860.0,ZAR,52.0,Entertainment
+2025-02-03,2025-02-03,Boulders Penguin Sanct,,Presentment,,Hauptkonto,-9.15,176.0,ZAR,0.0519886364,Entertainment
+2025-02-04,2025-02-04,Checkers Kloof Street,,Presentment,,Hauptkonto,-8.18,157.24,ZAR,0.0520223862,Groceries
+2025-02-04,2025-02-04,Yoco   *Noodle Box Klo,,Presentment,,Hauptkonto,-9.15,176.0,ZAR,0.0519886364,Dining
+2025-02-04,2025-02-04,HUDSON`S ON KLOOF,,Presentment,,Hauptkonto,-98.81,1900.0,ZAR,0.0520052632,Dining
+2025-02-04,2025-02-04,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1040027756935/PP.5079.PP/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-0.53,,,,Transportation
+2025-02-04,2025-02-04,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1040029552512/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-4.74,,,,Transportation
+2025-02-04,2025-02-04,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1040025425799/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-5.06,,,,Transportation
+2025-02-04,2025-02-04,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1040026596059/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-3.23,,,,Transportation
+2025-02-04,2025-02-04,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1040025963822/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-3.93,,,,Transportation
+2025-02-04,2025-02-04,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1040040505023/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-2.96,,,,Transportation
+2025-02-04,2025-02-04,MODULAR CLUB,,Presentment,,Hauptkonto,-4.32,83.0,ZAR,0.0520481928,Nightlife
+2025-02-04,2025-02-03,FOMO BERLIN,,Presentment,,Hauptkonto,-52.0,1000.0,ZAR,52.0,Entertainment
+2025-02-05,2025-02-05,"PayPal (Europe) S.a r.l. et Cie, S.C.A.",DE88500700100175526303,Direct Debit,"1040052508790  . Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-3.76,,,,Transportation
+2025-02-05,2025-02-05,TICKETMASTER GERMANY,,Presentment,,Hauptkonto,-297.81,297.81,EUR,1.0,Entertainment
+2025-02-06,2025-02-06,Checkers Kloof Street,,Presentment,,Hauptkonto,-19.16,369.09,ZAR,0.0519114579,Groceries
+2025-02-06,2025-02-06,Yoco   *Mesob Eritrean,,Presentment,,Hauptkonto,-7.26,140.0,ZAR,0.0518571429,Dining
+2025-02-06,2025-02-06,Yoco   *Oranjezicht Ci,,Presentment,,Hauptkonto,-3.11,60.0,ZAR,0.0518333333,Dining
+2025-02-06,2025-02-06,Yoco   *The Poke Co  K,,Presentment,,Hauptkonto,-10.31,199.0,ZAR,0.0518090452,Dining
+2025-02-06,2025-02-06,KAUAI,,Presentment,,Hauptkonto,-6.12,118.0,ZAR,0.0518644068,Dining
+2025-02-06,2025-02-06,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1040068665048/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-11.0,,,,Transportation
+2025-02-06,2025-02-06,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1040075298977/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-2.35,,,,Transportation
+2025-02-06,2025-02-06,Yoco   *AFS Production,,Presentment,,Hauptkonto,-28.77,555.0,ZAR,0.0518378378,Nightlife
+2025-02-06,2025-02-06,PRIVATE CHEF WORKS,,Presentment,,Hauptkonto,-9.87,190.4,ZAR,0.0518382353,Nightlife
+2025-02-06,2025-02-06,REFUEL PROPERTIES (PTY,,Presentment,,Hauptkonto,-140.6,2712.56,ZAR,0.0518329548,Education & Productivity
+2025-02-07,2025-02-07,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1040096040987/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-4.92,,,,Transportation
+2025-02-07,2025-02-07,EGYM Wellpass GmbH,DE52100190001000027873,Direct Debit,EGYM Wellpass GmbH Wellpass-Mitgliedsbeitrag-02.2025-96d77d79980744b3b29501791c39d6a2,Hauptkonto,-10.0,,,,Health & Fitness
+2025-02-07,2025-02-07,Yoco   *Aruba,,Presentment,,Hauptkonto,-9.33,180.0,ZAR,0.0518333333,Nightlife
+2025-02-08,2025-02-08,Checkers Kloof Street,,Presentment,,Hauptkonto,-21.26,410.16,ZAR,0.0518334309,Groceries
+2025-02-08,2025-02-07,KAUAI,,Presentment,,Hauptkonto,-12.34,238.0,ZAR,0.0518487395,Dining
+2025-02-08,2025-02-08,APPLE.COM/BILL,,Presentment,,Hauptkonto,-2.99,2.99,EUR,1.0,Subscriptions
+2025-02-08,2025-02-08,Yoco   *Fullstop Bomb,,Presentment,,Hauptkonto,-11.49,220.0,ZAR,0.0522272727,Nightlife
+2025-02-08,2025-02-08,Yoco   *Fullstop Bomb,,Presentment,,Hauptkonto,-9.76,187.0,ZAR,0.0521925134,Nightlife
+2025-02-09,2025-02-09,CRUSTY,,Presentment,,Hauptkonto,-6.31,120.0,ZAR,0.0525833333,Dining
+2025-02-09,2025-02-09,Yoco   *SMOUSonline,,Presentment,,Hauptkonto,-31.57,600.0,ZAR,0.0526166667,Dining
+2025-02-09,2025-02-09,KAUAI,,Presentment,,Hauptkonto,-10.82,208.0,ZAR,0.0520192308,Dining
+2025-02-09,2025-02-09,Yoco   *Fullstop Bomb,,Presentment,,Hauptkonto,-15.63,297.0,ZAR,0.0526262626,Nightlife
+2025-02-09,2025-02-09,Yoco   *Fullstop Bomb,,Presentment,,Hauptkonto,-15.05,286.0,ZAR,0.0526223776,Nightlife
+2025-02-09,2025-02-09,Yoco   *Buitenverwacht,,Presentment,,Hauptkonto,-27.78,528.0,ZAR,0.0526136364,Nightlife
+2025-02-10,2025-02-10,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1040115694976/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-2.44,,,,Transportation
+2025-02-10,2025-02-10,PAYPAL *f.maroto20,,Presentment,,Hauptkonto,-131.0,131.0,EUR,1.0,Travel Expenses
+2025-02-10,2025-02-10,Yoco   *Fullstop Bomb,,Presentment,,Hauptkonto,-3.47,66.0,ZAR,0.0525757576,Nightlife
+2025-02-10,2025-02-10,Yoco   *Fullstop Bomb,,Presentment,,Hauptkonto,-8.68,165.0,ZAR,0.0526060606,Nightlife
+2025-02-10,2025-02-10,Yoco   *Fullstop Bomb,,Presentment,,Hauptkonto,-6.94,132.0,ZAR,0.0525757576,Nightlife
+2025-02-11,2025-02-11,Yoco   *Noodle Box Klo,,Presentment,,Hauptkonto,-7.84,149.0,ZAR,0.0526174497,Dining
+2025-02-11,2025-02-11,THE RACKET AND BALL CL,,Presentment,,Hauptkonto,-4.21,80.0,ZAR,0.052625,Dining
+2025-02-11,2025-02-11,THE RACKET AND BALL CL,,Presentment,,Hauptkonto,-5.26,100.0,ZAR,0.0526,Dining
+2025-02-11,2025-02-11,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1040142871174/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-3.82,,,,Transportation
+2025-02-11,2025-02-11,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1040170780478/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-2.79,,,,Transportation
+2025-02-11,2025-02-11,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1040138610804/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-10.49,,,,Transportation
+2025-02-11,2025-02-11,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1040165988576/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-3.29,,,,Transportation
+2025-02-11,2025-02-11,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1040136516411/. Uber BV, Ihr Einkauf bei Uber BV",Hauptkonto,-3.82,,,,Transportation
+2025-02-11,2025-02-11,MODULAR CLUB,,Presentment,,Hauptkonto,-10.52,200.0,ZAR,0.0526,Nightlife
+2025-02-11,2025-02-11,MODULAR CLUB,,Presentment,,Hauptkonto,-2.89,55.0,ZAR,0.0525454545,Nightlife
+2025-02-11,2025-02-11,Yoco   *Kleinskys,,Presentment,,Hauptkonto,-1.7,32.4,ZAR,0.0524691358,Coffee
+2025-02-11,2025-02-11,Yoco   *Kleinskys,,Presentment,,Hauptkonto,-1.8,34.2,ZAR,0.0526315789,Coffee
+2025-02-12,2025-02-12,Checkers Kloof Street,,Presentment,,Hauptkonto,-30.11,572.24,ZAR,0.0526177827,Groceries
+2025-02-12,2025-02-12,Yoco   *The Poke Co  K,,Presentment,,Hauptkonto,-10.5,199.0,ZAR,0.0527638191,Dining
+2025-02-12,2025-02-12,KAUAI,,Presentment,,Hauptkonto,-5.68,108.0,ZAR,0.0525925926,Dining
+2025-02-12,2025-02-12,KAUAI,,Presentment,,Hauptkonto,-10.98,208.0,ZAR,0.0527884615,Dining
+2025-02-13,2025-02-13,Checkers Kloof Street,,Presentment,,Hauptkonto,-3.01,56.98,ZAR,0.0528255528,Groceries
+2025-02-13,2025-02-13,Vodafone Deutschland GmbH,DE13380700590045335700,Direct Debit,02/2025 K-NR. 333136237 Ihre Rechnung online bei www.vodafone.de/meinkabel,Hauptkonto,-62.98,,,,Housing & Utilities
+2025-02-13,2025-02-13,PLAYTOMIC.IO 141E9971,,Presentment,,Hauptkonto,-11.31,214.5,ZAR,0.0527272727,Entertainment
+2025-02-14,2025-02-14,Yoco   *The Conscious,,Presentment,,Hauptkonto,-6.28,120.0,ZAR,0.0523333333,Dining
+2025-02-14,2025-02-14,KAUAI,,Presentment,,Hauptkonto,-10.42,199.0,ZAR,0.052361809,Dining
+2025-02-14,2025-02-14,iK *J L PROMOTIONS PTY,,Presentment,,Hauptkonto,-157.07,3000.0,ZAR,0.0523566667,Nightlife
+2025-02-15,2025-02-15,PnP Exp Heritage Park,,Presentment,,Hauptkonto,-15.37,295.0,ZAR,0.0521016949,Dining
+2025-02-15,2025-02-15,Yoco   *Noodle Box Klo,,Presentment,,Hauptkonto,-9.48,182.0,ZAR,0.0520879121,Dining
+2025-02-15,2025-02-15,Spotify,,Presentment,,Hauptkonto,-17.99,17.99,EUR,1.0,Subscriptions
+2025-02-16,2025-02-16,Yoco   *Zuney Burgers,,Presentment,,Hauptkonto,-6.88,132.0,ZAR,0.0521212121,Dining
+2025-02-16,2025-02-16,Yoco   *Clean Catering,,Presentment,,Hauptkonto,-19.48,374.0,ZAR,0.0520855615,Dining
+2025-02-16,2025-02-16,Yoco   *Carbon Events,,Presentment,,Hauptkonto,-8.28,159.0,ZAR,0.0520754717,Nightlife
+2025-02-16,2025-02-16,Yoco   *Carbon Events,,Presentment,,Hauptkonto,-3.91,75.0,ZAR,0.0521333333,Nightlife
+2025-02-16,2025-02-16,Yoco   *RAOULS busines,,Presentment,,Hauptkonto,-6.87,132.0,ZAR,0.0520454545,Nightlife
+2025-02-16,2025-02-16,Yoco   *Carbon Events,,Presentment,,Hauptkonto,-2.76,53.0,ZAR,0.0520754717,Nightlife
+2025-02-16,2025-02-16,Yoco   *Carbon Events,,Presentment,,Hauptkonto,-14.03,269.5,ZAR,0.0520593692,Nightlife
+2025-02-16,2025-02-16,Yoco   *Carbon Events,,Presentment,,Hauptkonto,-36.19,695.0,ZAR,0.0520719424,Nightlife
+2025-02-17,2025-02-17,MCD N2 Heritage pa(531,,Presentment,,Hauptkonto,-9.51,182.7,ZAR,0.0520525452,Groceries
+2025-02-17,2025-02-17,Yoco   *Carbon Events,,Presentment,,Hauptkonto,-7.28,139.7,ZAR,0.0521116679,Dining
+2025-02-17,2025-02-17,Yoco   *Carbon Events,,Presentment,,Hauptkonto,-1.3,25.0,ZAR,52.0,Nightlife
+2025-02-17,2025-02-17,Yoco   *Carbon Events,,Presentment,,Hauptkonto,-1.3,25.0,ZAR,52.0,Nightlife
+2025-02-17,2025-02-17,Yoco   *Carbon Events,,Presentment,,Hauptkonto,-5.94,114.0,ZAR,0.0521052632,Nightlife
+2025-02-17,2025-02-17,Yoco   *Carbon Events,,Presentment,,Hauptkonto,-2.6,50.0,ZAR,52.0,Nightlife
+2025-02-17,2025-02-17,Yoco   *Carbon Events,,Presentment,,Hauptkonto,-2.6,50.0,ZAR,52.0,Nightlife
+2025-02-18,2025-02-18,CLICKS LIFESTYLE,,Presentment,,Hauptkonto,-18.17,349.0,ZAR,0.0520630372,Groceries
+2025-02-18,2025-02-18,Yoco   *The Poke Co  K,,Presentment,,Hauptkonto,-10.36,199.0,ZAR,0.0520603015,Dining
+2025-02-18,2025-02-18,S2S*Kloofstrcornercaf,,Presentment,,Hauptkonto,-2.92,56.0,ZAR,0.0521428571,Dining
+2025-02-18,2025-02-18,KAUAI,,Presentment,,Hauptkonto,-9.53,183.0,ZAR,0.0520765027,Dining
+2025-02-19,2025-02-19,Checkers Kloof Street,,Presentment,,Hauptkonto,-37.81,726.05,ZAR,0.0520763033,Groceries
+2025-02-19,2025-02-19,Yoco   *Noodle Box Klo,,Presentment,,Hauptkonto,-23.26,447.0,ZAR,0.0520357942,Dining
+2025-02-20,2025-02-20,Yoco   *La Petite Moo,,Presentment,,Hauptkonto,-3.12,60.0,ZAR,52.0,Groceries
+2025-02-20,2025-02-20,Yoco   *Oranjezicht Ci,,Presentment,,Hauptkonto,-0.62,12.0,ZAR,0.0516666667,Dining
+2025-02-20,2025-02-20,APPLE.COM/BILL,,Presentment,,Hauptkonto,-9.99,9.99,EUR,1.0,Subscriptions
+2025-02-20,2025-02-20,Yoco   *Chasing Bees,,Presentment,,Hauptkonto,-61.79,1188.0,ZAR,0.0520117845,Clothing
+2025-02-20,2025-02-20,Yoco   *Duck Duck Goos,,Presentment,,Hauptkonto,-67.62,1300.0,ZAR,0.0520153846,Clothing
+2025-02-21,2025-02-21,Tim Siegelkow,DE62120300001063655136,Debit Transfer,Gesendet mit N26,Hauptkonto,-520.0,,,,Other
+2025-02-22,2025-02-22,Checkers Kloof Street,,Presentment,,Hauptkonto,-6.06,115.96,ZAR,0.0522593998,Groceries
+2025-02-22,2025-02-22,KLOOFSTREETHOUSE,,Presentment,,Hauptkonto,-145.26,2790.0,ZAR,0.0520645161,Dining
+2025-02-22,2025-02-22,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-53.98,53.98,EUR,1.0,Transportation
+2025-02-22,2025-02-22,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-26.99,26.99,EUR,1.0,Transportation
+2025-02-22,2025-02-22,Xceed S.r.l.,,Presentment,,Hauptkonto,-75.0,75.0,EUR,1.0,Nightlife
+2025-02-23,2025-02-23,Yoco   *Our Local,,Presentment,,Hauptkonto,-15.68,300.0,ZAR,0.0522666667,Dining
+2025-02-23,2025-02-23,Fernanda Rosas Mayoral,DE48640500000009170199,Credit Transfer,,Hauptkonto,152.0,,,,Reimbursements
+2025-02-23,2025-02-23,Yoco   *Quoin Rock Win,,Presentment,,Hauptkonto,-26.13,500.0,ZAR,0.05226,Entertainment
+2025-02-25,2025-02-25,THE BLUE CAFE,,Presentment,,Hauptkonto,-44.42,850.0,ZAR,0.0522588235,Dining
+2025-02-25,2025-02-25,Big Five CPT MS ABSA,,Presentment,,Hauptkonto,-21.43,410.0,ZAR,0.0522682927,Nightlife
+2025-02-25,2025-02-25,VPS*UMBRELLA TRADER,,Presentment,,Hauptkonto,-7.84,150.0,ZAR,0.0522666667,Other
+2025-02-26,2025-02-26,Rossmann 1700,,Presentment,,Hauptkonto,-1.24,1.24,EUR,1.0,Groceries
+2025-02-26,2025-02-26,Checkers Kloof Street,,Presentment,,Hauptkonto,-5.22,99.97,ZAR,0.0522156647,Groceries
+2025-02-26,2025-02-26,Checkers Kloof Street,,Presentment,,Hauptkonto,-16.45,314.86,ZAR,0.0522454424,Groceries
+2025-02-26,2025-02-26,denns Biomarkt Berlin,,Presentment,,Hauptkonto,-4.75,4.75,EUR,1.0,Dining
+2025-02-26,2025-02-26,3T Asiatische Gastrono,,Presentment,,Hauptkonto,-10.5,10.5,EUR,1.0,Dining
+2025-02-26,2025-02-26,BOLT.EU/R/2502251147,,Presentment,,Hauptkonto,-3.89,3.89,EUR,1.0,Transportation
+2025-02-26,2025-02-26,Big Five Cape Town MS,,Presentment,,Hauptkonto,-1.05,20.0,ZAR,0.0525,Nightlife
+2025-02-26,2025-02-26,Big Five Cape Town MS,,Presentment,,Hauptkonto,-1.05,20.0,ZAR,0.0525,Nightlife
+2025-02-26,2025-02-26,1komma5. Services GmbH,DE71240603008547757500,Credit Transfer,LOHN / GEHALT         02/25,Hauptkonto,4874.6,,,,Income
+2025-02-27,2025-02-27,Vodafone GmbH,DE04700202700015434515,Direct Debit,0000117893576 0020106719613                                           Rechnungsnr: 121241316961          KdNr. 117893576 Vodafone sagt Danke,Hauptkonto,-13.99,,,,Subscriptions
+2025-02-28,2025-02-27,Sarah Decoine,DE49100500001069883758,Debit Transfer,Miete,Hauptkonto,-824.59,,,,Housing & Utilities
+2025-02-28,2025-02-28,PAYPAL *mholtmeier,,Presentment,,Hauptkonto,-11.0,11.0,EUR,1.0,Travel Expenses
+2025-02-28,2025-02-28,PAYPAL *florianscheiwe,,Presentment,,Hauptkonto,-122.67,122.67,EUR,1.0,Travel Expenses
+2025-03-01,2025-03-01,SumUp  *Antebi Grillre,,Presentment,,Hauptkonto,-60.5,60.5,EUR,1.0,Dining
+2025-03-01,2025-02-28,JUSTIN BOSCH,,Presentment,,Hauptkonto,-16.45,16.45,EUR,1.0,Other
+2025-03-02,2025-03-02,BOLT.EU/R/2503011517,,Presentment,,Hauptkonto,-3.57,3.57,EUR,1.0,Transportation
+2025-03-02,2025-03-01,AMZNPrime DE*R004J7UD4,,Presentment,,Hauptkonto,-8.99,8.99,EUR,1.0,Subscriptions
+2025-03-03,2025-03-02,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-136.48,136.48,EUR,1.0,Groceries
+2025-03-03,2025-03-02,YORMAS AG,,Presentment,,Hauptkonto,-9.9,9.9,EUR,1.0,Dining
+2025-03-03,2025-03-02,AmRest DE Sp. z o.o. &,,Presentment,,Hauptkonto,-14.38,14.38,EUR,1.0,Dining
+2025-03-03,2025-03-02,SumUp  *Unreleased Xbe,,Presentment,,Hauptkonto,-12.0,12.0,EUR,1.0,Nightlife
+2025-03-04,2025-03-03,PundB 361,,Presentment,,Hauptkonto,-3.84,3.84,EUR,1.0,Groceries
+2025-03-04,2025-03-04,Sammys Berliner Donuts,,Presentment,,Hauptkonto,-8.8,8.8,EUR,1.0,Dining
+2025-03-04,2025-03-03,VOI DE,,Presentment,,Hauptkonto,-3.15,3.15,EUR,1.0,Transportation
+2025-03-04,2025-03-04,PayPal Europe S.a.r.l. et Cie S.C.A,LU89751000135104200E,Direct Debit,"1040617451745/. Bolt Operations OU, Ihr Einkauf bei Bolt Operations OU",Hauptkonto,-18.82,,,,Transportation
+2025-03-04,2025-03-04,St. Oberholz,,Presentment,,Hauptkonto,-9.4,9.4,EUR,1.0,Coffee
+2025-03-05,2025-03-05,TheMarket,,Presentment,,Hauptkonto,-2.5,2.5,EUR,1.0,Groceries
+2025-03-06,2025-03-06,ABOUT YOU,,Presentment,,Hauptkonto,-64.9,64.9,EUR,1.0,Clothing
+2025-03-07,2025-03-06,Minh Dang Dinh,,Presentment,,Hauptkonto,-15.0,15.0,EUR,1.0,Dining
+2025-03-07,2025-03-07,6868 Restaurant,,Presentment,,Hauptkonto,-24.8,24.8,EUR,1.0,Dining
+2025-03-07,2025-03-07,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-12.74,12.74,EUR,1.0,Transportation
+2025-03-07,2025-03-07,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-9.1,9.1,EUR,1.0,Transportation
+2025-03-07,2025-03-07,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-35.99,35.99,EUR,1.0,Transportation
+2025-03-07,2025-03-07,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-34.49,34.49,EUR,1.0,Transportation
+2025-03-07,2025-03-07,EGYM Wellpass GmbH,DE52100190001000027873,Direct Debit,EGYM Wellpass GmbH Wellpass-Mitgliedsbeitrag-03.2025-96d77d79980744b3b29501791c39d6a2,Hauptkonto,-10.0,,,,Health & Fitness
+2025-03-08,2025-03-08,LS Slice Society,,Presentment,,Hauptkonto,-8.5,8.5,EUR,1.0,Dining
+2025-03-08,2025-03-08,APPLE.COM/BILL,,Presentment,,Hauptkonto,-2.99,2.99,EUR,1.0,Subscriptions
+2025-03-09,2025-03-09,24 Seven Market,,Presentment,,Hauptkonto,-10.5,10.5,EUR,1.0,Groceries
+2025-03-09,2025-03-09,HTTPS://BREGGS.DE/,,Presentment,,Hauptkonto,-10.5,10.5,EUR,1.0,Dining
+2025-03-10,2025-03-10,PAYPAL *viktor.guemues,,Presentment,,Hauptkonto,-20.0,20.0,EUR,1.0,Dining
+2025-03-11,2025-03-10,Baecker Taudien,,Presentment,,Hauptkonto,-14.4,14.4,EUR,1.0,Dining
+2025-03-11,2025-03-11,PAY.nl*City Chicken,,Presentment,,Hauptkonto,-6.9,6.9,EUR,1.0,Dining
+2025-03-11,2025-03-11,LIME*RIDE E5UO,,Presentment,,Hauptkonto,-4.78,4.78,EUR,1.0,Transportation
+2025-03-12,2025-03-12,EASYJETK954L8D,,Presentment,,Hauptkonto,-147.51,147.51,EUR,1.0,Flights
+2025-03-12,2025-03-11,AIRBNB * HMHD5TAWHR,,Presentment Refund,,Hauptkonto,1622.5,1622.5,EUR,1.0,Accommodation
+2025-03-13,2025-03-12,EASYJET000K954HZ3,,Presentment,,Hauptkonto,-339.46,339.46,EUR,1.0,Flights
+2025-03-13,2025-03-13,Vodafone Deutschland GmbH,DE13380700590045335700,Direct Debit,03/2025 K-NR. 333136237 Ihre Rechnung online bei www.vodafone.de/meinkabel,Hauptkonto,-62.98,,,,Housing & Utilities
+2025-03-13,2025-03-13,AIRBNB * HMJWKC2FZW,,Presentment,,Hauptkonto,-1617.2,1617.2,EUR,1.0,Accommodation
+2025-03-14,2025-03-14,Cuccis Spandau,,Presentment,,Hauptkonto,-6.89,6.89,EUR,1.0,Dining
+2025-03-15,2025-03-15,Spotify,,Presentment,,Hauptkonto,-17.99,17.99,EUR,1.0,Subscriptions
+2025-03-16,2025-03-15,Prime Video Shop,,Presentment,,Hauptkonto,-9.99,9.99,EUR,1.0,Subscriptions
+2025-03-16,2025-03-16,Anita Lore Dicke,DE58100100100809985107,Credit Transfer,Danke fur die Flugbuchung,Hauptkonto,1200.0,,,,Reimbursements
+2025-03-16,2025-03-16,Tim Siegelkow,DE83100123450157637101,Debit Transfer,Gesendet mit N26,Hauptkonto,-3000.0,,,,Investments
+2025-03-17,2025-03-17,EASYJET000K9622XN,,Presentment,,Hauptkonto,-1200.9,1200.9,EUR,1.0,Flights
+2025-03-17,2025-03-17,Mol*Culinaria Itali...,,Presentment,,Hauptkonto,-15.06,15.06,EUR,1.0,Dining
+2025-03-17,2025-03-17,LIME*RIDE E5UO,,Presentment,,Hauptkonto,-4.45,4.45,EUR,1.0,Transportation
+2025-03-17,2025-03-17,WHOOP,,Presentment,,Hauptkonto,-11.99,11.99,EUR,1.0,Health & Fitness
+2025-03-17,2025-03-17,PAYPAL *tobiroehnelt,,Presentment,,Hauptkonto,-12.0,12.0,EUR,1.0,Gifts
+2025-03-19,2025-03-19,Wolt,,Presentment,,Hauptkonto,-17.54,17.54,EUR,1.0,Dining
+2025-03-19,2025-03-19,Feinbäckerei Thiele Fi,,Presentment,,Hauptkonto,-4.65,4.65,EUR,1.0,Dining
+2025-03-19,2025-03-19,Berliner Sparkasse,,Presentment,,Hauptkonto,-40.0,40.0,EUR,1.0,Withdrawal
+2025-03-19,2025-03-19,PAYPAL *viktor.guemues,,Presentment,,Hauptkonto,-415.0,415.0,EUR,1.0,Nightlife
+2025-03-20,2025-03-20,REWE Markt GmbH-Zw,,Presentment,,Hauptkonto,-67.09,67.09,EUR,1.0,Groceries
+2025-03-20,2025-03-20,City Presse,,Presentment,,Hauptkonto,-3.5,3.5,EUR,1.0,Groceries
+2025-03-20,2025-03-20,BIO COMPANY SE KST 121,,Presentment,,Hauptkonto,-5.48,5.48,EUR,1.0,Dining
+2025-03-20,2025-03-20,Le Le,,Presentment,,Hauptkonto,-14.9,14.9,EUR,1.0,Dining
+2025-03-20,2025-03-19,St. Oberholz,,Presentment,,Hauptkonto,-4.7,4.7,EUR,1.0,Coffee
+2025-03-22,2025-03-21,ServiceStore DB 3347,,Presentment,,Hauptkonto,-4.18,4.18,EUR,1.0,Groceries
+2025-03-22,2025-03-21,Restaurant Vietbowl,,Presentment,,Hauptkonto,-27.4,27.4,EUR,1.0,Dining
+2025-03-22,2025-03-22,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-38.24,38.24,EUR,1.0,Transportation
+2025-03-22,2025-03-22,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-34.49,34.49,EUR,1.0,Transportation
+2025-03-22,2025-03-22,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-55.99,55.99,EUR,1.0,Transportation
+2025-03-22,2025-03-22,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-49.77,49.77,EUR,1.0,Transportation
+2025-03-22,2025-03-22,DB Vertrieb GmbH,,Presentment,,Hauptkonto,-74.65,74.65,EUR,1.0,Transportation
+2025-03-22,2025-03-22,PAYPAL *hennerheise,,Presentment,,Hauptkonto,-37.0,37.0,EUR,1.0,Gifts
+2025-03-23,2025-03-23,24 Seven Market,,Presentment,,Hauptkonto,-2.0,2.0,EUR,1.0,Groceries
+2025-03-24,2025-03-24,St. Oberholz,,Presentment,,Hauptkonto,-4.7,4.7,EUR,1.0,Coffee
+2025-03-25,2025-03-25,EDEKA Kiezmarkt TStr,,Presentment,,Hauptkonto,-35.0,35.0,EUR,1.0,Groceries
+2025-03-26,2025-03-26,LS Zeroe Kebab,,Presentment,,Hauptkonto,-6.0,6.0,EUR,1.0,Dining
+2025-03-26,2025-03-26,St. Oberholz,,Presentment,,Hauptkonto,-2.5,2.5,EUR,1.0,Coffee
+2025-03-26,2025-03-26,St. Oberholz,,Presentment,,Hauptkonto,-4.7,4.7,EUR,1.0,Coffee
+2025-03-27,2025-03-27,24 Seven Market,,Presentment,,Hauptkonto,-2.2,2.2,EUR,1.0,Groceries
+2025-03-27,2025-03-27,SPC*Birds in the Kitch,,Presentment,,Hauptkonto,-16.4,16.4,EUR,1.0,Dining
+2025-03-27,2025-03-27,VOI DE,,Presentment,,Hauptkonto,-2.57,2.57,EUR,1.0,Transportation
+2025-03-27,2025-03-27,Sarah Decoine,DE49100500001069883758,Debit Transfer,Miete,Hauptkonto,-824.59,,,,Housing & Utilities
+2025-03-27,2025-03-27,Vodafone GmbH,DE04700202700015434515,Direct Debit,0000117893576 0020167026381                                           Rechnungsnr: 121315378699          KdNr. 117893576 Vodafone sagt Danke,Hauptkonto,-81.99,,,,Subscriptions
+2025-03-27,2025-03-27,St. Oberholz,,Presentment,,Hauptkonto,-4.7,4.7,EUR,1.0,Coffee
+2025-03-28,2025-03-28,Yangguofu Matatang,,Presentment,,Hauptkonto,-20.83,20.83,EUR,1.0,Dining
+2025-03-28,2025-03-28,NETFLIX.COM,,Presentment,,Hauptkonto,-4.99,4.99,EUR,1.0,Subscriptions
+2025-03-28,2025-03-27,St. Oberholz,,Presentment,,Hauptkonto,-4.7,4.7,EUR,1.0,Coffee
+2025-03-29,2025-03-28,LIME*RIDE E5UO,,Presentment,,Hauptkonto,-3.43,3.43,EUR,1.0,Transportation
+2025-03-29,2025-03-29,Fernanda Rosas Mayoral,DE48640500000009170199,Credit Transfer,,Hauptkonto,200.0,,,,Reimbursements
+2025-03-31,2025-03-31,PAYPAL *giulianopinto,,Presentment,,Hauptkonto,-20.0,20.0,EUR,1.0,Dining
+2025-03-31,2025-03-31,PAYPAL *maxwolff1103,,Presentment,,Hauptkonto,-13.5,13.5,EUR,1.0,Transportation
+2025-03-31,2025-03-31,AMZNPrime DE*RZ8ED4RL4,,Presentment,,Hauptkonto,-8.99,8.99,EUR,1.0,Subscriptions
+2025-03-31,2025-03-31,1komma5. Services GmbH,DE71240603008547757500,Credit Transfer,LOHN / GEHALT         03/25,Hauptkonto,3531.85,,,,Income
+2025-03-31,2025-03-30,St. Oberholz,,Presentment,,Hauptkonto,-4.7,4.7,EUR,1.0,Coffee

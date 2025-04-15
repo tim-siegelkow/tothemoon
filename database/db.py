@@ -2,7 +2,6 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, scoped_session
 import sys
 import os
-import hashlib
 from datetime import datetime
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -17,6 +16,11 @@ Session = scoped_session(session_factory)
 def init_db():
     """Initialize the database by creating all tables."""
     Base.metadata.create_all(engine)
+
+def reset_db():
+    """Drop all tables and recreate them - WARNING: This will delete all data."""
+    Base.metadata.drop_all(engine)
+    Base.metadata.create_all(engine)
     
 def get_session():
     """Get a new database session."""
@@ -26,36 +30,8 @@ def close_session(session):
     """Close a database session."""
     session.close()
     
-def generate_transaction_hash(date, partner_name, amount):
-    """Generate a unique hash for a transaction based on date, partner name, and amount."""
-    # Convert date to string format
-    if isinstance(date, datetime):
-        date_str = date.strftime("%Y-%m-%d")
-    else:
-        date_str = str(date)
-    
-    # Create a string combining all values
-    combined = f"{date_str}|{partner_name}|{str(amount)}"
-    
-    # Generate a hash
-    return hashlib.md5(combined.encode()).hexdigest()
-
-def transaction_exists(session, transaction_hash):
-    """Check if a transaction with the given hash already exists."""
-    from database.models import Transaction
-    return session.query(Transaction).filter(Transaction.transaction_hash == transaction_hash).first() is not None
-
 def add_transaction(session, transaction):
-    """Add a new transaction to the database if it doesn't already exist."""
-    # Check if the transaction has a hash, if not generate one
-    if not hasattr(transaction, 'transaction_hash') or not transaction.transaction_hash:
-        partner_name = transaction.description.split('[')[0].strip() if '[' in transaction.description else transaction.description
-        transaction.transaction_hash = generate_transaction_hash(transaction.date, partner_name, transaction.amount)
-    
-    # Check if transaction already exists
-    if transaction_exists(session, transaction.transaction_hash):
-        return None  # Transaction already exists
-    
+    """Add a new transaction to the database."""
     # Add transaction to database
     session.add(transaction)
     session.commit()
@@ -104,3 +80,71 @@ def update_transaction_category(session, transaction_id, new_category, old_categ
     session.commit()
     
     return transaction
+
+def delete_transactions_from_date(session, from_date):
+    """Delete all transactions from a specific date onward.
+    
+    Args:
+        session: The database session
+        from_date: The date from which to delete transactions (inclusive)
+        
+    Returns:
+        int: The number of transactions deleted
+    """
+    from database.models import Transaction
+    from sqlalchemy import func
+    
+    # First count how many will be deleted
+    count = session.query(func.count(Transaction.transaction_id)).filter(
+        Transaction.date >= from_date
+    ).scalar()
+    
+    # Then delete the transactions
+    session.query(Transaction).filter(
+        Transaction.date >= from_date
+    ).delete(synchronize_session=False)
+    
+    # Commit the changes
+    session.commit()
+    
+    return count
+
+def delete_transactions_by_import_date(session, from_import_date, to_import_date=None):
+    """Delete all transactions that were imported within a specific date range.
+    
+    Args:
+        session: The database session
+        from_import_date: The start date from which to delete transactions (inclusive)
+        to_import_date: The end date until which to delete transactions (inclusive, optional)
+        
+    Returns:
+        int: The number of transactions deleted
+    """
+    from database.models import Transaction
+    from sqlalchemy import func
+    
+    # Build the query filter
+    if to_import_date:
+        # Delete transactions imported between from_date and to_date (inclusive)
+        filter_condition = (
+            (Transaction.created_at >= from_import_date) & 
+            (Transaction.created_at <= to_import_date)
+        )
+    else:
+        # Delete transactions imported on or after from_date
+        filter_condition = (Transaction.created_at >= from_import_date)
+    
+    # First count how many will be deleted
+    count = session.query(func.count(Transaction.transaction_id)).filter(
+        filter_condition
+    ).scalar()
+    
+    # Then delete the transactions
+    session.query(Transaction).filter(
+        filter_condition
+    ).delete(synchronize_session=False)
+    
+    # Commit the changes
+    session.commit()
+    
+    return count
