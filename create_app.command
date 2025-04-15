@@ -9,7 +9,7 @@ cd "$SCRIPT_DIR"
 source venv/bin/activate
 
 # Run the Python app builder script
-python create_launcher.py
+python create_simple_launcher.py
 
 # Deactivate the virtual environment
 deactivate

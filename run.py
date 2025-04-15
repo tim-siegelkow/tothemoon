@@ -24,7 +24,7 @@ def run_app():
     os.chdir(script_dir)
     
     # Run the Streamlit app
-    subprocess.run([sys.executable, "-m", "streamlit", "run", "app.py"])
+    subprocess.run([sys.executable, "-m", "streamlit", "run", "streamlit_app.py"])
 
 def push_to_notion(args):
     """Push data to Notion based on command line arguments."""
